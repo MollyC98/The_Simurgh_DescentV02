@@ -24,7 +24,7 @@ void Start()
     {
         if (duration <= 0) 
         {
-            duration = 60f; // Ensure it starts at a valid time
+            duration = 100f; // Ensure it starts at a valid time
         }
         currentTime = duration;
         timeIsRunning = true;
@@ -67,10 +67,14 @@ void Start()
     }
 
 
-    public void DisplayPoints(int score)
+    public void RemainingTime(float amount)
     {
-
-
+        currentTime += amount;
+        currentTime= Mathf.Clamp(currentTime, 0, Mathf.Infinity); // Ensure it never goes negative
+        DisplayTime(currentTime);
+        clock.fillAmount = Mathf.InverseLerp(0, duration, currentTime);
+        
     }
+
 
 }

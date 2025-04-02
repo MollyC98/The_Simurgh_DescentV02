@@ -19,17 +19,7 @@ public class PlayerController : MonoBehaviour
    private bool canMove = false;
 
 
-// [SerializeField] private InputActionAsset input;
-
-
-// public void EnableControls(){
-//   input.Enable();
-// }
-
-
-// public void DisableControls(){
-//   input.Disable();
-// }
+  private GameController gameController;
 
 
 
@@ -38,6 +28,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
 
+        gameController = FindObjectOfType<GameController>();
         Cursor.visible = false;
         
         rb = GetComponent<Rigidbody2D>();
@@ -96,13 +87,15 @@ public class PlayerController : MonoBehaviour
 
     }
   
-      private void OnTriggerEnter2D(Collider2D collider){
+        private void OnTriggerEnter2D(Collider2D collider){
         Debug.Log("collision w object: " + collider.gameObject.name);
         Destroy(collider.gameObject);
+        gameController.RemainingTime(-5f);
+ 
 
-        //if(object1) =100
-        //if(object2) =-100
-    }
+    //collider object1 
+    //collider object2
+     }
 
    
 }

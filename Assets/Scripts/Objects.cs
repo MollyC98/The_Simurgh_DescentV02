@@ -13,19 +13,26 @@ public class Objects : MonoBehaviour
     void Start()
     {
         rb = this.GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(0, -speed);
-        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
+        rb.velocity = new Vector2(0, speed*3);
+        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width* 5 / 6, Screen.height, Camera.main.transform.position.z));
     }
 
     // Update is called once per frame
     void Update()
     {
         
-        if(transform.position.y < -screenBounds.y * 2 ){
+        if(transform.position.y > screenBounds.y * 2 ){
             Destroy(this.gameObject);
         }
 
 
     }
+
+
+    // private void OnCollisionEnter2D(Collision2D collision){
+    //     Debug.Log("collision w object: " + gameObject.name);
+    //     Destroy(gameObject);
+    // }
+
 
 }
