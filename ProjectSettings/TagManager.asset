@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Audio
+  - crown
+  - feather
+  - lotus
+  - lotus2
   layers:
   - Default
   - TransparentFX

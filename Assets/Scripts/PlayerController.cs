@@ -10,92 +10,89 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    Rigidbody2D rb;
+  Rigidbody2D rb;
 
-   // private Camera mainCamera;
-    public float speed = 1f;
+  public float speed = 1f;
 
-    // public PlayableDirector timeline;
-   private bool canMove = false;
-
+  private bool canMove = false;
 
   private GameController gameController;
 
+  public Canvas canvas;
 
 
+  // Start is called before the first frame update
+  void Start()
+  {
+    rb = GetComponent<Rigidbody2D>();
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    gameController = FindObjectOfType<GameController>();
+    
+    Cursor.visible = false;
+    
+    StartCoroutine(EnableInputWithDelay(5f)); // Start the coroutine with a 5 second delay
+  
+  }
 
-        gameController = FindObjectOfType<GameController>();
-        Cursor.visible = false;
+  // Coroutine to enable player movement after a delay
+  IEnumerator EnableInputWithDelay(float delay)
+  {
+    yield return new WaitForSeconds(delay); // Wait for the specified delay
+    canMove = true; // Enable player movement after delay
+  }
+
+  private IEnumerator EnableCanvasWithDelay(float delay)
+  {
+    yield return new WaitForSeconds(delay); // Wait for 5 seconds
+    canvas.enabled = true; // Enable the canvas after the delay
+  }
+
+  void FixedUpdate(){
         
-        rb = GetComponent<Rigidbody2D>();
-        
-        StartCoroutine(EnableInput(5f)); // Start the coroutine with a 10-second delay
-      //  mainCamera = Camera.main;
+    if (canMove) {
 
-
-    //   timeline.played += OnTimelineStart;
-    //   timeline.stopped += OnTimelineEnd;
-   
-    // PlayerInput input = new PlayerInput();
-   
-   
-
-    }
-
-    // Coroutine to enable player movement after a delay
-    IEnumerator EnableInput(float delay)
-    {
-        yield return new WaitForSeconds(delay); // Wait for the specified delay
-        canMove = true; // Enable player movement after delay
-    }
-
-    // private void OnTimelineStart(PlayableDirector pd)
-    // {
-    //     canMove = false;
-    //      input.Disable();
-        
-    // }
-
-    // private void OnTimelineEnd(PlayableDirector pd)
-    // {
-    //     canMove = true;
-    //      input.Enable();
-    // }
-
-
-
-    void FixedUpdate(){
-        
-      if (canMove) {
-
-        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+      Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
       //  Vector2 targetPos = new Vector2(mousePos.x, rb.position.y);
       //  rb.MovePosition(targetPos);
       //  rb.position = Vector2.Lerp(rb.position, targetPos, speed * Time.fixedDeltaTime);
 
+      float direction = mousePos.x - rb.position.x;
 
-
-        float direction = mousePos.x - rb.position.x;
-
-        rb.velocity = new Vector2(direction * speed * 0.5f, rb.velocity.y);
+      rb.velocity = new Vector2(direction * speed * 0.5f, rb.velocity.y);
     }
 
-    }
+  }
   
-        private void OnTriggerEnter2D(Collider2D collider){
-        Debug.Log("collision w object: " + collider.gameObject.name);
-        Destroy(collider.gameObject);
-        gameController.RemainingTime(-5f);
  
+
+  private void OnTriggerEnter2D(Collider2D collider)
+  {
+    Debug.Log("collision w object: " + collider.gameObject.name);
+
+    if (collider.CompareTag("lotus"))
+    {
+      gameController.RemainingTime(10f); 
+    }
+    else if (collider.CompareTag("lotus2"))
+    {
+      gameController.RemainingTime(-40f); 
+    } 
+    else if (collider.CompareTag("feather"))
+    {
+      gameController.RemainingTime(30f);
+      // sfx
+      // wait a few seconds
+    
+      StartCoroutine(EnableCanvasWithDelay(2f));
+      //canMove = false;
+    }
+    
+    Destroy(collider.gameObject);
 
     //collider object1 
     //collider object2
-     }
+  }
 
    
 }
