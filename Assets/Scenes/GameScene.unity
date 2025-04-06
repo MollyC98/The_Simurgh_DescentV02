@@ -1756,6 +1756,7 @@ GameObject:
   - component: {fileID: 897830313}
   - component: {fileID: 897830309}
   - component: {fileID: 897830314}
+  - component: {fileID: 897830315}
   m_Layer: 0
   m_Name: head
   m_TagString: Untagged
@@ -1890,7 +1891,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0098388195, y: -0.20286801}
+  m_Offset: {x: -0.0098388195, y: 0.24}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1901,7 +1902,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.49585998, y: 0.6398427}
+  m_Size: {x: 0.16, y: 0.15722519}
   m_EdgeRadius: 0
 --- !u!233 &897830314
 HingeJoint2D:
@@ -1928,6 +1929,20 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: -20
     m_UpperAngle: 20
+--- !u!114 &897830315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897830308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc325c63910abbf4c8e88b85db8d6382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  canvas: {fileID: 387076997}
 --- !u!1 &909441716
 GameObject:
   m_ObjectHideFlags: 0
@@ -2733,7 +2748,6 @@ GameObject:
   - component: {fileID: 1461967399}
   - component: {fileID: 1461967398}
   - component: {fileID: 1461967402}
-  - component: {fileID: 1461967401}
   m_Layer: 0
   m_Name: body
   m_TagString: Untagged
@@ -2835,20 +2849,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 244407733}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1461967401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1461967397}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc325c63910abbf4c8e88b85db8d6382, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
-  canvas: {fileID: 387076997}
 --- !u!61 &1461967402
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3021,7 +3021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9056604, g: 0.95922095, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

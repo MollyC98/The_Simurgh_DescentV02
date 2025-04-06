@@ -45,6 +45,7 @@ public class PlayerController : MonoBehaviour
   {
     yield return new WaitForSeconds(delay); // Wait for 5 seconds
     canvas.enabled = true; // Enable the canvas after the delay
+    Time.timeScale = 0;
   }
 
   void FixedUpdate(){
@@ -84,8 +85,8 @@ public class PlayerController : MonoBehaviour
       // sfx
       // wait a few seconds
     
+       
       StartCoroutine(EnableCanvasWithDelay(2f));
-      //canMove = false;
     }
     
     Destroy(collider.gameObject);
