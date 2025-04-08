@@ -490,10 +490,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levels:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 556391827}
+  - {fileID: 343638596}
   choke: 0
-  scrollSpeeds: []
+  scrollSpeeds:
+  - 3
+  - 1
 --- !u!1 &125825782
 GameObject:
   m_ObjectHideFlags: 0
