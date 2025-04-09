@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 59d77c822625fc64c88feec34193264a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 350
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: simurgh_sprite_0
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 5470
+        width: 1538
+        height: 1233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7d8040d4447a9448297f9ede72b90b
+      internalID: -853115172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_1
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 5470
+        width: 1533
+        height: 1233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2f2912653f312408f67a8e4e6f2b5d
+      internalID: -780319971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_2
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 5470
+        width: 1004
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39a7d80b9413b94a835277d5a6578da
+      internalID: 1028941394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_3
+      rect:
+        serializedVersion: 2
+        x: 6216
+        y: 5470
+        width: 1007
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbbd42ed111a4240874fd5eae5f0c01
+      internalID: -1572050266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_4
+      rect:
+        serializedVersion: 2
+        x: 7866
+        y: 5470
+        width: 1537
+        height: 1233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bf501e3e574844d81cb392e4acaaf1
+      internalID: -1404015094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 4106
+        width: 1538
+        height: 1233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8c9cdfc59e11f48bccc7ecd98b9b4e
+      internalID: 2004652482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_6
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 4106
+        width: 1007
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6456070d0499ab34b8d5aee2de577548
+      internalID: -1400702028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_7
+      rect:
+        serializedVersion: 2
+        x: 4298
+        y: 4106
+        width: 1004
+        height: 1172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c59a72d25c029f4ab56abc808e5767e
+      internalID: 1232984469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_8
+      rect:
+        serializedVersion: 2
+        x: 5948
+        y: 4106
+        width: 1538
+        height: 1233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9f9adc1d2cb9846a28c1d1e6123858
+      internalID: 345875485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_9
+      rect:
+        serializedVersion: 2
+        x: 7866
+        y: 4106
+        width: 1537
+        height: 1233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954bbc1e8d1b59e47a822b955da64325
+      internalID: 1835176275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_10
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2747
+        width: 1538
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41033bb674dfa9f4eb7a34bb42e00034
+      internalID: 1107306017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_11
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 2747
+        width: 1538
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756c2387b8c967e469611d6c371db638
+      internalID: 1199982989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_12
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 2747
+        width: 1537
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1276a27c743c24f92d58f6932b86dd
+      internalID: 1581022652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_13
+      rect:
+        serializedVersion: 2
+        x: 5948
+        y: 2747
+        width: 1538
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5353855df832874abb74b44d5f5e071
+      internalID: -303984360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_14
+      rect:
+        serializedVersion: 2
+        x: 8137
+        y: 2747
+        width: 1008
+        height: 1167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95537b82fed3909408e307828da677a8
+      internalID: 1973260066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_15
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1383
+        width: 1007
+        height: 1171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4976c239c7d4ff14d9705286088b1e20
+      internalID: -2106653375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_16
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 1383
+        width: 1538
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640b936ee791dd64f9b083db6a22b748
+      internalID: 1760581573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_17
+      rect:
+        serializedVersion: 2
+        x: 4027
+        y: 1383
+        width: 1537
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51586e25ae786ac409c867b75d5591b5
+      internalID: 351403318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_18
+      rect:
+        serializedVersion: 2
+        x: 5948
+        y: 1383
+        width: 1538
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12dfb324dc580434ab5a527b67063708
+      internalID: 968041316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_19
+      rect:
+        serializedVersion: 2
+        x: 7866
+        y: 1383
+        width: 1537
+        height: 1228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0aa1bb414c7e643bbda49e21cf572f
+      internalID: 445603008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simurgh_sprite_20
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 19
+        width: 1538
+        height: 1232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e889e76988aff4fbcc8dea84e43837
+      internalID: 1297453814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      simurgh_sprite_0: -853115172
+      simurgh_sprite_1: -780319971
+      simurgh_sprite_10: 1107306017
+      simurgh_sprite_11: 1199982989
+      simurgh_sprite_12: 1581022652
+      simurgh_sprite_13: -303984360
+      simurgh_sprite_14: 1973260066
+      simurgh_sprite_15: -2106653375
+      simurgh_sprite_16: 1760581573
+      simurgh_sprite_17: 351403318
+      simurgh_sprite_18: 968041316
+      simurgh_sprite_19: 445603008
+      simurgh_sprite_2: 1028941394
+      simurgh_sprite_20: 1297453814
+      simurgh_sprite_3: -1572050266
+      simurgh_sprite_4: -1404015094
+      simurgh_sprite_5: 2004652482
+      simurgh_sprite_6: -1400702028
+      simurgh_sprite_7: 1232984469
+      simurgh_sprite_8: 345875485
+      simurgh_sprite_9: 1835176275
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

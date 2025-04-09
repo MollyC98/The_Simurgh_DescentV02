@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class AudioController : MonoBehaviour
 {
 
+
+
   // public AudioSource playerSource;
   //   public AudioClip[] audioClipsPlayer;
   
@@ -13,17 +15,17 @@ public class AudioController : MonoBehaviour
   // public AudioSource rivalSource;
   //   public AudioClip audioClipRival;
 
-  // public AudioSource SFXSource;
-  //   public AudioClip button;
+    [SerializeField] AudioSource SFXSource;
+     public AudioClip button;
   //   public AudioClip win;
   //   public AudioClip timesUp;
   //   public AudioClip caught;
 
-  public AudioSource musicSource;
+   [SerializeField] AudioSource musicSource;
     private AudioClip currentClip;
     public AudioClip theme;
-    public AudioClip metal;
-    public AudioClip home;
+    // public AudioClip metal;
+    // public AudioClip home;
       
 
   // private float metalTime = 0f; //store position of metal tune
@@ -32,7 +34,32 @@ public class AudioController : MonoBehaviour
   private bool isMusicPaused = false; // Track pause state
 
 
+
+private void Awake(){
+  DontDestroyOnLoad(gameObject);
+
+  SceneManager.sceneLoaded += OnSceneLoaded;
+}
     
+
+ void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("Scene Loaded: " + scene.name);
+
+        if (scene.name == "GameScene")
+        {
+            musicSource.clip = theme;
+            musicSource.Play();
+            Debug.Log("Playing theme");
+        }
+    }
+
+
+
+
+
+
+
 
 //  private void OnEnable()
 //     {

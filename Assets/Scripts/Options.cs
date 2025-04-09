@@ -43,16 +43,16 @@ public class Options : MonoBehaviour
 
     audioController.PauseMusic();
 
-    if (audioController.musicSource.isPlaying)
-        {
-            buttonImage.color = musicEnabledColor;
+    // if (audioController.musicSource.isPlaying)
+    //     {
+    //         buttonImage.color = musicEnabledColor;
         
-        }
-        else
-        {
-        buttonImage.color = musicDisabledColor;
+    //     }
+    //     else
+    //     {
+    //     buttonImage.color = musicDisabledColor;
 
-        }
+    //     }
     }
 
     public void PauseGame(){

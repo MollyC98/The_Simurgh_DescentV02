@@ -5,13 +5,13 @@ using UnityEngine;
 public class SpawnObjects : MonoBehaviour
 {
 
-    public GameObject object1Prefab;
-    public GameObject object2Prefab;
+    public GameObject object1Prefab; // lotus
+    public GameObject object2Prefab; // omen
     public GameObject object3Prefab; // feather 
     
     
-    public float minRespawnTime = 1.0f;
-    public float maxRespawnTime = 3.0f;
+    public float minRespawnTime = 0.1f;
+    public float maxRespawnTime = 2.0f;
 
     public float minTransformTime = 5.0f;
     public float maxTransformTime = 10.0f;
