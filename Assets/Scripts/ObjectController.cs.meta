@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 841951d80205f2e4f81bce3095b334c5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - fakeObjectPrefab: {fileID: 7652525946184340247, guid: 56f82c35a6b0a1549888a43e509f1526, type: 3}
+  - omenPrefab: {fileID: 6518056316221304619, guid: 3f6f27a7ebb064542b31621309e3d143, type: 3}
+  - realObjectPrefab: {fileID: 8649382582711016924, guid: e5218b9ac4ceb044cb066d0fcb6a6811, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

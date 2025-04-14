@@ -16,9 +16,9 @@ public class AudioController : MonoBehaviour
   //   public AudioClip audioClipRival;
 
     [SerializeField] AudioSource SFXSource;
-     public AudioClip button;
-  //   public AudioClip win;
-  //   public AudioClip timesUp;
+  //  public AudioClip button;
+     public AudioClip screech;
+     public AudioClip scroll;
   //   public AudioClip caught;
 
    [SerializeField] AudioSource musicSource;
@@ -34,10 +34,19 @@ public class AudioController : MonoBehaviour
   private bool isMusicPaused = false; // Track pause state
 
 
+public static AudioController instance;
 
 private void Awake(){
-  DontDestroyOnLoad(gameObject);
 
+  if(instance == null){
+
+    instance = this;
+    DontDestroyOnLoad(gameObject);
+
+  } else {
+    Destroy(gameObject);
+  }
+ 
   SceneManager.sceneLoaded += OnSceneLoaded;
 }
     
@@ -141,6 +150,19 @@ public void PauseMusic()
   //           rivalSource.Stop();
         
   //   }
+
+
+
+  public void BirdSFX(){
+    SFXSource.clip = screech;
+    SFXSource.Play();
+  }
+
+
+  public void ScrollSFX(){
+    SFXSource.clip = scroll;
+    SFXSource.Play();
+  }
 
 
 

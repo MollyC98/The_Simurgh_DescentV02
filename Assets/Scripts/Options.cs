@@ -11,6 +11,7 @@ public class Options : MonoBehaviour
     bool paused;
 
     public Canvas canvas;
+    public Canvas scroll;
     AudioController audioController;
 
     public Image buttonImage;
@@ -33,7 +34,7 @@ public class Options : MonoBehaviour
 
     void Update(){
 
-        if (Input.GetKeyDown(KeyCode.Space)){
+        if ((Input.GetKeyDown(KeyCode.Space)) && scroll.enabled == false){
             Debug.Log("space is pressed");
             PauseGame();
         }

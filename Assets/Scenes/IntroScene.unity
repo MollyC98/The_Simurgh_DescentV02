@@ -411,7 +411,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 50331647
+    rgba: 1526726655
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -617,7 +617,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SFXSource: {fileID: 1989350743}
-  button: {fileID: 0}
+  screech: {fileID: 8300000, guid: ee2143034236d3249a0a435f9d641dd8, type: 3}
+  scroll: {fileID: 8300000, guid: e989a295758ac994cbe3cfc8032439ca, type: 3}
   musicSource: {fileID: 1604779583}
   theme: {fileID: 8300000, guid: b10a5a3af2143054e9af47c4f265fc7a, type: 3}
 --- !u!4 &1236680521
@@ -690,7 +691,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 452984831
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1120,7 +1121,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 1040187391
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
