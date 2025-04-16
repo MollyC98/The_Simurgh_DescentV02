@@ -49,6 +49,7 @@ void Start()
                 currentTime= Mathf.Clamp(currentTime, 0, Mathf.Infinity); // Ensure it never goes negative
                 DisplayTime(currentTime);
                 clock.fillAmount = Mathf.InverseLerp(0, duration, currentTime);
+                Debug.Log("time is reducing");
             }
             else
             {

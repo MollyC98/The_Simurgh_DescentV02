@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
 
   public PlayableDirector timeline1;
   public PlayableDirector timeline2;
+  public PlayableDirector timeline3;
   
 
   public Canvas canvas;
@@ -43,25 +44,60 @@ AudioController audioController;
 
     gameController = FindObjectOfType<GameController>();
     
-    audioController = AudioController.instance;
+          if (AudioController.instance == null)
+      {
+        GameObject newAudioManager = Instantiate(Resources.Load("AudioManager")) as GameObject;
+        audioController = newAudioManager.GetComponent<AudioController>();
+      }
+      else
+      {
+          audioController = AudioController.instance;
+      }
     
     Cursor.visible = false;
     //StartCoroutine(PrepareForTimeline1(0f));
     
-    StartCoroutine(EnableCanvasWithDelay(1,2f));
+    StartCoroutine(EnableCanvasWithDelay(1,4f));
 
   
     //first fade in then canvas then timeline1
 
-    StartCoroutine(EnableInputWithDelay(7f)); // Start the coroutine with a 5 second delay
+   // StartCoroutine(EnableInputWithDelay(7f)); // Start the coroutine with a 5 second delay
 
   }
 
   // Coroutine to enable player movement after a delay
-  IEnumerator EnableInputWithDelay(float delay)
+  IEnumerator EnableInputWithDelay(int index, float delay)
   {
+ 
     yield return new WaitForSeconds(delay); // Wait for the specified delay
+
+    objectController.levelStarted = true;
     canMove = true; // Enable player movement after delay
+
+    switch (index)
+        {
+            case 1:
+               
+                // level 1
+                objectController.level1 = true;
+                Debug.Log("welcome to level1");
+                break;
+            case 2:
+                // level 2
+                objectController.level2 = true;
+                Debug.Log("welcome to level2");
+                break;
+            case 3:
+                // level 3
+                objectController.level3 = true;
+                Debug.Log("welcome to level3");
+                break;
+            default:
+                Debug.LogWarning("Invalid image index");
+                break;
+        }
+
   }
 
 
@@ -69,7 +105,7 @@ AudioController audioController;
   {
     yield return new WaitForSeconds(delay); // Wait for the specified delay
     canMove = false; // disable player movement after delay
-    timeline1.Play();
+
   }
 
   private IEnumerator EnableCanvasWithDelay(int index,float delay)
@@ -77,21 +113,35 @@ AudioController audioController;
 
     yield return new WaitForSeconds(delay); // Wait for 5 seconds
     // scroll sfx
-   // audioController.ScrollSFX();
+    audioController.ScrollSFX();
     canvas.enabled = true; // Enable the canvas after the delay
     Time.timeScale = 0;
+
+
+    letter1.gameObject.SetActive(false);
+    letter2.gameObject.SetActive(false);
+    letter3.gameObject.SetActive(false);
 
 
     switch (index)
         {
             case 1:
                 letter1.gameObject.SetActive(true);
+                // level 1
+                timeline1.Play(); // either pay here or on awake
+                StartCoroutine(EnableInputWithDelay(1,7f)); //level1
                 break;
             case 2:
                 letter2.gameObject.SetActive(true);
+                // level 2
+                timeline3.Play();
+                StartCoroutine(EnableInputWithDelay(2,5f)); //level2
                 break;
             case 3:
                 letter3.gameObject.SetActive(true);
+                // level 3
+                timeline3.Play();
+                StartCoroutine(EnableInputWithDelay(3,5f)); //level3
                 break;
             default:
                 Debug.LogWarning("Invalid image index");
@@ -127,32 +177,6 @@ AudioController audioController;
   }
 
 
-// IEnumerator PrepareForTimeline()
-// {
-//     Vector3 centerPos = Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 10f));
-//     centerPos.z = transform.position.z;
-    
-//     float duration = 0.5f;
-//     float elapsed = 0f;
-//     Vector3 startPos = transform.position;
-    
-//     while (elapsed < duration)
-//     {
-//         transform.position = Vector3.Lerp(startPos, centerPos, elapsed/duration);
-//         elapsed += Time.deltaTime;
-//         yield return null;
-//     }
-    
-//     transform.position = centerPos;
-//     timeline2.Play();
-// }
-
-// IEnumerator PrepareForTimeline1(float delay)
-// {
-//     yield return new WaitForSeconds(delay); // Wait for the specified delay
-//     timeline1.Play();
-
-// }
 
 IEnumerator PrepareForTimeline2(float delay)
 {
@@ -174,28 +198,12 @@ IEnumerator PrepareForTimeline2(float delay)
     transform.position = centerPos;
     yield return new WaitForSeconds(delay); // Wait for the specified delay
     timeline2.Play();
-
-   
-}
+  }
 
 
 
 
 
-
-  //   IEnumerator TimelineWithDelay(float delay)
-  // {
-  //    Debug.Log("Player X before timeline: " + transform.position.x);
-  //       Debug.Log("Player Y before timeline: " + transform.position.y);
-  //   yield return new WaitForSeconds(delay); // Wait for the specified delay
-  //   timeline2.Play(); // disable player movement after delay
-  // //  rb.angularVelocity = 0f;
-
-  //     rb.freezeRotation = true;
-  //     rb.rotation = 0f; // Reset to default rotation
-  //           //  
-      
-  // }
 
 
 
@@ -211,10 +219,13 @@ IEnumerator PrepareForTimeline2(float delay)
     {
       gameController.RemainingTime(-40f); 
     } 
-   else if (collider.CompareTag("object"))
+   else if (collider.CompareTag("object1"))
 {
+
+  
+    objectController.levelStarted = false;
     gameController.RemainingTime(30f);
-   // audioController.BirdSFX();
+    audioController.BirdSFX();
 
     canMove = false;
 
@@ -224,16 +235,49 @@ IEnumerator PrepareForTimeline2(float delay)
     rb.freezeRotation = true;
     rb.rotation = 0f; // Reset to default rotation
  
-    objectController.StartCoroutine(objectController.FeatherWave(4f));
+    objectController.StartCoroutine(objectController.FeatherWave(2f));
      
       //StartCoroutine(TimelineWithDelay(3f));
       StartCoroutine(PrepareForTimeline2(1f));
 
-      StartCoroutine(EnableCanvasWithDelay(2,5f)); // or 3
+      StartCoroutine(EnableCanvasWithDelay(2,8f)); // or 3
+
       // if 2 enter level 2 if 3 enter level 3
 
 
 }
+else if (collider.CompareTag("object2"))
+{
+
+
+    objectController.levelStarted = false;
+    gameController.RemainingTime(30f);
+    audioController.BirdSFX();
+
+    canMove = false;
+
+    rb.velocity = Vector2.zero;
+    rb.isKinematic = true;
+
+    rb.freezeRotation = true;
+    rb.rotation = 0f; // Reset to default rotation
+ 
+    objectController.StartCoroutine(objectController.FeatherWave(3f));
+     
+      //StartCoroutine(TimelineWithDelay(3f));
+      StartCoroutine(PrepareForTimeline2(1f));
+
+      StartCoroutine(EnableCanvasWithDelay(3,6f)); // 
+      // if 2 enter level 2 if 3 enter level 3
+
+
+
+} // if real object passes by you you lose
+
+// else if(collider.CompareTag("feather")){
+//          Debug.Log("feather is caught");
+//     }
+
     Destroy(collider.gameObject);
 
     //collider object1 

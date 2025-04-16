@@ -9,7 +9,8 @@ TagManager:
   - feather
   - lotus
   - lotus2
-  - object
+  - object1
+  - object2
   layers:
   - Default
   - TransparentFX

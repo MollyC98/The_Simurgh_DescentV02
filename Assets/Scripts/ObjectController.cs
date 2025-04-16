@@ -10,8 +10,8 @@ public class ObjectController : MonoBehaviour
     public GameObject omenPrefab; // only omen or turn omen
     
     public GameObject realObjectPrefab; // true objects // one game object
-
-     public GameObject featherPrefab; // feather
+    public GameObject realObject2Prefab;
+    public GameObject featherPrefab; // feather
     
     public float minRespawnTime = 0.1f;
     public float maxRespawnTime = 2.0f;
@@ -21,12 +21,20 @@ public class ObjectController : MonoBehaviour
 
     private Vector2 screenBounds;
 
-    // private bool level1 = false; // one eclipse
-    // private bool level2 = false; // two eclipse
-    // private bool level3 = false; // three eclipse
+
+    public bool level1 = false; // one eclipse
+    public bool level2 = false; // two eclipse
+    public bool level3 = false; // three eclipse
+
+
+
 
     // or just this minRespawnTime = 0.1f and this velocity each level
     
+
+    public bool levelStarted = false;
+
+
 
     //public AudioController audioController;
 
@@ -35,14 +43,31 @@ public class ObjectController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width* 5 / 6, Screen.height, Camera.main.transform.position.z));
+       screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
+
+      // Vector3 screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Mathf.Abs(Camera.main.transform.position.z)));
+
+    
+       // screenBounds = new Vector2(screenTopRight.x, screenTopRight.y);
+
+
+        Debug.Log("screenBounds"+ screenBounds);
+        Debug.Log("Camera.main: " + Camera.main);
+        Debug.Log("Screen width: " + Screen.width + ", height: " + Screen.height);
+        Debug.Log("Camera Z pos: " + Camera.main.transform.position.z);
+        Debug.Log("ScreenToWorldPoint (Screen.width, Screen.height, 0): " + Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, 0)));
+
+
         StartCoroutine(FakeObjectWave());
         StartCoroutine(OmenWave());
         StartCoroutine(TransformWave());
         StartCoroutine(RealObjectWave());
-        // if eclipse phase only StartCoroutine(OmenWave()); and this minRespawnTime = 0.1f and this velocity else{
+        StartCoroutine(RealObject2Wave());
     }
 
+
+
+ // if eclipse phase only StartCoroutine(OmenWave()); and this minRespawnTime = 0.1f and this velocity else{
 
     public void spawnFakeObject(){
         GameObject obj = Instantiate(fakeObjectPrefab); // clone objects as game object
@@ -83,25 +108,33 @@ public void spawnRealObject(){
 public IEnumerator RealObjectWave(){
         yield return new WaitForSeconds(Random.Range(10, 20));
         spawnRealObject();
-
-
         //yield return new WaitForSeconds(5f);
         //spawnRealObject();
-
     }
 
 
+public void spawnRealObject2(){
+        GameObject obj = Instantiate(realObject2Prefab); // clone objects as game object
+        obj.transform.position = new Vector2(Random.Range(-screenBounds.x, screenBounds.x), -screenBounds.y);
+       // spawnedObjects.Add(obj); // add the game object to the list
+    }
+
+public IEnumerator RealObject2Wave(){
+        yield return new WaitForSeconds(Random.Range(40, 50));
+        spawnRealObject2();
+        
+       
+    }
+
 public void spawnFeather(){
         GameObject obj = Instantiate(featherPrefab); // clone objects as game object
-        obj.transform.position = new Vector2(0f, -screenBounds.y +screenBounds.y/6);
+        obj.transform.position = new Vector2(0f, -screenBounds.y +screenBounds.y/3);
        // spawnedObjects.Add(obj); // add the game object to the list
     }
 
 public IEnumerator FeatherWave(float delay){
         yield return new WaitForSeconds(delay);
         spawnFeather();
-
-
         //yield return new WaitForSeconds(5f);
         //spawnRealObject();
 
@@ -135,6 +168,7 @@ public IEnumerator FeatherWave(float delay){
        // }
         
     }
+
 
 
 }
