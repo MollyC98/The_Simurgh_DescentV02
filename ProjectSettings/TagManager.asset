@@ -8,9 +8,10 @@ TagManager:
   - crown
   - feather
   - lotus
-  - lotus2
   - object1
   - object2
+  - omen
+  - object3
   layers:
   - Default
   - TransparentFX

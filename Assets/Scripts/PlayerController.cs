@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Playables;
-
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 
@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
 
   private GameController gameController;
   public ObjectController objectController;
-  public LightController lightController;
+  public EclipsePhase eclipsePhase;
   //public AudioController audioController; this wrong i singleton
 
 
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     public Image letter1;
     public Image letter2;
     public Image letter3;
-    public Image letter4;
+  //  public Image letter4;
 
 AudioController audioController;
 
@@ -103,7 +103,7 @@ AudioController audioController;
     letter1.gameObject.SetActive(false);
     letter2.gameObject.SetActive(false);
     letter3.gameObject.SetActive(false);
-    letter4.gameObject.SetActive(false);
+    //letter4.gameObject.SetActive(false);
 
 
 
@@ -113,12 +113,9 @@ AudioController audioController;
                 letter1.gameObject.SetActive(true);
 
                 // level 1
-                objectController.level1 = true;
-                objectController.level2 = false;
-                objectController.level3 = false;
                 LevelController.Instance.SetLevel(1);
+                eclipsePhase.Initialize();
                 Debug.Log("welcome to level1");
-               // lightController.eclipseCount = 1;
 
 
                 timeline1.Play(); // either pay here or on awake
@@ -128,12 +125,10 @@ AudioController audioController;
                 letter2.gameObject.SetActive(true);
 
                 // level 2
-                objectController.level1 = false;
-                objectController.level2 = true;
-                objectController.level3 = false;
                 LevelController.Instance.SetLevel(2);
+                eclipsePhase.Initialize();
                 Debug.Log("welcome to level2");
-               // lightController.eclipseCount = 2;
+
 
                 timeline3.Play();
                 StartCoroutine(EnableInputWithDelay(5f)); //level2
@@ -142,27 +137,31 @@ AudioController audioController;
                 letter3.gameObject.SetActive(true);
 
                 // level 3
-                objectController.level1 = false;
-                objectController.level2 = false;
-                objectController.level3 = true;
                 LevelController.Instance.SetLevel(3);
+                eclipsePhase.Initialize();
                 Debug.Log("welcome to level3");
-               // lightController.eclipseCount = 3;
-
 
                 timeline3.Play();
                 StartCoroutine(EnableInputWithDelay(5f)); //level3
                 break;
-            case 4:
-                letter4.gameObject.SetActive(true);
-                // game end 
-                timeline3.Play();
-                break;
+            // case 4:
+            //       letter4.gameObject.SetActive(true);
+            //     // game end 
+            //       timeline3.Play();
+                 
+            //     break;
             default:
                 Debug.LogWarning("Invalid image index");
                 break;
         }
   }
+
+  // level 1 - beginning rudabhe
+  // level 2 object 1 rostam
+  // level 3 object 2
+  // level 4 object 3
+
+  // end
 
   void FixedUpdate(){
         
@@ -176,7 +175,7 @@ AudioController audioController;
 
       float direction = mousePos.x - rb.position.x;
 
-      rb.velocity = new Vector2(direction * speed * 0.5f, rb.velocity.y);
+      rb.velocity = new Vector2(direction * speed * 0.7f, rb.velocity.y);
     } 
 
   }
@@ -216,31 +215,25 @@ IEnumerator PrepareForTimeline2(float delay)
   }
 
 
-
-
-
-
-
-
   private void OnTriggerEnter2D(Collider2D collider)
   {
     Debug.Log("collision w object: " + collider.gameObject.name);
 
     if (collider.CompareTag("lotus"))
     {
-      gameController.RemainingTime(10f); 
+   
+      gameController.RemainingTime(-20f); 
     }
-    else if (collider.CompareTag("lotus2"))
+    else if (collider.CompareTag("omen"))
     {
-      gameController.RemainingTime(-40f); 
+      gameController.RemainingTime(-20f); 
     } 
    else if (collider.CompareTag("object1"))
 {
 
     Debug.Log("stop coroutine");
-    objectController.StopCoroutine();
-    //objectController.levelStarted = false;
-    gameController.RemainingTime(30f);
+    objectController.StopAllCoroutines();
+
     audioController.BirdSFX();
 
     canMove = false;
@@ -260,14 +253,15 @@ IEnumerator PrepareForTimeline2(float delay)
 
       // if 2 enter level 2 if 3 enter level 3
 
-
 }
 else if (collider.CompareTag("object2"))
 {
 
 
-    objectController.levelStarted = false;
-    gameController.RemainingTime(30f);
+   // objectController.levelStarted = false;
+    Debug.Log("stop coroutine");
+    objectController.StopAllCoroutines();
+   
     audioController.BirdSFX();
 
     canMove = false;
@@ -278,27 +272,72 @@ else if (collider.CompareTag("object2"))
     rb.freezeRotation = true;
     rb.rotation = 0f; // Reset to default rotation
  
-    objectController.StartCoroutine(objectController.FeatherWave(3f));
+    objectController.StartCoroutine(objectController.FeatherWave(2f));
      
       //StartCoroutine(TimelineWithDelay(3f));
       StartCoroutine(PrepareForTimeline2(1f));
 
-      StartCoroutine(EnableCanvasWithDelay(3,6f)); // 
+      StartCoroutine(EnableCanvasWithDelay(3,8f)); // 
       // if 2 enter level 2 if 3 enter level 3
 
+} else if (collider.CompareTag("object3"))
+{
 
 
-} // if real object passes by you you lose
+   // objectController.levelStarted = false;
+    Debug.Log("stop coroutine");
+    objectController.StopAllCoroutines();
+   
+    audioController.BirdSFX();
 
-// else if(collider.CompareTag("feather")){
-//          Debug.Log("feather is caught");
-//     }
+    canMove = false;
+
+    rb.velocity = Vector2.zero;
+    rb.isKinematic = true;
+
+    rb.freezeRotation = true;
+    rb.rotation = 0f; // Reset to default rotation
+ 
+    objectController.StartCoroutine(objectController.FeatherWave(2f));
+     
+      //StartCoroutine(TimelineWithDelay(3f));
+      StartCoroutine(PrepareForTimeline2(1f));
+
+
+    //  StartCoroutine(EnableCanvasWithDelay(4,8f)); // 
+      // if 2 enter level 2 if 3 enter level 3
+        
+        Debug.Log("you win");
+        StartCoroutine(WinAfterDelay(1f));
+
+
+
+} 
+
+
+
+
+
+
+// if real object passes by you you lose
+
+//    SceneManager.LoadScene("LoseScene");
+//       Debug.Log("you lose");
+
+
 
     Destroy(collider.gameObject);
 
     //collider object1 
     //collider object2
   }
+
+
+IEnumerator WinAfterDelay(float delay)
+{
+    yield return new WaitForSeconds(delay);
+    SceneManager.LoadScene("WinScene");
+}
 
    
 }

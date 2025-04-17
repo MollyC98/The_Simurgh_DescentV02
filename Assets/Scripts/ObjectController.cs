@@ -6,34 +6,39 @@ public class ObjectController : MonoBehaviour
 {
  
     public GameObject fakeObjectPrefab; // fake objects
-
     public GameObject omenPrefab; // only omen or turn omen
-    
     public GameObject realObjectPrefab; // true objects // one game object
     public GameObject realObject2Prefab;
     public GameObject realObject3Prefab;
     public GameObject featherPrefab; // feather
     
-    public float minRespawnTime = 0.1f;
-    public float maxRespawnTime = 2.0f;
+     float normalMinRespawnTime = 1f;
+     float normalMaxRespawnTime = 5f;
 
-    public float minTransformTime = 0.0f;
-    public float maxTransformTime = 3.0f; // toggle with this sand object speed to make level 2, level 3
+    float eclipseMinRespawnTime = 0.1f;
+     float eclipseMaxRespawnTime = 0.3f;
+
+     float minTransformTime = 0.0f;
+     float maxTransformTime = 2.0f; 
 
     private Vector2 screenBounds;
 
-    public bool level1 = false; // one eclipse
-    public bool level2 = false; // two eclipse
-    public bool level3 = false; // three eclipse
 
     // or just this minRespawnTime = 0.1f and this velocity each level
-    
 
-    public bool levelStarted = false;
+    public EclipsePhase eclipsePhase;
 
-    private bool isRunning = false;
 
-    //public AudioController audioController;
+    public bool isRunning = false;
+
+
+
+    private Coroutine fakeObjectCoroutine;
+    private Coroutine omenCoroutine;
+    private Coroutine transformCoroutine;
+    private Coroutine realObjectCoroutine;
+
+
 
     private List<GameObject> spawnedObjects = new List<GameObject>(); // list of spawned objects (fake objects)
 
@@ -59,39 +64,61 @@ public class ObjectController : MonoBehaviour
         Camera.main.transform.position = new Vector3(-0.28f, 6.53f,-10f);
         Camera.main.orthographicSize = 0.24f;
 
-
-        
     }
+
+
+//every level roughly 1 minute 
+
 
 
 
  // if eclipse phase only StartCoroutine(OmenWave()); and this minRespawnTime = 0.1f and this velocity else{
 
 public void TriggerCoroutine(){
-    isRunning = true;
-    StartCoroutine(FakeObjectWave());
-    StartCoroutine(OmenWave());
-    StartCoroutine(TransformWave());
-    if (level1 == true){
-    
-    StartCoroutine(RealObjectWave());
 
-    } 
-    if (level2 == true){
-    StartCoroutine(RealObject2Wave());
     
-    }
-    if (level3 == true){
-    StartCoroutine(RealObject3Wave());
-    }
-   
+        isRunning = true;
+        
+        // Stop any existing coroutines first
+        StopAllCoroutines();
+        
+        if(eclipsePhase.isEclipseActive) {
+            // Only spawn omen objects during eclipse
+            omenCoroutine = StartCoroutine(OmenWave());
+            Debug.Log("only omen");
+        } else {
+            // Normal spawning behavior when no eclipse
+            fakeObjectCoroutine = StartCoroutine(FakeObjectWave());
+            omenCoroutine = StartCoroutine(OmenWave());
+            transformCoroutine = StartCoroutine(TransformWave());
+        
+        }
+    int level = LevelController.Instance.currentLevel;
+        switch (level) {
+            case 1:
+                realObjectCoroutine = StartCoroutine(RealObjectWave());
+                break;
+            case 2:
+                realObjectCoroutine = StartCoroutine(RealObject2Wave());
+                break;
+            case 3:
+                realObjectCoroutine = StartCoroutine(RealObject3Wave());
+                break;
+        }
+ 
    
 }
 
+private void StopAllCoroutines() {
+    if(fakeObjectCoroutine != null) StopCoroutine(fakeObjectCoroutine);
+    if(omenCoroutine != null) StopCoroutine(omenCoroutine);
+    if(transformCoroutine != null) StopCoroutine(transformCoroutine);
+    if(realObjectCoroutine != null) StopCoroutine(realObjectCoroutine);
+}
 
-public void StopCoroutine()
-{
+public void StopCoroutine() {
     isRunning = false;
+    StopAllCoroutines();
 }
 
 
@@ -103,16 +130,17 @@ public void StopCoroutine()
         spawnedObjects.Add(obj); // add the game object to the list
     }
 
-    IEnumerator FakeObjectWave(){
-       while(isRunning){
-        yield return new WaitForSeconds(Random.Range(minRespawnTime, maxRespawnTime));
-        spawnFakeObject();
-       }
-        
+IEnumerator FakeObjectWave() {
+    while (isRunning) {
+     
+       int numObjectsToSpawn = Random.Range(1, 2); // 2 or 3 objects
+
+        for (int i = 0; i < numObjectsToSpawn; i++) {
+            yield return new WaitForSeconds(Random.Range(normalMinRespawnTime, normalMaxRespawnTime));
+            spawnFakeObject();
+        }
     }
-
-
-
+}
 
   public void spawnOmen(){
         GameObject obj = Instantiate(omenPrefab); // clone objects as game object
@@ -122,12 +150,22 @@ public void StopCoroutine()
 
     IEnumerator OmenWave(){
        while(isRunning){
-        yield return new WaitForSeconds(Random.Range(minRespawnTime, maxRespawnTime));
-        spawnOmen();
-       }
-        
-    }
 
+        
+
+       
+        if(eclipsePhase.isEclipseActive){
+         int numObjectsToSpawn = Random.Range(6, 12); // 2 or 3 objects
+            for (int i = 0; i < numObjectsToSpawn; i++) {
+                yield return new WaitForSeconds(Random.Range(eclipseMinRespawnTime, eclipseMaxRespawnTime));
+                spawnOmen();
+            }
+        } else{
+            yield return new WaitForSeconds(Random.Range(normalMinRespawnTime, normalMaxRespawnTime));
+            spawnOmen();
+        }
+    } 
+    }  
 
 
 public void spawnRealObject(){
@@ -136,9 +174,11 @@ public void spawnRealObject(){
        // spawnedObjects.Add(obj); // add the game object to the list
     }
 
-// 40-80
+//0-80
+
+//0-50
 public IEnumerator RealObjectWave(){
-        yield return new WaitForSeconds(Random.Range(10, 20));
+        yield return new WaitForSeconds(Random.Range(30, 50));
         spawnRealObject();
         //yield return new WaitForSeconds(5f);
         //spawnRealObject();
@@ -152,8 +192,9 @@ public void spawnRealObject2(){
        // spawnedObjects.Add(obj); // add the game object to the list
     }
 
+//50-100
 public IEnumerator RealObject2Wave(){
-        yield return new WaitForSeconds(Random.Range(30, 40));
+        yield return new WaitForSeconds(Random.Range(80, 100));
         spawnRealObject2();      
     }
     
@@ -166,8 +207,9 @@ public void spawnRealObject3(){
        // spawnedObjects.Add(obj); // add the game object to the list
     }
 
+//100-150
 public IEnumerator RealObject3Wave(){
-        yield return new WaitForSeconds(Random.Range(50, 60));
+        yield return new WaitForSeconds(Random.Range(130, 150));
         spawnRealObject3();      
     }
 
@@ -217,8 +259,6 @@ public IEnumerator FeatherWave(float delay){
        // }
         
     }
-
-
 
 }
 

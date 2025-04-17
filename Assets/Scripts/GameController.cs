@@ -28,7 +28,7 @@ void Start()
         }
         currentTime = duration;
         timeIsRunning = true;
-        DisplayTime(currentTime);
+        clock.fillAmount = Mathf.InverseLerp(0, duration, currentTime);
         
     }
 
@@ -41,41 +41,30 @@ void Start()
         }
 
        
-        if (timeIsRunning)
-        {
-            if (currentTime > 0)
-            {
-                currentTime -= Time.deltaTime;
-                currentTime= Mathf.Clamp(currentTime, 0, Mathf.Infinity); // Ensure it never goes negative
-                DisplayTime(currentTime);
-                clock.fillAmount = Mathf.InverseLerp(0, duration, currentTime);
-                Debug.Log("time is reducing");
-            }
-            else
-            {
-                Debug.Log("Time ran out! Loading Lose_timeout scene...");
-                timeIsRunning = false;
-              //  SceneManager.LoadScene("Lose_timeout");
-            }
-        }
-    }
-
-    public void DisplayTime(float timeToDisplay)
-    {
-        float minutes = Mathf.FloorToInt(timeToDisplay / 60);
-        float seconds = Mathf.FloorToInt(timeToDisplay % 60);
-        timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
 
-    public void RemainingTime(float amount)
+public void RemainingTime(float amount)
     {
+        if (!timeIsRunning) return;
+
         currentTime += amount;
-        currentTime= Mathf.Clamp(currentTime, 0, Mathf.Infinity); // Ensure it never goes negative
-        DisplayTime(currentTime);
+        currentTime = Mathf.Clamp(currentTime, 0, Mathf.Infinity);
         clock.fillAmount = Mathf.InverseLerp(0, duration, currentTime);
-        
-    }
 
+        if (currentTime <= 0)
+        {
+            Debug.Log("you lose cause bar is empty");
+            timeIsRunning = false;
+             StartCoroutine(LoseAfterDelay(1f));
+        }
+
+}
+
+IEnumerator LoseAfterDelay(float delay)
+{
+    yield return new WaitForSeconds(delay);
+    SceneManager.LoadScene("LoseScene");
+}
 
 }
