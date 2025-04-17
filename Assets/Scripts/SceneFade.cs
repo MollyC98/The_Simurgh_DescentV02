@@ -29,7 +29,7 @@ void Update(){
             
             fadeImage.color = Color.Lerp(startColor, targetColor, timer/fadeDuration);
             
-            Debug.Log("Final alpha: " + fadeImage.color.a);
+           // Debug.Log("Final alpha: " + fadeImage.color.a);
 
 
             if (timer >= fadeDuration)

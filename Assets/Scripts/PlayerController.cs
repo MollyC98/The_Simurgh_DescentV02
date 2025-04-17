@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
 
   private GameController gameController;
   public ObjectController objectController;
+  public LightController lightController;
   //public AudioController audioController; this wrong i singleton
 
 
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
     public Image letter1;
     public Image letter2;
     public Image letter3;
+    public Image letter4;
 
 AudioController audioController;
 
@@ -67,36 +69,14 @@ AudioController audioController;
   }
 
   // Coroutine to enable player movement after a delay
-  IEnumerator EnableInputWithDelay(int index, float delay)
+  IEnumerator EnableInputWithDelay(float delay)
   {
- 
+    
     yield return new WaitForSeconds(delay); // Wait for the specified delay
 
-    objectController.levelStarted = true;
+    Debug.Log("trigger coroutine");
+    objectController.TriggerCoroutine();
     canMove = true; // Enable player movement after delay
-
-    switch (index)
-        {
-            case 1:
-               
-                // level 1
-                objectController.level1 = true;
-                Debug.Log("welcome to level1");
-                break;
-            case 2:
-                // level 2
-                objectController.level2 = true;
-                Debug.Log("welcome to level2");
-                break;
-            case 3:
-                // level 3
-                objectController.level3 = true;
-                Debug.Log("welcome to level3");
-                break;
-            default:
-                Debug.LogWarning("Invalid image index");
-                break;
-        }
 
   }
 
@@ -111,6 +91,8 @@ AudioController audioController;
   private IEnumerator EnableCanvasWithDelay(int index,float delay)
   {
 
+    //
+   
     yield return new WaitForSeconds(delay); // Wait for 5 seconds
     // scroll sfx
     audioController.ScrollSFX();
@@ -121,27 +103,60 @@ AudioController audioController;
     letter1.gameObject.SetActive(false);
     letter2.gameObject.SetActive(false);
     letter3.gameObject.SetActive(false);
+    letter4.gameObject.SetActive(false);
+
 
 
     switch (index)
         {
             case 1:
                 letter1.gameObject.SetActive(true);
+
                 // level 1
+                objectController.level1 = true;
+                objectController.level2 = false;
+                objectController.level3 = false;
+                LevelController.Instance.SetLevel(1);
+                Debug.Log("welcome to level1");
+               // lightController.eclipseCount = 1;
+
+
                 timeline1.Play(); // either pay here or on awake
-                StartCoroutine(EnableInputWithDelay(1,7f)); //level1
+                StartCoroutine(EnableInputWithDelay(7f)); //level1
                 break;
             case 2:
                 letter2.gameObject.SetActive(true);
+
                 // level 2
+                objectController.level1 = false;
+                objectController.level2 = true;
+                objectController.level3 = false;
+                LevelController.Instance.SetLevel(2);
+                Debug.Log("welcome to level2");
+               // lightController.eclipseCount = 2;
+
                 timeline3.Play();
-                StartCoroutine(EnableInputWithDelay(2,5f)); //level2
+                StartCoroutine(EnableInputWithDelay(5f)); //level2
                 break;
             case 3:
                 letter3.gameObject.SetActive(true);
+
                 // level 3
+                objectController.level1 = false;
+                objectController.level2 = false;
+                objectController.level3 = true;
+                LevelController.Instance.SetLevel(3);
+                Debug.Log("welcome to level3");
+               // lightController.eclipseCount = 3;
+
+
                 timeline3.Play();
-                StartCoroutine(EnableInputWithDelay(3,5f)); //level3
+                StartCoroutine(EnableInputWithDelay(5f)); //level3
+                break;
+            case 4:
+                letter4.gameObject.SetActive(true);
+                // game end 
+                timeline3.Play();
                 break;
             default:
                 Debug.LogWarning("Invalid image index");
@@ -222,8 +237,9 @@ IEnumerator PrepareForTimeline2(float delay)
    else if (collider.CompareTag("object1"))
 {
 
-  
-    objectController.levelStarted = false;
+    Debug.Log("stop coroutine");
+    objectController.StopCoroutine();
+    //objectController.levelStarted = false;
     gameController.RemainingTime(30f);
     audioController.BirdSFX();
 
