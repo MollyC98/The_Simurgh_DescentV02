@@ -19,13 +19,17 @@ public class AudioController : MonoBehaviour
   //  public AudioClip button;
      public AudioClip screech;
      public AudioClip scroll;
-  //   public AudioClip caught;
+     public AudioClip omen;
+     public AudioClip feather;
 
    [SerializeField] AudioSource musicSource;
     private AudioClip currentClip;
     public AudioClip theme;
     // public AudioClip metal;
     // public AudioClip home;
+
+
+    public float masterSoundVolume =1f;
       
 
   // private float metalTime = 0f; //store position of metal tune
@@ -164,7 +168,14 @@ public void PauseMusic()
     SFXSource.Play();
   }
 
+  public void OmenSFX(){
+    
+    // if (!SFXSource.isPlaying){
+      SFXSource.clip = omen;
+      SFXSource.Play();
+    //}
 
+  }
 
   // public void ButtonSFX(){
   //   SFXSource.clip = button;

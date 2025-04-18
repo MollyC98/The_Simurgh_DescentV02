@@ -20,8 +20,8 @@ public class ObjectController : MonoBehaviour
     float eclipseMinRespawnTime = 0.1f;
      float eclipseMaxRespawnTime = 0.3f;
 
-     float minTransformTime = 0.0f;
-     float maxTransformTime = 2.0f; 
+     float minTransformTime = 0.5f;
+     float maxTransformTime = 1.5f; 
 
     private Vector2 screenBounds;
 
@@ -160,7 +160,7 @@ public void StopCoroutine() {
 IEnumerator FakeObjectWave() {
     while (isRunning) {
      
-       int numObjectsToSpawn = Random.Range(1, 2); // 2 or 3 objects
+       int numObjectsToSpawn = Random.Range(1, 4); // 2 or 3 objects
 
         for (int i = 0; i < numObjectsToSpawn; i++) {
             yield return new WaitForSeconds(Random.Range(normalMinRespawnTime, normalMaxRespawnTime));

@@ -12,7 +12,7 @@ private Color startColor;
 private Color targetColor;
 
 private float timer = 0f;
-public float fadeDuration = 5f;
+float fadeDuration = 6f;
 
 private bool fading = true;
 
@@ -39,8 +39,5 @@ void Update(){
         }
 }
 
-// private IEnumerator FadeWithDelay(Color startColor, Color targetColor, float duration){
-//     float elapsedTime = 0
-// }
 
 }

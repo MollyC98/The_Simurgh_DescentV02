@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 60
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,1834 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2778
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc89f77d8b7a1b4498e66e0eaa704138
+      internalID: 780741971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2778
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd71d600f31d7343931048c7ae68a0b
+      internalID: 2111513240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 2778
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4776d91a94e86e4998e5665c98e7ba3
+      internalID: -1249827536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 2778
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654c15dcd3fda9f489e9766264941217
+      internalID: -1697760171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 2778
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c24cbc9a0df84042b60a07e1c147814
+      internalID: -752551695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 2778
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14caff0a71a092c47b9e44e8781a542f
+      internalID: -1970480794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 2778
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d46b6c87d848ac4ca658b2ebe1db5b4
+      internalID: 811878161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3903
+        y: 2778
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ca3b1d6350fed44995ec838f0c4f87
+      internalID: -1084161139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 2778
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5441e01a9b38b4eacd14118fd44b42
+      internalID: 1288256290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 4987
+        y: 2778
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f06b5a167f75b408826db673182515
+      internalID: 1347280341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 5529
+        y: 2778
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956256ca7c69e96409a9040751434c23
+      internalID: 1638883031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 6071
+        y: 2778
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d13b4a098c5f54d9486c5c0b301631
+      internalID: 853285792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 6613
+        y: 2778
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be146da2fee99c54db37413b3b9ffb74
+      internalID: -992767702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 2778
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d959e50301e671d47b9d1ecb7acc8cc0
+      internalID: 562994269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 7697
+        y: 2778
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908c52e4107d7214494eb1bfca3e75b4
+      internalID: -318134372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2234
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b15acb73a91b542b7132d4673a7210
+      internalID: 1669019974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2234
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67774208a9c6a034eaa0cfab4e1a143d
+      internalID: -509274218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 2234
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e5a5b6471a6ba4bb2f5edc15431a0d
+      internalID: 270345729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 2234
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d91830170d42d74a91f9795f761870c
+      internalID: -1661049391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 2234
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2a0d25ab44a9948b229d656ac5ddd2
+      internalID: -1746986562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 2234
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fba3006402e394d9440b115c623c48
+      internalID: 47037038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 2234
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e84526c61783804ead80cb25902491c
+      internalID: 195988031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3903
+        y: 2234
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a9221b65f94e7488ce463c8961dcc0
+      internalID: 1506972631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 2234
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0959e5de835e44aa7e4a7878aa589f
+      internalID: -613844134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 4987
+        y: 2234
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753533a2c70bf3c4cbafec26dbba63ef
+      internalID: -169012074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 5529
+        y: 2234
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191f3c46c4e285242aa902a595200aaf
+      internalID: -44347478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 6071
+        y: 2234
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c7019df6b306a4b8143a17f7519506
+      internalID: 737938744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 6613
+        y: 2234
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f773300e590b24489581972f4d3c51
+      internalID: -240491378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 2234
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e53f76926a222c4f9986cf376400e95
+      internalID: -1866044801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 7697
+        y: 2234
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c663e717f6c8a48a9746f25b6d3582
+      internalID: 2098397035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1694
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a3c520db332cd4fa4e4dec246dc56b
+      internalID: -1607495822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1694
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b4b51c328cc024da20937adf841594
+      internalID: 616574308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1694
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1331674a930e0bd48ae6f9d9e92555cf
+      internalID: -196756686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1694
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00825a54f95f9ee45a912172cc22cfe5
+      internalID: -588606606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 1694
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e426f2275190af48a450dc87afa2c5d
+      internalID: 2137235914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1694
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe5a34494efc6d41a3b2160a90e0e26
+      internalID: -1554520554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 1694
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26171a275337024b804ed1f6b5102cb
+      internalID: -831204092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 3903
+        y: 1694
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689a2d58c7ce8de4283327f1e6beb42a
+      internalID: -742539642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 1694
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd9853fd8f4f6948a681bc8c7d7de1b
+      internalID: 650693872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 4987
+        y: 1694
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35be2facef2aec2408e4c9fcb9eb4e27
+      internalID: -440851926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 5529
+        y: 1694
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d296a958becf34f84526cf56f9b9dc
+      internalID: -103611351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 6071
+        y: 1694
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69776ed7d3f5cb747b956f96371a25b6
+      internalID: -1831617597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 6613
+        y: 1694
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a42fbc2a7f03ce428bacb786656e5c4
+      internalID: -213662552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 1694
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59991e1ddbf33342a2fa48c59039c35
+      internalID: 284291404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 7697
+        y: 1694
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75da0ebbf66e3024eb7412463eb4d792
+      internalID: -555108767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1150
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e47256e7cdb4a4c9e252c66674bc6a
+      internalID: 2045084638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1150
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc1ca3c849150743ad2cc7055f50f15
+      internalID: 347998753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1150
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa98f633380f9534c9e999398ea14725
+      internalID: -1991366364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1150
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df89be4fdef76f042b2937f25e6716a0
+      internalID: -243984773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 1150
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f88362602fcfa4db68a53812dd0010
+      internalID: 454885066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 1150
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285376ea9d5bc554db0d522a7ff50a3b
+      internalID: 725885541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 1150
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8475f03e7c5c98458bb19444ebd2008
+      internalID: 1502635762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 3902
+        y: 1150
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb9831c99073164990981a767dad989
+      internalID: 5136353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 1150
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f7a24a55df8804c9be2ac68ba77917
+      internalID: 1120817323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 4987
+        y: 1150
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603642f8de7e497479116455033c7853
+      internalID: 1042733344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 5529
+        y: 1150
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee019ee237a0f446bf133a8c968fab5
+      internalID: -162094244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 6071
+        y: 1150
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2441f5605cb478645958c1972a3a6afe
+      internalID: -524233492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 6613
+        y: 1150
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b87758a2835ddc4e865019690086eee
+      internalID: 1124617853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 1150
+        width: 351
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079d6fe457ec2c949bd672bf0e60ebaf
+      internalID: 1186242616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 7697
+        y: 1150
+        width: 352
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06f66497f9253a4298e01f1a60c4f4b
+      internalID: 1360760173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 610
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cceaa9ce19605024ba47035226dc274a
+      internalID: 544496184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 610
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e377a2b413cd4e49a600801980fe2a6
+      internalID: 875439816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 610
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23953c542afc144fbab644c1f63b013
+      internalID: -356708992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 610
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bf6e94723281340be21db017229423
+      internalID: -329323668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 610
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7a4522084527b4c82937c24121096e
+      internalID: 38844017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 610
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040655978366abb4ba92b3cb9551924b
+      internalID: -743535922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 610
+        width: 352
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ea5f8b83ed66347bedbfb90b872754
+      internalID: -99705872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 3903
+        y: 610
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a07c49f87c3a1b47a5f7938c886317f
+      internalID: 191442025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 610
+        width: 350
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac467fbdb212f44091297b720e9fcfd
+      internalID: 795926328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 4987
+        y: 610
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044733c5576111941bd3dfabcf028ecb
+      internalID: -587706244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 5529
+        y: 610
+        width: 350
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6dc300f271f174d8683adace0add67
+      internalID: 1948765435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 6071
+        y: 610
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69dfb32b59ee764f8dbc3b501108da4
+      internalID: -597087173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 6613
+        y: 610
+        width: 350
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e404fd5bd28294e8110791a79902e7
+      internalID: 1729427892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 7155
+        y: 610
+        width: 351
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db1d87500e724e41981e9fddfdf7bc3
+      internalID: 555433825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 7698
+        y: 610
+        width: 349
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef937cedb85c8a641a028c1f33829b1f
+      internalID: -577817413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 67
+        width: 348
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaeafc0c1e7f814d956093adfae0be1
+      internalID: 728717870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 67
+        width: 351
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639720eb8ce0cb743a0bd45da23421d1
+      internalID: 1329661715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 67
+        width: 348
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f486bcb1a48ef54e915fb8be4240a24
+      internalID: 1931529336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 67
+        width: 349
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467041b945f052c4298d276300af89cc
+      internalID: -1469632598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 67
+        width: 348
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa917297d316d841a243662223703d4
+      internalID: -1420007837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 67
+        width: 349
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd6e0633d8d2eb4898128266ad83c2a
+      internalID: -1263604782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 67
+        width: 348
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef336513bf34aad46857dc662eb7676b
+      internalID: -1341904623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 67
+        width: 349
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b828d5753a5ea4ab90dddbfc0c9cfd
+      internalID: -635206093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 4446
+        y: 67
+        width: 348
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b555bdf141c2e154cb001e3980179df3
+      internalID: 939902367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 4990
+        y: 70
+        width: 347
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb1ac143a6a368498259d730520b614
+      internalID: 1544512039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 5531
+        y: 70
+        width: 347
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bca3234e67801647a91645403a1253f
+      internalID: -1744492232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather-burning-spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 6074
+        y: 70
+        width: 347
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5feeb765d350b1940916b87442d1bea3
+      internalID: 348845176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +1933,94 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      feather-burning-spritesheet_0: 780741971
+      feather-burning-spritesheet_1: 2111513240
+      feather-burning-spritesheet_10: 1638883031
+      feather-burning-spritesheet_11: 853285792
+      feather-burning-spritesheet_12: -992767702
+      feather-burning-spritesheet_13: 562994269
+      feather-burning-spritesheet_14: -318134372
+      feather-burning-spritesheet_15: 1669019974
+      feather-burning-spritesheet_16: -509274218
+      feather-burning-spritesheet_17: 270345729
+      feather-burning-spritesheet_18: -1661049391
+      feather-burning-spritesheet_19: -1746986562
+      feather-burning-spritesheet_2: -1249827536
+      feather-burning-spritesheet_20: 47037038
+      feather-burning-spritesheet_21: 195988031
+      feather-burning-spritesheet_22: 1506972631
+      feather-burning-spritesheet_23: -613844134
+      feather-burning-spritesheet_24: -169012074
+      feather-burning-spritesheet_25: -44347478
+      feather-burning-spritesheet_26: 737938744
+      feather-burning-spritesheet_27: -240491378
+      feather-burning-spritesheet_28: -1866044801
+      feather-burning-spritesheet_29: 2098397035
+      feather-burning-spritesheet_3: -1697760171
+      feather-burning-spritesheet_30: -1607495822
+      feather-burning-spritesheet_31: 616574308
+      feather-burning-spritesheet_32: -196756686
+      feather-burning-spritesheet_33: -588606606
+      feather-burning-spritesheet_34: 2137235914
+      feather-burning-spritesheet_35: -1554520554
+      feather-burning-spritesheet_36: -831204092
+      feather-burning-spritesheet_37: -742539642
+      feather-burning-spritesheet_38: 650693872
+      feather-burning-spritesheet_39: -440851926
+      feather-burning-spritesheet_4: -752551695
+      feather-burning-spritesheet_40: -103611351
+      feather-burning-spritesheet_41: -1831617597
+      feather-burning-spritesheet_42: -213662552
+      feather-burning-spritesheet_43: 284291404
+      feather-burning-spritesheet_44: -555108767
+      feather-burning-spritesheet_45: 2045084638
+      feather-burning-spritesheet_46: 347998753
+      feather-burning-spritesheet_47: -1991366364
+      feather-burning-spritesheet_48: -243984773
+      feather-burning-spritesheet_49: 454885066
+      feather-burning-spritesheet_5: -1970480794
+      feather-burning-spritesheet_50: 725885541
+      feather-burning-spritesheet_51: 1502635762
+      feather-burning-spritesheet_52: 5136353
+      feather-burning-spritesheet_53: 1120817323
+      feather-burning-spritesheet_54: 1042733344
+      feather-burning-spritesheet_55: -162094244
+      feather-burning-spritesheet_56: -524233492
+      feather-burning-spritesheet_57: 1124617853
+      feather-burning-spritesheet_58: 1186242616
+      feather-burning-spritesheet_59: 1360760173
+      feather-burning-spritesheet_6: 811878161
+      feather-burning-spritesheet_60: 544496184
+      feather-burning-spritesheet_61: 875439816
+      feather-burning-spritesheet_62: -356708992
+      feather-burning-spritesheet_63: -329323668
+      feather-burning-spritesheet_64: 38844017
+      feather-burning-spritesheet_65: -743535922
+      feather-burning-spritesheet_66: -99705872
+      feather-burning-spritesheet_67: 191442025
+      feather-burning-spritesheet_68: 795926328
+      feather-burning-spritesheet_69: -587706244
+      feather-burning-spritesheet_7: -1084161139
+      feather-burning-spritesheet_70: 1948765435
+      feather-burning-spritesheet_71: -597087173
+      feather-burning-spritesheet_72: 1729427892
+      feather-burning-spritesheet_73: 555433825
+      feather-burning-spritesheet_74: -577817413
+      feather-burning-spritesheet_75: 728717870
+      feather-burning-spritesheet_76: 1329661715
+      feather-burning-spritesheet_77: 1931529336
+      feather-burning-spritesheet_78: -1469632598
+      feather-burning-spritesheet_79: -1420007837
+      feather-burning-spritesheet_8: 1288256290
+      feather-burning-spritesheet_80: -1263604782
+      feather-burning-spritesheet_81: -1341904623
+      feather-burning-spritesheet_82: -635206093
+      feather-burning-spritesheet_83: 939902367
+      feather-burning-spritesheet_84: 1544512039
+      feather-burning-spritesheet_85: -1744492232
+      feather-burning-spritesheet_86: 348845176
+      feather-burning-spritesheet_9: 1347280341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

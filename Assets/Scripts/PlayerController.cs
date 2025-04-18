@@ -59,7 +59,7 @@ AudioController audioController;
     Cursor.visible = false;
     //StartCoroutine(PrepareForTimeline1(0f));
     
-    StartCoroutine(EnableCanvasWithDelay(1,4f));
+    StartCoroutine(EnableCanvasWithDelay(1,3f));
 
   
     //first fade in then canvas then timeline1
@@ -221,15 +221,25 @@ IEnumerator PrepareForTimeline2(float delay)
 
     if (collider.CompareTag("lotus"))
     {
-   
+      
+    Destroy(collider.gameObject);
+
       gameController.RemainingTime(-10f); 
+      audioController.OmenSFX();
     }
     else if (collider.CompareTag("omen"))
     {
+
+      
+    Destroy(collider.gameObject);
+
       gameController.RemainingTime(-10f); 
+      audioController.OmenSFX();
     } 
    else if (collider.CompareTag("object1"))
 {
+
+    Destroy(collider.gameObject);
 
     Debug.Log("stop coroutine");
     objectController.StopAllCoroutines();
@@ -249,13 +259,16 @@ IEnumerator PrepareForTimeline2(float delay)
       //StartCoroutine(TimelineWithDelay(3f));
       StartCoroutine(PrepareForTimeline2(1f));
 
-      StartCoroutine(EnableCanvasWithDelay(2,8f)); // or 3
+      StartCoroutine(EnableCanvasWithDelay(2,6f)); // or 3
 
       // if 2 enter level 2 if 3 enter level 3
 
 }
 else if (collider.CompareTag("object2"))
 {
+
+  
+    Destroy(collider.gameObject);
 
 
    // objectController.levelStarted = false;
@@ -277,12 +290,14 @@ else if (collider.CompareTag("object2"))
       //StartCoroutine(TimelineWithDelay(3f));
       StartCoroutine(PrepareForTimeline2(1f));
 
-      StartCoroutine(EnableCanvasWithDelay(3,8f)); // 
+      StartCoroutine(EnableCanvasWithDelay(3,6f)); // 
       // if 2 enter level 2 if 3 enter level 3
 
 } else if (collider.CompareTag("object3"))
 {
 
+
+    Destroy(collider.gameObject);
 
    // objectController.levelStarted = false;
     Debug.Log("stop coroutine");
@@ -312,7 +327,11 @@ else if (collider.CompareTag("object2"))
 
 
 
-} 
+} else if(collider.CompareTag("feather")){
+
+   Destroy(collider.gameObject);
+
+}
 
 
 
@@ -325,8 +344,6 @@ else if (collider.CompareTag("object2"))
 //       Debug.Log("you lose");
 
 
-
-    Destroy(collider.gameObject);
 
     //collider object1 
     //collider object2

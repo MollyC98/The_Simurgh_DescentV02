@@ -214,6 +214,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &454395032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 454395034}
+  - component: {fileID: 454395033}
+  m_Layer: 0
+  m_Name: featherburn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!328 &454395033
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454395032}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: aa848c90806946d4c8e5947ad187b0c9, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 1371938144}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: <noninit>
+  m_RenderMode: 0
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_TimeUpdateMode: 2
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 2
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
+  m_Url: 
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+  m_VideoShaders: []
+--- !u!4 &454395034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454395032}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &470187249
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,8 +331,13 @@ PlayableDirector:
     value: {fileID: 1750238576}
   - key: {fileID: 6411427999076577700, guid: f544b32e5f5e1d94fa201b57de5c3b9f, type: 2}
     value: {fileID: 21992077}
+  - key: {fileID: 4363292400277404145, guid: f544b32e5f5e1d94fa201b57de5c3b9f, type: 2}
+    value: {fileID: 454395032}
+  - key: {fileID: 2975757780841800033, guid: f544b32e5f5e1d94fa201b57de5c3b9f, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 9841561c846e7dc4992f097340ef032d: {fileID: 0}
 --- !u!114 &470187251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394,8 +465,11 @@ MonoBehaviour:
   m_text: "The wise Simurgh found little Zal, and with gentle claws, bore him to
     her nest, where the winds sang lullabies of forgotten kings. Under her care,
     Zal grew in peace and strength. She nurtured him as one of her own, loving him
-    more than life itself. She taught him honor, courage, and the ways of heroes\u2014better
-    than any human could.\r\n"
+    more than life itself. She taught him honor, courage, and the ways of heroes,
+    better than any human could.\r         And yet, in the quiet of night, Zal would
+    gaze at the stars and ache with questions of blood and birth. But when the Simurgh
+    turned her eyes upon him, he found all the answers he needed. Here was his mother.
+    Here was his home.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 084250af6581acc4f929aa326f3c9a2f, type: 2}
   m_sharedMaterial: {fileID: -8191721200367448572, guid: 084250af6581acc4f929aa326f3c9a2f, type: 2}
@@ -915,11 +989,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'And yet, in the quiet of night, Zal would gaze at the stars and ache with
-    questions of blood and birth. But when the Simurgh turned her eyes upon him,
-    he found all the answers he needed. Here was his mother. Here was his home.
-
-'
+  m_text: "Years passed, and Zal became a handsome man, noblest of his kind. Meanwhile,
+    King Sam was haunted by regret. From the moment he abandoned his son, sorrow
+    took root in his soul. At last, unable to bear it, he journeyed to Mount Alborz
+    to seek redemption.\r\nThe Simurgh saw his approach and told Zal. Though her
+    heart was heavy, she knew he must walk the path of men. Zal hesitated, but she
+    soothed him, promising he would never be alone. Before he left, she plucked three
+    of her golden feathers. \u201CBurn one,\u201D she said, \u201Cwhen the world
+    grows heavy, and I will come.\u201D\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 084250af6581acc4f929aa326f3c9a2f, type: 2}
   m_sharedMaterial: {fileID: -8191721200367448572, guid: 084250af6581acc4f929aa326f3c9a2f, type: 2}
@@ -1182,6 +1259,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 2640005535528748416, guid: 9b0054ca51b9be94fa2b388fda0a40b5, type: 3}
+      propertyPath: m_TagString
+      value: Audio
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972454285149969667, guid: 9b0054ca51b9be94fa2b388fda0a40b5, type: 3}
+      propertyPath: m_Volume
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6972454285149969667, guid: 9b0054ca51b9be94fa2b388fda0a40b5, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -6966951131627691402, guid: 4368d0f4da7376a48a7d8d48d94a20e9, type: 2}
+    - target: {fileID: 6976165587523708348, guid: 9b0054ca51b9be94fa2b388fda0a40b5, type: 3}
+      propertyPath: omen
+      value: 
+      objectReference: {fileID: 8300000, guid: 55a0fd02d7fecf3439c881f29ca52b1b, type: 3}
+    - target: {fileID: 6976165587523708348, guid: 9b0054ca51b9be94fa2b388fda0a40b5, type: 3}
+      propertyPath: feather
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e647bfdc0b29e642909014d849fd12a, type: 3}
+    - target: {fileID: 9114093089210010231, guid: 9b0054ca51b9be94fa2b388fda0a40b5, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -335318150937320893, guid: 4368d0f4da7376a48a7d8d48d94a20e9, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1198,3 +1299,4 @@ SceneRoots:
   - {fileID: 1688410234}
   - {fileID: 21992078}
   - {fileID: 2261911687045448592}
+  - {fileID: 454395034}

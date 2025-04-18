@@ -14,7 +14,7 @@ public class KillZone : MonoBehaviour
     {
         
         Debug.Log("you lose cuz didnt catch object");
-         StartCoroutine(LoseAfterDelay(1f));
+        StartCoroutine(LoseAfterDelay(1f));
     }
 
 }

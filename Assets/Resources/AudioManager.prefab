@@ -49,8 +49,11 @@ MonoBehaviour:
   SFXSource: {fileID: 9114093089210010231}
   screech: {fileID: 8300000, guid: ee2143034236d3249a0a435f9d641dd8, type: 3}
   scroll: {fileID: 8300000, guid: e989a295758ac994cbe3cfc8032439ca, type: 3}
+  omen: {fileID: 8300000, guid: 55a0fd02d7fecf3439c881f29ca52b1b, type: 3}
+  feather: {fileID: 8300000, guid: 7e647bfdc0b29e642909014d849fd12a, type: 3}
   musicSource: {fileID: 6972454285149969667}
   theme: {fileID: 8300000, guid: b10a5a3af2143054e9af47c4f265fc7a, type: 3}
+  masterSoundVolume: 1
 --- !u!1 &6045480485860863148
 GameObject:
   m_ObjectHideFlags: 0
