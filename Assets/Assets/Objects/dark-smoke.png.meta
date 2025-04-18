@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 64e19a7ab126142e59594f804152dc45
+guid: 84efafcfc649c478a8fa4def8fa49ac7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,12 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dark-smoke (1)_0
+      name: dark-smoke_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0593dbf60b77443ba5420029a61183b
-      internalID: -609129873
+      spriteID: 73b96edde711848e5ba90344e92c625e
+      internalID: 1295655722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_1
+      name: dark-smoke_1
       rect:
         serializedVersion: 2
         x: 202
@@ -132,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6c93f1df3e35471aa2f61c61e43449e
-      internalID: 931199973
+      spriteID: d4cd67b42c67c471ebc1ddbec3a6ac31
+      internalID: -1101134623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_2
+      name: dark-smoke_2
       rect:
         serializedVersion: 2
         x: 404
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c0f50e25127f4efeacf45547e7f9955
-      internalID: -1122890578
+      spriteID: fa1a65a617420486aae9d69b94c83b1b
+      internalID: 1037975561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_3
+      name: dark-smoke_3
       rect:
         serializedVersion: 2
         x: 606
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbb7b4802de9a476a976d3eeb15cfa54
-      internalID: -453290038
+      spriteID: 181dc0c3f91774db7901aadfa8666978
+      internalID: -1299062573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_4
+      name: dark-smoke_4
       rect:
         serializedVersion: 2
         x: 808
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f73df3d8bf55e47fcbb0da580ebeafad
-      internalID: -1163102684
+      spriteID: b0f5f8b19b68e418cb8c05cc718ab8b7
+      internalID: 1621220749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_5
+      name: dark-smoke_5
       rect:
         serializedVersion: 2
         x: 1010
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bb2acf701bcb4326a174be5434b17dd
-      internalID: -1599051041
+      spriteID: 246fcff0c6ff74a5abe47799cd19f687
+      internalID: -1585134616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_6
+      name: dark-smoke_6
       rect:
         serializedVersion: 2
         x: 1212
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6049eeb14b2f44769a289ada1911d10
-      internalID: 1760321882
+      spriteID: ac82b3cc9155e4e1f9390ac6a33db77e
+      internalID: 1960653754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_7
+      name: dark-smoke_7
       rect:
         serializedVersion: 2
         x: 1414
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f20bb3dde94c4f948d61ec056977c2f
-      internalID: 1673959062
+      spriteID: e9bce9565427349a0bde3daec142e5fa
+      internalID: -1980429577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_8
+      name: dark-smoke_8
       rect:
         serializedVersion: 2
         x: 1616
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29b6d9f6fe3df4dde803b41b30e7e14a
-      internalID: 1758873344
+      spriteID: 135cfc9e9b263450b9f08da814609994
+      internalID: 864150754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_9
+      name: dark-smoke_9
       rect:
         serializedVersion: 2
         x: 1818
@@ -300,14 +300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 582ea65487bac491eab28a211c4f449d
-      internalID: 707193358
+      spriteID: 1c79e2039fafb442cbfa9ce2a346ceac
+      internalID: -556182654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_10
+      name: dark-smoke_10
       rect:
         serializedVersion: 2
         x: 0
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1849961762d264b5880c8ae3226d365e
-      internalID: -1230730919
+      spriteID: 85273decc929f4599a6603ff37571a2d
+      internalID: 724372714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_11
+      name: dark-smoke_11
       rect:
         serializedVersion: 2
         x: 202
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c035cf36a9bff4f28801a8dcda75f0a9
-      internalID: 171773347
+      spriteID: 435ef67660a8e43ec957dc1d267c7d40
+      internalID: 1104495372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_12
+      name: dark-smoke_12
       rect:
         serializedVersion: 2
         x: 404
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62dc70b5895d1415fb88fa831aee08ee
-      internalID: 1554521708
+      spriteID: ab1d276438d8a40df963552a7ec7f1a4
+      internalID: -1190029475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_13
+      name: dark-smoke_13
       rect:
         serializedVersion: 2
         x: 606
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aec378cde29224096905491b61ddf6df
-      internalID: -551956140
+      spriteID: 641b270f4b7c84dbf909cd71524338bb
+      internalID: 1234069548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_14
+      name: dark-smoke_14
       rect:
         serializedVersion: 2
         x: 808
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd75247a880ec4e11a1f6429dcab47c5
-      internalID: -1868716996
+      spriteID: 9dc6ab27e2abc4653a891fedf3559d2e
+      internalID: -689227485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_15
+      name: dark-smoke_15
       rect:
         serializedVersion: 2
         x: 1010
@@ -426,14 +426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59b224c1613b8492abed73b1971f78c9
-      internalID: 213235220
+      spriteID: 780af8bee0f19456ebc86cbec83009fa
+      internalID: 527056559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_16
+      name: dark-smoke_16
       rect:
         serializedVersion: 2
         x: 1212
@@ -447,14 +447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5c92ef8482db40e88d310f8d0b31d16
-      internalID: -449102746
+      spriteID: 407c864a8fb774548949b309c09d4fea
+      internalID: 1599903992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_17
+      name: dark-smoke_17
       rect:
         serializedVersion: 2
         x: 1414
@@ -468,14 +468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87bb5bb66d04d4209bdd894d0ceb7250
-      internalID: -765814589
+      spriteID: 3a1335cfb3c0343d6a38afa0f507b9f1
+      internalID: 1343060029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_18
+      name: dark-smoke_18
       rect:
         serializedVersion: 2
         x: 1616
@@ -489,14 +489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3c240863bbbf45e2a5fd15044e650ea
-      internalID: 1182817442
+      spriteID: 7126d5ea35ea4480182023b9fc4b649d
+      internalID: -1875639542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_19
+      name: dark-smoke_19
       rect:
         serializedVersion: 2
         x: 1818
@@ -510,14 +510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8d1c11b4b3c44b7c9e57f649d402aad
-      internalID: -247085085
+      spriteID: f8ddc33a72af8405385611eca72bd2ab
+      internalID: 629590481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_20
+      name: dark-smoke_20
       rect:
         serializedVersion: 2
         x: 0
@@ -531,14 +531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f7962d7804a2465fa7f7cd8fc1f5809
-      internalID: 219701240
+      spriteID: 8ac66eda70c094711b3a70a78855f469
+      internalID: 431232834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_21
+      name: dark-smoke_21
       rect:
         serializedVersion: 2
         x: 202
@@ -552,14 +552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e8ca876d644a4e998f1efe0e52c4445
-      internalID: 892606403
+      spriteID: 6dbfe54fa4c534760836825e1e6c387e
+      internalID: 1265688789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_22
+      name: dark-smoke_22
       rect:
         serializedVersion: 2
         x: 404
@@ -573,14 +573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a09f0c0f0e3fc4095aeade71ad7abe12
-      internalID: 1974196361
+      spriteID: 8ec7f1070cdde4a5e9ee913d369dff20
+      internalID: -1511555043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_23
+      name: dark-smoke_23
       rect:
         serializedVersion: 2
         x: 606
@@ -594,14 +594,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a16ea5827f5149c4aa0545cf093b321
-      internalID: -1130568316
+      spriteID: bc034d542be53422faf943aac3acb7d5
+      internalID: 1993597634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_24
+      name: dark-smoke_24
       rect:
         serializedVersion: 2
         x: 808
@@ -615,14 +615,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d00abb881d5a9440b895d02c2c53c4cb
-      internalID: 1561027765
+      spriteID: ab48105f274e443aca542cfdacb7cf33
+      internalID: 985743478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_25
+      name: dark-smoke_25
       rect:
         serializedVersion: 2
         x: 1010
@@ -636,14 +636,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1ff9d8a02fc24fcba89aa8692e835f9
-      internalID: -2069678942
+      spriteID: da9c12ca992c24a76a6da2fc51a3691b
+      internalID: 1955740843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_26
+      name: dark-smoke_26
       rect:
         serializedVersion: 2
         x: 1212
@@ -657,14 +657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aa852146396043d5b263b613b8ea710
-      internalID: 2002726137
+      spriteID: 7ff4c44444d28420fa966dd64c970734
+      internalID: 505647608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_27
+      name: dark-smoke_27
       rect:
         serializedVersion: 2
         x: 1414
@@ -678,14 +678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af06c36359022475fb32769790adad7a
-      internalID: -1564543491
+      spriteID: 577b0a0a2b4b54e20b9f86569b2a3d9b
+      internalID: -979738926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_28
+      name: dark-smoke_28
       rect:
         serializedVersion: 2
         x: 1616
@@ -699,14 +699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3902a1e30e845406eb926cf60a2e6958
-      internalID: 1790336305
+      spriteID: 6c43c5082cc5e47a0a1f79ed8d0aad31
+      internalID: 1646909460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_29
+      name: dark-smoke_29
       rect:
         serializedVersion: 2
         x: 1818
@@ -720,14 +720,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8997e81324ba44e229efb512d4bca78f
-      internalID: -1489226003
+      spriteID: 15e12bd5b604845e6a994b583aaa5c6d
+      internalID: -239727269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_30
+      name: dark-smoke_30
       rect:
         serializedVersion: 2
         x: 0
@@ -741,14 +741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb97fe89def0a4ff4aee2e75d75fb486
-      internalID: 693358354
+      spriteID: bc3c11cc1e2c34d3691a2d48331e46be
+      internalID: 1070050803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_31
+      name: dark-smoke_31
       rect:
         serializedVersion: 2
         x: 202
@@ -762,14 +762,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41e17a1d1532a491b841a9cb540a210b
-      internalID: -1790563113
+      spriteID: 9cbb9f26474534ee4bd065cd198a0874
+      internalID: 161817268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_32
+      name: dark-smoke_32
       rect:
         serializedVersion: 2
         x: 404
@@ -783,14 +783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c50fc00d6346f457f9e2b27ae2522d19
-      internalID: 1763895367
+      spriteID: 71a0cbe4544064a5288a4082ee8b614c
+      internalID: -199386262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_33
+      name: dark-smoke_33
       rect:
         serializedVersion: 2
         x: 606
@@ -804,14 +804,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2df62c34a80ef475281d73679893ed23
-      internalID: 508323123
+      spriteID: 6bc7687c76db74b3f92a182efddc74e4
+      internalID: 611758093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_34
+      name: dark-smoke_34
       rect:
         serializedVersion: 2
         x: 808
@@ -825,14 +825,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e37322b2be8ee4f1ca79ea609021c2d7
-      internalID: 1541541896
+      spriteID: b2e864f3a78b04ffe980dbecfae30efd
+      internalID: -858495572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_35
+      name: dark-smoke_35
       rect:
         serializedVersion: 2
         x: 1010
@@ -846,14 +846,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2ecfa3b4eadc417f95911746919cc8c
-      internalID: 1500844038
+      spriteID: 993d530902b8341a7b8be8e8897e7d58
+      internalID: -1729701242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_36
+      name: dark-smoke_36
       rect:
         serializedVersion: 2
         x: 1212
@@ -867,14 +867,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30f979d9beba747f7885346132e1391a
-      internalID: -1438660
+      spriteID: 2340ad4c10afa41cebff5eb230d66074
+      internalID: -1757852162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_37
+      name: dark-smoke_37
       rect:
         serializedVersion: 2
         x: 1414
@@ -888,14 +888,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36ea31bb769c44f678accf4a71e2b78f
-      internalID: -941219028
+      spriteID: 4e703112ff5c146dd929235d5aad79c2
+      internalID: -2104954257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_38
+      name: dark-smoke_38
       rect:
         serializedVersion: 2
         x: 1616
@@ -909,14 +909,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 845d28f18107f4e3f970049871f9344b
-      internalID: 232462388
+      spriteID: e651b316602b74daa8b842bb9f56aa93
+      internalID: -782941973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_39
+      name: dark-smoke_39
       rect:
         serializedVersion: 2
         x: 1818
@@ -930,14 +930,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f59912d2054d4ee5bf98aa8cdd55d5e
-      internalID: 1985977160
+      spriteID: f30dc3ae9e80142f38c971b3352fa276
+      internalID: 1841603598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_40
+      name: dark-smoke_40
       rect:
         serializedVersion: 2
         x: 0
@@ -951,14 +951,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c12a8b658fc64152a974cb70d2181bd
-      internalID: 1845739304
+      spriteID: a9237a649609e47a7aef09d1cc83fd42
+      internalID: -1769731148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_41
+      name: dark-smoke_41
       rect:
         serializedVersion: 2
         x: 202
@@ -972,14 +972,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3953a0f26fa1448ee86509ba90e3ca8f
-      internalID: 653971374
+      spriteID: 3f20ce3164b83405cb5779443e0e81b8
+      internalID: -1399798130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_42
+      name: dark-smoke_42
       rect:
         serializedVersion: 2
         x: 404
@@ -993,14 +993,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 381be30fe97a54b0792df9e4edba30d1
-      internalID: -138572780
+      spriteID: 28e96abe857ad450985d61f351d9fd21
+      internalID: 1691332770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_43
+      name: dark-smoke_43
       rect:
         serializedVersion: 2
         x: 606
@@ -1014,14 +1014,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccb602c55e5de43ebae0c7cb90b3d892
-      internalID: -1554595329
+      spriteID: b78472d26a7f94d1ca9441a3bbb623fc
+      internalID: 42209134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_44
+      name: dark-smoke_44
       rect:
         serializedVersion: 2
         x: 808
@@ -1035,14 +1035,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e6de48d07fe248aebd46256836a000f
-      internalID: -1084084859
+      spriteID: c3b9017d7ed994998a7af5cc4666aff4
+      internalID: 1160068351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_45
+      name: dark-smoke_45
       rect:
         serializedVersion: 2
         x: 1010
@@ -1056,14 +1056,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb3abb1bb6a4540db98d90016dafb4f0
-      internalID: 1777855004
+      spriteID: 2efd06163e5b8481b88df16641266c55
+      internalID: -1778547102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_46
+      name: dark-smoke_46
       rect:
         serializedVersion: 2
         x: 1212
@@ -1077,14 +1077,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 997c8cbb845394f9b8dc221ab4156c86
-      internalID: -22214031
+      spriteID: 7cd245e4de2ed49039b0f98055e008ba
+      internalID: -2081321636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_47
+      name: dark-smoke_47
       rect:
         serializedVersion: 2
         x: 1414
@@ -1098,14 +1098,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 228a17869c2ed42108569af5c00848cb
-      internalID: -821180825
+      spriteID: 4bf2917d5fd2646f4ad83bb7e044a9de
+      internalID: 866950379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_48
+      name: dark-smoke_48
       rect:
         serializedVersion: 2
         x: 1616
@@ -1119,14 +1119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebe5a6d7d33214c3797afc949d5b5b76
-      internalID: -1515597839
+      spriteID: abaa50aae47d34c14961e7792acb3722
+      internalID: -1788985574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_49
+      name: dark-smoke_49
       rect:
         serializedVersion: 2
         x: 1818
@@ -1140,14 +1140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61c26ece6ab0e44ddbaa0e66852ee679
-      internalID: 1576285561
+      spriteID: 3f84a214d194d4226a35630ce16bcee0
+      internalID: -1756287862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_50
+      name: dark-smoke_50
       rect:
         serializedVersion: 2
         x: 0
@@ -1161,14 +1161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21f1b8c2c93ea4d918ec8ba4312bc9f8
-      internalID: -2143956000
+      spriteID: 39b3841cc9b25480485e8d4cca06d8a5
+      internalID: 1436366915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_51
+      name: dark-smoke_51
       rect:
         serializedVersion: 2
         x: 202
@@ -1182,14 +1182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30faec261dde64ba982c357cade8b8f9
-      internalID: -438803375
+      spriteID: c14a1a993b0474742b52eb209bc63300
+      internalID: 287197140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_52
+      name: dark-smoke_52
       rect:
         serializedVersion: 2
         x: 404
@@ -1203,14 +1203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d609a76d414f4412499ba27fb08dd909
-      internalID: -1578337022
+      spriteID: 490c7f0cf3fa84b9da3833cbe8c08fec
+      internalID: -1329851484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_53
+      name: dark-smoke_53
       rect:
         serializedVersion: 2
         x: 606
@@ -1224,14 +1224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1492573569fd465e90b983f87b32bfa
-      internalID: 118307645
+      spriteID: cbfa22999457943488652f950c5337e0
+      internalID: -952375755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_54
+      name: dark-smoke_54
       rect:
         serializedVersion: 2
         x: 808
@@ -1245,14 +1245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe9937a5d30b346798269f03eba5829b
-      internalID: 1880931709
+      spriteID: e5d513cde69654794aaba8a3e378bacb
+      internalID: -860289534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_55
+      name: dark-smoke_55
       rect:
         serializedVersion: 2
         x: 1010
@@ -1266,14 +1266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4624a80efa04240589c643a8864d3656
-      internalID: -1358327341
+      spriteID: 31e8cc54dc3884b75923320c404edd32
+      internalID: 1166468159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_56
+      name: dark-smoke_56
       rect:
         serializedVersion: 2
         x: 1212
@@ -1287,14 +1287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08a4faa4318dd45ec9ca2a9fb56e6faf
-      internalID: 1070472884
+      spriteID: ba26041413d2246178297352e84bd61c
+      internalID: -560813309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_57
+      name: dark-smoke_57
       rect:
         serializedVersion: 2
         x: 1414
@@ -1308,14 +1308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 062310b14135d4bd7acf6425dc946afa
-      internalID: -1041823574
+      spriteID: 2ebdb5028bb4c4ff5b3874c09a36ae42
+      internalID: 137716362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_58
+      name: dark-smoke_58
       rect:
         serializedVersion: 2
         x: 1616
@@ -1329,14 +1329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b699240223d40139a2a2e9c4f928f6
-      internalID: -123345125
+      spriteID: 7203de6a532b24433bc8b91614c5f6c2
+      internalID: -412194496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_59
+      name: dark-smoke_59
       rect:
         serializedVersion: 2
         x: 1818
@@ -1350,14 +1350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e90f9295cff304a6f8c2a9892aa93fae
-      internalID: -2075387589
+      spriteID: db3250e95659a4a0ebd4219b08160235
+      internalID: 2016124618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_60
+      name: dark-smoke_60
       rect:
         serializedVersion: 2
         x: 0
@@ -1371,14 +1371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b78269c608d5e4374a85ab5cf685e354
-      internalID: -294288444
+      spriteID: 49e92f4e2adc74cce9e31201f29afc14
+      internalID: 1394827935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_61
+      name: dark-smoke_61
       rect:
         serializedVersion: 2
         x: 202
@@ -1392,14 +1392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad06f121ee090401b8f7f3a05dfcdb70
-      internalID: 1577283278
+      spriteID: 5075f767a09b9408b8e8c9694290e9c0
+      internalID: -1171370672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_62
+      name: dark-smoke_62
       rect:
         serializedVersion: 2
         x: 404
@@ -1413,14 +1413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23634299b0e534ec7b2b4511020f78d7
-      internalID: 87637842
+      spriteID: bc6b8bd0b9aa3449ea5eecb7ee108683
+      internalID: -667345396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_63
+      name: dark-smoke_63
       rect:
         serializedVersion: 2
         x: 606
@@ -1434,14 +1434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af256fb8f7349477993cff7462290166
-      internalID: -357994602
+      spriteID: eb667edb265884bafb611177b42751c6
+      internalID: -618171388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_64
+      name: dark-smoke_64
       rect:
         serializedVersion: 2
         x: 808
@@ -1455,14 +1455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b83ef796ec664ce4a059912371c7ee7
-      internalID: 417878138
+      spriteID: 085dd98095fff4c15914eab27b987717
+      internalID: -308308889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_65
+      name: dark-smoke_65
       rect:
         serializedVersion: 2
         x: 1010
@@ -1476,14 +1476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a36d6c5339c264267af0db794c0bc66b
-      internalID: -1778263162
+      spriteID: c6b87f7811c0b41ae8001cb3155ce630
+      internalID: -866716406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_66
+      name: dark-smoke_66
       rect:
         serializedVersion: 2
         x: 1212
@@ -1497,14 +1497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15682f80b53cc4e9dad8bd04e9c735b2
-      internalID: 225306201
+      spriteID: 2d6aae3c663a04c26b2d8575ed25db65
+      internalID: -1163206084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_67
+      name: dark-smoke_67
       rect:
         serializedVersion: 2
         x: 1414
@@ -1518,14 +1518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e67a8be19d294a0f9abe050c8010b6f
-      internalID: 254016444
+      spriteID: cdfbe48fa556c4d30acbaeb38b5a36f0
+      internalID: 198647166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_68
+      name: dark-smoke_68
       rect:
         serializedVersion: 2
         x: 1616
@@ -1539,14 +1539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c17da5bd89fd4f4093a15063b942e87
-      internalID: -555991934
+      spriteID: a32af63a512a448d6af3ef659d6d3319
+      internalID: 26167712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_69
+      name: dark-smoke_69
       rect:
         serializedVersion: 2
         x: 1818
@@ -1560,14 +1560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e919edde80b804305b517ae5afdcbbed
-      internalID: 1261079133
+      spriteID: c1dd7a8ce391a481f8ca3e37206881b2
+      internalID: 1919968739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_70
+      name: dark-smoke_70
       rect:
         serializedVersion: 2
         x: 0
@@ -1581,14 +1581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e54598ba2d8b450bb733db6905e42be
-      internalID: 1405696842
+      spriteID: 8147c16784e524b0b90614ffff2acffc
+      internalID: -759400368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_71
+      name: dark-smoke_71
       rect:
         serializedVersion: 2
         x: 202
@@ -1602,14 +1602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 413d89de68155401da0872feed663a7e
-      internalID: 107564949
+      spriteID: ffe911e816cfc457087cc6c625874158
+      internalID: 249877296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_72
+      name: dark-smoke_72
       rect:
         serializedVersion: 2
         x: 404
@@ -1623,14 +1623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d60006f4100946dc9c89c40b458d355
-      internalID: 623552468
+      spriteID: f271c5845ca044ba9b1355acf03b60f7
+      internalID: 1561964516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_73
+      name: dark-smoke_73
       rect:
         serializedVersion: 2
         x: 606
@@ -1644,14 +1644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2cc0cb70500d4ccfbc3ee728df51d4d
-      internalID: 1295995088
+      spriteID: f252326c50f4f4b5a81c550287d21a45
+      internalID: -1678621780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_74
+      name: dark-smoke_74
       rect:
         serializedVersion: 2
         x: 808
@@ -1665,14 +1665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24e20393c25dc4a0ab6edf89103a05ba
-      internalID: -1108553355
+      spriteID: b1c5948d88fe44bc7add321313219d78
+      internalID: 1548174573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_75
+      name: dark-smoke_75
       rect:
         serializedVersion: 2
         x: 1010
@@ -1686,14 +1686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c263dbdee4e04d7682b72f0d953e232
-      internalID: -1270880651
+      spriteID: 8f8ce8d75e3a543339d737978d6aa32e
+      internalID: 290725146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_76
+      name: dark-smoke_76
       rect:
         serializedVersion: 2
         x: 1212
@@ -1707,14 +1707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02117e8b5b6e841709e835ba9da07a15
-      internalID: -910252716
+      spriteID: 652494cc90b2a484f8ea7f7b6aab00f4
+      internalID: -582306382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_77
+      name: dark-smoke_77
       rect:
         serializedVersion: 2
         x: 1414
@@ -1728,14 +1728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfed9533b7e004044827336fe1cd94f0
-      internalID: 803794990
+      spriteID: 530f972d4e4e5498f8baabc962ff5c48
+      internalID: 1489006688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_78
+      name: dark-smoke_78
       rect:
         serializedVersion: 2
         x: 1616
@@ -1749,14 +1749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89fe96620297542dbb21071bffdb666c
-      internalID: 574563672
+      spriteID: 4eb28749f7a97436289bc89d01f70925
+      internalID: -1613716071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_79
+      name: dark-smoke_79
       rect:
         serializedVersion: 2
         x: 1818
@@ -1770,14 +1770,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d849631c3ad0f4013b2dc78f5446ad52
-      internalID: 1691102136
+      spriteID: 9738ea97f24574d67bbc846b60c9d704
+      internalID: -2112194633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_80
+      name: dark-smoke_80
       rect:
         serializedVersion: 2
         x: 0
@@ -1791,14 +1791,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de894e98c903c41a1a41b38bc5133228
-      internalID: -2004472788
+      spriteID: 7c21cb3393a3b4f409916c0a4209e36f
+      internalID: 772699526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_81
+      name: dark-smoke_81
       rect:
         serializedVersion: 2
         x: 202
@@ -1812,14 +1812,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d8694fc914f944eb9fef26b9487b017
-      internalID: -1651851308
+      spriteID: 0079222af4bba4fe5ad36baf8ef685e6
+      internalID: 373172742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_82
+      name: dark-smoke_82
       rect:
         serializedVersion: 2
         x: 404
@@ -1833,14 +1833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa76c5022ecaf4c1f9d8d727c55be7fb
-      internalID: 1391006774
+      spriteID: acd723138de364c8ea573c88a3d63f50
+      internalID: -1152614794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_83
+      name: dark-smoke_83
       rect:
         serializedVersion: 2
         x: 606
@@ -1854,14 +1854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f4d5602307354d7cb229e83e4dc6e9c
-      internalID: 1408162031
+      spriteID: 25a400319a2864354956906c9a65624c
+      internalID: 1417369150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_84
+      name: dark-smoke_84
       rect:
         serializedVersion: 2
         x: 808
@@ -1875,14 +1875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1683c6ee6d0e942f4a340b044b6f54c5
-      internalID: -428382293
+      spriteID: 686c7a13b158e48d0975a98423afd835
+      internalID: -265107841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_85
+      name: dark-smoke_85
       rect:
         serializedVersion: 2
         x: 1010
@@ -1896,14 +1896,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c44ea2e6b27934bfda2bf963de1ec909
-      internalID: 1217441155
+      spriteID: bd70916a7956048d6bcfc2d69c777db0
+      internalID: 1493836943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_86
+      name: dark-smoke_86
       rect:
         serializedVersion: 2
         x: 1212
@@ -1917,14 +1917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a8ecd70031934043b77e887fbafa8a9
-      internalID: -1857534652
+      spriteID: b2110cae3d3a4405b9a20f8c81984030
+      internalID: 307786355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_87
+      name: dark-smoke_87
       rect:
         serializedVersion: 2
         x: 1414
@@ -1938,14 +1938,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b6c0f06312074ab08d9f715b2c34fa9
-      internalID: 1771877930
+      spriteID: 9357662df88d34ef6a0ce9cf6fedb6ea
+      internalID: -276325758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_88
+      name: dark-smoke_88
       rect:
         serializedVersion: 2
         x: 1616
@@ -1959,14 +1959,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e798061c5fb394a188a2907854a19579
-      internalID: 61472438
+      spriteID: fef765024160b4174a636cddbd2f1783
+      internalID: -1177238792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_89
+      name: dark-smoke_89
       rect:
         serializedVersion: 2
         x: 1818
@@ -1980,14 +1980,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23a4758918ce3429fb36da1b654652a4
-      internalID: -1022973018
+      spriteID: 55f6be2353d8d4e5c8a624d10d5a398d
+      internalID: 1871639272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_90
+      name: dark-smoke_90
       rect:
         serializedVersion: 2
         x: 0
@@ -2001,14 +2001,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3143027635a73466babe05e51a001e59
-      internalID: 1833794898
+      spriteID: acf4da711a4904c65809f8f6b225a36f
+      internalID: 66532273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_91
+      name: dark-smoke_91
       rect:
         serializedVersion: 2
         x: 202
@@ -2022,14 +2022,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4923ca00100e64744b55ed9625473758
-      internalID: -1640621149
+      spriteID: 1caf96ac024bb474391b9276caaf408d
+      internalID: 227609470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_92
+      name: dark-smoke_92
       rect:
         serializedVersion: 2
         x: 404
@@ -2043,14 +2043,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7a8aac65fb314e32a7c0472163414d8
-      internalID: -1994862207
+      spriteID: 2db92667e09b347e7a95b12a5d24b872
+      internalID: 846072834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_93
+      name: dark-smoke_93
       rect:
         serializedVersion: 2
         x: 606
@@ -2064,14 +2064,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f2663fd3afd34cd1a327861285975e2
-      internalID: 772800196
+      spriteID: f0fbac21bc033451a948b65d3381259f
+      internalID: -422762247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_94
+      name: dark-smoke_94
       rect:
         serializedVersion: 2
         x: 808
@@ -2085,14 +2085,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a12d83b11e0b4124b45fdfc29572c34
-      internalID: 521046822
+      spriteID: 092b6d96ca4724e3ba76161f4e87053e
+      internalID: -1015206049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_95
+      name: dark-smoke_95
       rect:
         serializedVersion: 2
         x: 1010
@@ -2106,14 +2106,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0708c2bd31654abbb8b943bc9c3d41a
-      internalID: -1816179675
+      spriteID: d70eabe436bf44798851895d980c5f02
+      internalID: -120373701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_96
+      name: dark-smoke_96
       rect:
         serializedVersion: 2
         x: 1212
@@ -2127,14 +2127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5475b5df0481a4e779dad141fed95c8c
-      internalID: -469628035
+      spriteID: ed303bb6473f74af597dc0c3ad56c5a1
+      internalID: -64670775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_97
+      name: dark-smoke_97
       rect:
         serializedVersion: 2
         x: 1414
@@ -2148,14 +2148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e053e1484a4e14dd68f51693af92e874
-      internalID: -1397555066
+      spriteID: 24ee7966382c4490ca76f931dcb408bc
+      internalID: 367089496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_98
+      name: dark-smoke_98
       rect:
         serializedVersion: 2
         x: 1616
@@ -2169,14 +2169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13368ebdc6dc24f41a164656c590c9cb
-      internalID: -1580850416
+      spriteID: fd21e954dc8e549d9bda5e0f76c96dd2
+      internalID: 1019743700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_99
+      name: dark-smoke_99
       rect:
         serializedVersion: 2
         x: 1818
@@ -2190,14 +2190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0267bf3872dd45f0b9232a66e251a7d
-      internalID: 987366120
+      spriteID: 067a32c185b9448dc9d10792d8f2ad32
+      internalID: 2031490169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_100
+      name: dark-smoke_100
       rect:
         serializedVersion: 2
         x: 0
@@ -2211,14 +2211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbc423a65d11b46b4bd952b96c5c9729
-      internalID: 813596942
+      spriteID: 95cc5369f6c294772aaeab0c17a602c5
+      internalID: -352407631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_101
+      name: dark-smoke_101
       rect:
         serializedVersion: 2
         x: 202
@@ -2232,14 +2232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a395c020f147d44e4a149a6ec7c3630b
-      internalID: -1244862027
+      spriteID: ab8a06ff0430a4d688af5859e1e0f153
+      internalID: 188473092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_102
+      name: dark-smoke_102
       rect:
         serializedVersion: 2
         x: 404
@@ -2253,14 +2253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31700fcb896774ee6b461444c724fc55
-      internalID: 965230317
+      spriteID: 58886713ac49142b08c34025bccb1c0b
+      internalID: 215538824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_103
+      name: dark-smoke_103
       rect:
         serializedVersion: 2
         x: 606
@@ -2274,14 +2274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25d461239372847be9c9364169fec316
-      internalID: -917169469
+      spriteID: d8e2e74f702424ac2a2b48caa5e22ec5
+      internalID: 63994558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_104
+      name: dark-smoke_104
       rect:
         serializedVersion: 2
         x: 808
@@ -2295,14 +2295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b8a1e3156c2441d692c615911721b1f
-      internalID: 1598135751
+      spriteID: a25262433299748bba3b1c5a101b264d
+      internalID: -1587289873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_105
+      name: dark-smoke_105
       rect:
         serializedVersion: 2
         x: 1010
@@ -2316,14 +2316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9979c7e0b097b43a0a5edd9ba4fc8d44
-      internalID: -1100264940
+      spriteID: 5f213ee60357b4ada932292650263914
+      internalID: 1354049390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_106
+      name: dark-smoke_106
       rect:
         serializedVersion: 2
         x: 1212
@@ -2337,14 +2337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f144d5e091a244413a97877742f79c8f
-      internalID: -143769591
+      spriteID: a91c2fa7366e740ec98ea2fae516bd57
+      internalID: -1773747533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_107
+      name: dark-smoke_107
       rect:
         serializedVersion: 2
         x: 1414
@@ -2358,14 +2358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 868e9e03529bd4c578aa3e7836ab431f
-      internalID: 620783957
+      spriteID: 231d288f27b1b4061aadc37756eef141
+      internalID: -1830355712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_108
+      name: dark-smoke_108
       rect:
         serializedVersion: 2
         x: 1616
@@ -2379,14 +2379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cd255c9a6fb74763a6d6c35b30cfdc6
-      internalID: -266207349
+      spriteID: 8f7da706b67a24881b0844e65383af36
+      internalID: -517973477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_109
+      name: dark-smoke_109
       rect:
         serializedVersion: 2
         x: 1818
@@ -2400,14 +2400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d8ce7018854c40ac85db928e5e7b947
-      internalID: -1624527238
+      spriteID: d262cd89089ef47d8a10574e6fab6c86
+      internalID: -1838467185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_110
+      name: dark-smoke_110
       rect:
         serializedVersion: 2
         x: 0
@@ -2421,14 +2421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 879461699778d4c5280f05b0a851e137
-      internalID: 1609162025
+      spriteID: da391c898abcf461bb254e928228b0fc
+      internalID: -2135170698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_111
+      name: dark-smoke_111
       rect:
         serializedVersion: 2
         x: 202
@@ -2442,14 +2442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2147a8124f024f7eb25ba4ade34b45c
-      internalID: 1885711782
+      spriteID: 6987b9304b66249789f396c8f92a2bb0
+      internalID: 2093126381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_112
+      name: dark-smoke_112
       rect:
         serializedVersion: 2
         x: 404
@@ -2463,14 +2463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7e78b6d993cc47c78867eea3ccf300e
-      internalID: -510497461
+      spriteID: 0203dc812287444e39b41c285bc57858
+      internalID: 1602720320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_113
+      name: dark-smoke_113
       rect:
         serializedVersion: 2
         x: 606
@@ -2484,14 +2484,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ad735ed9f28a4525aa9bd09171ca96f
-      internalID: -1640674931
+      spriteID: b55bac9871d3345b492d9aba77fbd95d
+      internalID: -969585477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_114
+      name: dark-smoke_114
       rect:
         serializedVersion: 2
         x: 808
@@ -2505,14 +2505,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36851f8b8af384f00aee1fbbcdb48c87
-      internalID: -528327621
+      spriteID: 0b163240b124e44ceaf1b5ca561e7671
+      internalID: 1001310760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_115
+      name: dark-smoke_115
       rect:
         serializedVersion: 2
         x: 1010
@@ -2526,14 +2526,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd2835248f2864d38a00f30a8f7603bb
-      internalID: 581866841
+      spriteID: 20cec3608228943f1bde510ade938e01
+      internalID: 1935545234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_116
+      name: dark-smoke_116
       rect:
         serializedVersion: 2
         x: 1212
@@ -2547,14 +2547,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea9803a0f60a94586a8601cc543e09b3
-      internalID: 298759330
+      spriteID: cf833c5882aab4e6da904b7fee37e27a
+      internalID: -1123694709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_117
+      name: dark-smoke_117
       rect:
         serializedVersion: 2
         x: 1414
@@ -2568,14 +2568,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 032ad1b265e344ffe859f659dab03174
-      internalID: 1717105229
+      spriteID: ed82ff7619814454ca7018dc19c99d66
+      internalID: -2094484982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_118
+      name: dark-smoke_118
       rect:
         serializedVersion: 2
         x: 1616
@@ -2589,14 +2589,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1646307a796eb4490a5ddb50f86ddead
-      internalID: -1256273051
+      spriteID: ba1b24b12843e44c99430509e6989fa7
+      internalID: -1524075010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_119
+      name: dark-smoke_119
       rect:
         serializedVersion: 2
         x: 1818
@@ -2610,14 +2610,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b140742557a9f4932a9c7cc530a3eea9
-      internalID: -575679229
+      spriteID: 8460c08cfe254422c8f9b44e8e18df18
+      internalID: -1938710077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_120
+      name: dark-smoke_120
       rect:
         serializedVersion: 2
         x: 0
@@ -2631,14 +2631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d821b72bf3f649efa0f4ec737ab7b03
-      internalID: -782898524
+      spriteID: 8a89bf1a40cee41db964237d0643bb50
+      internalID: 206045243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_121
+      name: dark-smoke_121
       rect:
         serializedVersion: 2
         x: 202
@@ -2652,14 +2652,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cce3a2f0bbd640449f21190a55f596c
-      internalID: 585409935
+      spriteID: dfddc8b6feac0428ea8daef26644bede
+      internalID: 1101355062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_122
+      name: dark-smoke_122
       rect:
         serializedVersion: 2
         x: 404
@@ -2673,14 +2673,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da4f05e880d6f4fcebb986c5fabbaee8
-      internalID: -1669170184
+      spriteID: e24877c05de4a45e0a072b1c16975b06
+      internalID: -1417276358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_123
+      name: dark-smoke_123
       rect:
         serializedVersion: 2
         x: 606
@@ -2694,14 +2694,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1272ecd349674733ba98762a526fc1f
-      internalID: 2073534999
+      spriteID: 1c964a9e27add4d9e9348ed8d05ab855
+      internalID: 808587460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_124
+      name: dark-smoke_124
       rect:
         serializedVersion: 2
         x: 808
@@ -2715,14 +2715,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3427f4777e7c24e40ac02879790c8522
-      internalID: -1349647689
+      spriteID: 327e6b9ef2cec46a289cf105ca4635d1
+      internalID: 22811886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_125
+      name: dark-smoke_125
       rect:
         serializedVersion: 2
         x: 1010
@@ -2736,14 +2736,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15fabfeef9736423798f942569827176
-      internalID: 1671581759
+      spriteID: 587b24a6231c241d48e290b2d8da6fa7
+      internalID: 187553466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_126
+      name: dark-smoke_126
       rect:
         serializedVersion: 2
         x: 1212
@@ -2757,14 +2757,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fcc3a0620cbe4c2b8c7e59db034054c
-      internalID: -1422644455
+      spriteID: fba7cad3cd6a34710bd11ddbb6995ca3
+      internalID: -58196708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_127
+      name: dark-smoke_127
       rect:
         serializedVersion: 2
         x: 1414
@@ -2778,14 +2778,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78e47814c8024400198455becdbe4484
-      internalID: -1058953106
+      spriteID: 83cc923111f8f4ba7bd94c5feb75e5cb
+      internalID: -1032176732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_128
+      name: dark-smoke_128
       rect:
         serializedVersion: 2
         x: 1616
@@ -2799,14 +2799,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffefbd111b105463ba1350404702335f
-      internalID: -1425598391
+      spriteID: 12ed3ca26f0204adeb5d28f708584dd7
+      internalID: 535976365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_129
+      name: dark-smoke_129
       rect:
         serializedVersion: 2
         x: 1818
@@ -2820,14 +2820,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a232bc5dc72154ea6acdd4948e9482ca
-      internalID: 671780360
+      spriteID: 338746b64334c422b8030023cd7db115
+      internalID: -1675691648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_130
+      name: dark-smoke_130
       rect:
         serializedVersion: 2
         x: 0
@@ -2841,14 +2841,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b2f98ffe89f74d60a6ccf566cd11848
-      internalID: -1568165438
+      spriteID: 9ec18ec54ff964583a0111c2dedf10a7
+      internalID: -729499301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_131
+      name: dark-smoke_131
       rect:
         serializedVersion: 2
         x: 202
@@ -2862,14 +2862,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c946e88f765e45518d623bc8febe47b
-      internalID: 1523429656
+      spriteID: 7be7454ac46c744e29af2efc25562700
+      internalID: -471322393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_132
+      name: dark-smoke_132
       rect:
         serializedVersion: 2
         x: 404
@@ -2883,14 +2883,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee82f6dca737d4af2919948268e5fd63
-      internalID: 1045403536
+      spriteID: 7f357ce3584fa4508bb5b070553f3658
+      internalID: -695953821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_133
+      name: dark-smoke_133
       rect:
         serializedVersion: 2
         x: 606
@@ -2904,14 +2904,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0b986127814b4183a7b2a15b951d981
-      internalID: 622623344
+      spriteID: bef2b6d287b3046aeb935b013a84ee96
+      internalID: -1296953806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_134
+      name: dark-smoke_134
       rect:
         serializedVersion: 2
         x: 808
@@ -2925,14 +2925,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3cf4521b67014dd5a7a6968ef4ef0c6
-      internalID: -161629064
+      spriteID: 1d55dba09fd9b45e9abbe0f14d3492a2
+      internalID: -1676678323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_135
+      name: dark-smoke_135
       rect:
         serializedVersion: 2
         x: 1010
@@ -2946,14 +2946,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42ecb16e76f38432580076a08c91714b
-      internalID: 1906579234
+      spriteID: 228a4b63ce3b74a0c85107379de6738e
+      internalID: 1261342835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_136
+      name: dark-smoke_136
       rect:
         serializedVersion: 2
         x: 1212
@@ -2967,14 +2967,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c32ed09ed752748feb53a49d9a38a76d
-      internalID: 1231856782
+      spriteID: 601e3d9d6dc8f4a6fb9827a83630d9af
+      internalID: 67145144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_137
+      name: dark-smoke_137
       rect:
         serializedVersion: 2
         x: 1414
@@ -2988,14 +2988,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8012789dbd9d4d978e89f4319a2b062
-      internalID: 23630515
+      spriteID: ad27bef93614548fe9760393be6af2b3
+      internalID: 1397561644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_138
+      name: dark-smoke_138
       rect:
         serializedVersion: 2
         x: 1616
@@ -3009,14 +3009,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2f250cd70f984a0197378098554dcfc
-      internalID: -1136160060
+      spriteID: 72094f07fe28c4de3a04cb1506a59ac2
+      internalID: 1692238107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_139
+      name: dark-smoke_139
       rect:
         serializedVersion: 2
         x: 1818
@@ -3030,14 +3030,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ae321b4912304dee9f0f33eb9c99601
-      internalID: -1581490199
+      spriteID: 7cdcb1a0f8eca448c9334d8b8bce6655
+      internalID: -426352640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_140
+      name: dark-smoke_140
       rect:
         serializedVersion: 2
         x: 0
@@ -3051,14 +3051,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2246eafd6341f4ce59866bf8e12faace
-      internalID: -1195528341
+      spriteID: 749138cdbe9a248dea88f59d62b13dd2
+      internalID: 111439904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_141
+      name: dark-smoke_141
       rect:
         serializedVersion: 2
         x: 202
@@ -3072,14 +3072,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abdb58e2ebcc34381a50410666115e08
-      internalID: -2035973825
+      spriteID: 17601faac417a43f28113d0be00fe4d0
+      internalID: -133182915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_142
+      name: dark-smoke_142
       rect:
         serializedVersion: 2
         x: 404
@@ -3093,14 +3093,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d184fbf6e04a492395126be5d5d323b
-      internalID: 436562727
+      spriteID: 423fd3ca5c700443a93025f8593b0b8a
+      internalID: -1530567922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_143
+      name: dark-smoke_143
       rect:
         serializedVersion: 2
         x: 606
@@ -3114,14 +3114,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9b2ef25726e845f697e299f0e36429c
-      internalID: 1429821398
+      spriteID: 3c11b59927fc54e8ca98d70c87c97418
+      internalID: 824036321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_144
+      name: dark-smoke_144
       rect:
         serializedVersion: 2
         x: 808
@@ -3135,14 +3135,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8b8741ae4df84f4ca41710aff7b4685
-      internalID: -1047706405
+      spriteID: 6269aabe4f8e74e1fa378288de68accb
+      internalID: 914780596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_145
+      name: dark-smoke_145
       rect:
         serializedVersion: 2
         x: 1010
@@ -3156,14 +3156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04a63bc3f7ecd4619bb1d1f4d9a5d3f1
-      internalID: 1068672031
+      spriteID: f64dd4a20d9a7461da3638ba4ac96ecd
+      internalID: 1789157270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_146
+      name: dark-smoke_146
       rect:
         serializedVersion: 2
         x: 1212
@@ -3177,14 +3177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2990ccadcdc8b41c9b599d2a94c16b8a
-      internalID: 1974702354
+      spriteID: a2f19140bdbc64c80896169b6420e7b4
+      internalID: -1851176537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_147
+      name: dark-smoke_147
       rect:
         serializedVersion: 2
         x: 1414
@@ -3198,14 +3198,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ffc5796ae54b458db62b8fbde52505b
-      internalID: -522732291
+      spriteID: 9920fe10dee4f4575b4b8e23358ec009
+      internalID: 780791754
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_148
+      name: dark-smoke_148
       rect:
         serializedVersion: 2
         x: 1616
@@ -3219,14 +3219,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7521b410514484bb59d012fdb15f7c4c
-      internalID: 1817028428
+      spriteID: dcf9b29c487064eb68f64a256efee955
+      internalID: 1038054181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_149
+      name: dark-smoke_149
       rect:
         serializedVersion: 2
         x: 1818
@@ -3240,14 +3240,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb87fe98fe29c484d95e98b443d7abd9
-      internalID: -2135680695
+      spriteID: 8dc933214c4b14c3daa3dd97f68594c7
+      internalID: -1932765502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_150
+      name: dark-smoke_150
       rect:
         serializedVersion: 2
         x: 0
@@ -3261,14 +3261,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb9b5c567231149e6a7ca8c526c59063
-      internalID: 1188624461
+      spriteID: 2bfcfd077892f4c3caee68c7a650e47b
+      internalID: -273934165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_151
+      name: dark-smoke_151
       rect:
         serializedVersion: 2
         x: 202
@@ -3282,14 +3282,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 220f8e0bb26c545e7907ab436a707a2e
-      internalID: -1809525916
+      spriteID: 4b5a8f4842a34409fbcf6d5b207da520
+      internalID: 1948827953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_152
+      name: dark-smoke_152
       rect:
         serializedVersion: 2
         x: 404
@@ -3303,14 +3303,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88d493a2078564e8fa245b18ea9fea1a
-      internalID: 1720216069
+      spriteID: f5f51fc65daf74d0a924deef78849809
+      internalID: 841445315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_153
+      name: dark-smoke_153
       rect:
         serializedVersion: 2
         x: 606
@@ -3324,14 +3324,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d30af9e3488e44f799bd7e1459055812
-      internalID: 1697882485
+      spriteID: ad3e354b78a4840a1a54e4cdc0bf4825
+      internalID: -510782212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_154
+      name: dark-smoke_154
       rect:
         serializedVersion: 2
         x: 808
@@ -3345,14 +3345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8020a9facaa4547a6939a32a7d76f8ac
-      internalID: 1790838829
+      spriteID: efa4a351d40bd47549052cf0d1038bb8
+      internalID: -645305886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_155
+      name: dark-smoke_155
       rect:
         serializedVersion: 2
         x: 1010
@@ -3366,14 +3366,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 121eadb9a8edd45e984c765b2ccef9fc
-      internalID: 1964245000
+      spriteID: 5c83be3c2cdcf44ba86fe71e7a6b7ea5
+      internalID: 1876772014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_156
+      name: dark-smoke_156
       rect:
         serializedVersion: 2
         x: 1212
@@ -3387,14 +3387,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fb39a2d424574e86bf2fef35e177c3d
-      internalID: -434775842
+      spriteID: a4c1df60e6f1048029db7f824534d98e
+      internalID: 1229679106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_157
+      name: dark-smoke_157
       rect:
         serializedVersion: 2
         x: 1414
@@ -3408,14 +3408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d2598595cfe42da9e0b7a31d4dcd1e
-      internalID: -431575727
+      spriteID: b60a558acff354796b6ff8a683ad8550
+      internalID: -713995659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_158
+      name: dark-smoke_158
       rect:
         serializedVersion: 2
         x: 1616
@@ -3429,14 +3429,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 668a112f7b92349c8a35108f09e733c3
-      internalID: 691898393
+      spriteID: 698e527a8801542ee8aad17dabcdd45e
+      internalID: -1676641302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_159
+      name: dark-smoke_159
       rect:
         serializedVersion: 2
         x: 1818
@@ -3450,14 +3450,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bc197f58431346cb990477e18e9b5e4
-      internalID: -610075162
+      spriteID: cb6b705378c11436ba355293dbe8f27b
+      internalID: -769954327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_160
+      name: dark-smoke_160
       rect:
         serializedVersion: 2
         x: 0
@@ -3471,14 +3471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 206d4431693034b8383f053f3945a789
-      internalID: 482492928
+      spriteID: 871d1f3487aa04c3fa08d528048ea11c
+      internalID: -1056904253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_161
+      name: dark-smoke_161
       rect:
         serializedVersion: 2
         x: 202
@@ -3492,14 +3492,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd7cd605924dd4933ab5935e24bb8ea0
-      internalID: 578464952
+      spriteID: 5b2fe8ab481f742aab620f6097e176d1
+      internalID: 872867062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_162
+      name: dark-smoke_162
       rect:
         serializedVersion: 2
         x: 404
@@ -3513,14 +3513,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bfc45119d35a4f459671c74c606e969
-      internalID: -1710069291
+      spriteID: a914fa357683b40eda1c83f9931ebca1
+      internalID: 814936149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_163
+      name: dark-smoke_163
       rect:
         serializedVersion: 2
         x: 606
@@ -3534,14 +3534,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 532a039015719404d8366c8d49a1e576
-      internalID: 1443226525
+      spriteID: f42070b2e34a34f3296926ccecfd491b
+      internalID: -1679318719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_164
+      name: dark-smoke_164
       rect:
         serializedVersion: 2
         x: 808
@@ -3555,14 +3555,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bda32edec3d994460b84c070eb135883
-      internalID: 2011854133
+      spriteID: 460452ccc44974577998ab547d599a36
+      internalID: -542467724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_165
+      name: dark-smoke_165
       rect:
         serializedVersion: 2
         x: 1010
@@ -3576,14 +3576,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21119fe48d71649b29be550db16811a3
-      internalID: -1238040029
+      spriteID: c2c9e2700a1d44998bd6f01df7d0ccb3
+      internalID: -111668165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_166
+      name: dark-smoke_166
       rect:
         serializedVersion: 2
         x: 1212
@@ -3597,14 +3597,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c90bda4474ffc49de85510131e8466ce
-      internalID: 1246315340
+      spriteID: 806d0e016cb1244c88c68e223624b349
+      internalID: -1821131355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_167
+      name: dark-smoke_167
       rect:
         serializedVersion: 2
         x: 1414
@@ -3618,14 +3618,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 095210d6ce7754ceba96723e1168f396
-      internalID: -1203138198
+      spriteID: 20e4a951ff752494282c30dfdc212495
+      internalID: 824715530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_168
+      name: dark-smoke_168
       rect:
         serializedVersion: 2
         x: 1616
@@ -3639,14 +3639,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b60825f85e5b845a09cd8c9d96ac091c
-      internalID: -67663741
+      spriteID: 4bf2edb43164741ac9a17502b58157f1
+      internalID: 310875184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_169
+      name: dark-smoke_169
       rect:
         serializedVersion: 2
         x: 1818
@@ -3660,14 +3660,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5a3437d9af3c450094520bcf274c524
-      internalID: -1186507598
+      spriteID: 705056f6d21dc4de493465a5bc8512e4
+      internalID: -999760343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_170
+      name: dark-smoke_170
       rect:
         serializedVersion: 2
         x: 0
@@ -3681,14 +3681,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12bda03e1f80f4292baedc1c1aae63cc
-      internalID: 1419080871
+      spriteID: db8b95a3d0f2340e2bece51d2ca639f6
+      internalID: -1161027588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_171
+      name: dark-smoke_171
       rect:
         serializedVersion: 2
         x: 202
@@ -3702,14 +3702,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff309526879354cabb5ddcd574c15766
-      internalID: 13243491
+      spriteID: 598096eb502f74f6b9d8e2e083755cd9
+      internalID: -1796935509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_172
+      name: dark-smoke_172
       rect:
         serializedVersion: 2
         x: 404
@@ -3723,14 +3723,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8822dec5cd6984b2183d821b7299c101
-      internalID: -1728450746
+      spriteID: c21227d8069414b69bd4e0967073cc50
+      internalID: 1711798422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_173
+      name: dark-smoke_173
       rect:
         serializedVersion: 2
         x: 606
@@ -3744,14 +3744,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f325c2430a9e54c3689337401eb90827
-      internalID: -1527689124
+      spriteID: 86b4e3c2037a5417b9453396997d5828
+      internalID: 617504702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_174
+      name: dark-smoke_174
       rect:
         serializedVersion: 2
         x: 808
@@ -3765,14 +3765,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c1bb0259d2df484c87ea832eaae8394
-      internalID: 436180876
+      spriteID: 57cfd1d6a02cc4846ae3f34d167e5d8e
+      internalID: 771383972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_175
+      name: dark-smoke_175
       rect:
         serializedVersion: 2
         x: 1010
@@ -3786,14 +3786,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 414330ece4b74474e81c4d0a1d9cd682
-      internalID: -6533875
+      spriteID: 74ba96c4c3edc4adfba958e1d19e7444
+      internalID: 88931817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_176
+      name: dark-smoke_176
       rect:
         serializedVersion: 2
         x: 1212
@@ -3807,14 +3807,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f329ca4de51a47edabec8b75223bc00
-      internalID: 1383966075
+      spriteID: 2170cfe3fb777444da1a8c52bfb32e2d
+      internalID: 397903543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_177
+      name: dark-smoke_177
       rect:
         serializedVersion: 2
         x: 1414
@@ -3828,14 +3828,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b4b9997a906549c3b248d5bb7693ec3
-      internalID: -2078460269
+      spriteID: 5a79d598c073e4869b2042437d56dd99
+      internalID: 1410714023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_178
+      name: dark-smoke_178
       rect:
         serializedVersion: 2
         x: 1616
@@ -3849,14 +3849,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baf5c14b770414c208eaeb67fa1de993
-      internalID: 1116062519
+      spriteID: 54fe0824401c04367b411d31b91d2cc0
+      internalID: -1712919195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_179
+      name: dark-smoke_179
       rect:
         serializedVersion: 2
         x: 1818
@@ -3870,14 +3870,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a600f631f66948eca84952dd14fc81d
-      internalID: 1114393832
+      spriteID: 56889b6456d4e497bab211d76cba3e93
+      internalID: -1897972331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_180
+      name: dark-smoke_180
       rect:
         serializedVersion: 2
         x: 0
@@ -3891,14 +3891,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56154a6cbb1494d74bd3d134e55db35b
-      internalID: -1160976144
+      spriteID: 65f2c7cbf6dfd4eb0a8a8463c83261e0
+      internalID: 1085527989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_181
+      name: dark-smoke_181
       rect:
         serializedVersion: 2
         x: 202
@@ -3912,14 +3912,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbc8b73e241b342b988c9b1805ed1293
-      internalID: -1723299890
+      spriteID: 89f8d564e8b364c86899371f6a6c0478
+      internalID: -1277990530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_182
+      name: dark-smoke_182
       rect:
         serializedVersion: 2
         x: 404
@@ -3933,14 +3933,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0aee3b7d79a6e401398f499a04d73640
-      internalID: 1895271992
+      spriteID: 7676716cd860948b39d1e3f1684f7ef7
+      internalID: 1142639439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_183
+      name: dark-smoke_183
       rect:
         serializedVersion: 2
         x: 606
@@ -3954,14 +3954,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee434d3ef3a4a47a68e6f3590fcca1f5
-      internalID: 463218055
+      spriteID: 20a2b83af489f4e78b22ee66a386888a
+      internalID: 722280687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_184
+      name: dark-smoke_184
       rect:
         serializedVersion: 2
         x: 808
@@ -3975,14 +3975,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 553d6beb7073f4abd8a00cefd1a71091
-      internalID: 708975786
+      spriteID: 987addee24bb9454791d92417ea891df
+      internalID: -677603381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_185
+      name: dark-smoke_185
       rect:
         serializedVersion: 2
         x: 1010
@@ -3996,14 +3996,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 831797a3dc13d4e06b5ed1976cd8d6a1
-      internalID: 1737286333
+      spriteID: 1623df7f1b63142b1a9b9defcc3bdd1b
+      internalID: -2122338459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_186
+      name: dark-smoke_186
       rect:
         serializedVersion: 2
         x: 1212
@@ -4017,14 +4017,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccacfa108c0e343af9161139a1614459
-      internalID: -1464058427
+      spriteID: 97d65aa0220534c83ae44230168244aa
+      internalID: 454719481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_187
+      name: dark-smoke_187
       rect:
         serializedVersion: 2
         x: 1414
@@ -4038,14 +4038,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 141d07840bf324444adf74303552fbab
-      internalID: 957789834
+      spriteID: a071f4360312441518c101c1e84f5332
+      internalID: 895356417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_188
+      name: dark-smoke_188
       rect:
         serializedVersion: 2
         x: 1616
@@ -4059,14 +4059,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49a471c3b4c3141798997317a9b5bae0
-      internalID: -1944362856
+      spriteID: 95e0aa9fff7c7487a8c866a4f77002eb
+      internalID: -1226405977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_189
+      name: dark-smoke_189
       rect:
         serializedVersion: 2
         x: 1818
@@ -4080,14 +4080,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68b5f7bbd0cac477a9b5fe2af5c70ce5
-      internalID: -599473402
+      spriteID: ad2714a68b8644565aa52bc095d17c26
+      internalID: -103245182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_190
+      name: dark-smoke_190
       rect:
         serializedVersion: 2
         x: 0
@@ -4101,14 +4101,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78e968d0e40f84d9f9b8638945349e67
-      internalID: -1449613598
+      spriteID: b1d993ba8cd8f415bba7082f36365b02
+      internalID: 1712392115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_191
+      name: dark-smoke_191
       rect:
         serializedVersion: 2
         x: 202
@@ -4122,14 +4122,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbfbd61e7f9f34de782ae793e8c527bd
-      internalID: 783884589
+      spriteID: 7712e3530a384496795359d9f101a2a7
+      internalID: 28264391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_192
+      name: dark-smoke_192
       rect:
         serializedVersion: 2
         x: 404
@@ -4143,14 +4143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e744c567350574d8eaae36d2fdb5a66e
-      internalID: -1404605876
+      spriteID: 29db7179f15f1440b94f2d6b44e3eb40
+      internalID: 2107294630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_193
+      name: dark-smoke_193
       rect:
         serializedVersion: 2
         x: 606
@@ -4164,14 +4164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de92f8ea915ac43b396f2406c01ededf
-      internalID: -151813781
+      spriteID: 25451db648d5a4067a2e9e5c1090165a
+      internalID: 254633276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_194
+      name: dark-smoke_194
       rect:
         serializedVersion: 2
         x: 808
@@ -4185,14 +4185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d551402d72d9493d9299eb88ffddfff
-      internalID: -94276896
+      spriteID: 7fb407fac27f2473d9b028947ecfb5b5
+      internalID: 666761801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_195
+      name: dark-smoke_195
       rect:
         serializedVersion: 2
         x: 1010
@@ -4206,14 +4206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c51591fb9c3054da98eac9d3a37971a9
-      internalID: 935876402
+      spriteID: 11d79f1147aa24ecca9a582b13b6e43b
+      internalID: 1354795604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_196
+      name: dark-smoke_196
       rect:
         serializedVersion: 2
         x: 1212
@@ -4227,14 +4227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a57d92a47c1364ae7a6dadafe53b4453
-      internalID: 799632800
+      spriteID: 9cf0fcdfd15c44c9683557ca2b9c83a4
+      internalID: 1319690244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_197
+      name: dark-smoke_197
       rect:
         serializedVersion: 2
         x: 1414
@@ -4248,14 +4248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d7576bf216e94ddaa12aec2c02dc60a
-      internalID: 620984421
+      spriteID: ac2f9431a8bcf4c2ea81751ad7c1ffb6
+      internalID: -407649869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_198
+      name: dark-smoke_198
       rect:
         serializedVersion: 2
         x: 1616
@@ -4269,14 +4269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f4e21da7bfc645d4be6f36e5275fe8d
-      internalID: -1725113466
+      spriteID: 71201885075834407bec052699fda8e6
+      internalID: -1755905903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_199
+      name: dark-smoke_199
       rect:
         serializedVersion: 2
         x: 1818
@@ -4290,14 +4290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4c7f9606f080441d8fed5d68f32a35e
-      internalID: 1875599668
+      spriteID: b0f920e13baa04accbd2bcb13dd882b0
+      internalID: 1730880419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_200
+      name: dark-smoke_200
       rect:
         serializedVersion: 2
         x: 0
@@ -4311,14 +4311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb99f6d265f144133ac089d6b2b11b16
-      internalID: 111031382
+      spriteID: 2c401a915236040eca8a2a4c9abf271f
+      internalID: 443207802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_201
+      name: dark-smoke_201
       rect:
         serializedVersion: 2
         x: 202
@@ -4332,14 +4332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db4a12982df3f47e484b4c3afc4055e9
-      internalID: 426099840
+      spriteID: fff2218d87fe24747a53b6ded3e2dd13
+      internalID: 38903221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_202
+      name: dark-smoke_202
       rect:
         serializedVersion: 2
         x: 404
@@ -4353,14 +4353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b850fc7deb98b47cc8e9b4638fe9da1f
-      internalID: -551750715
+      spriteID: 5040b66b1484e40cc8656ec3e908dd67
+      internalID: 627433730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_203
+      name: dark-smoke_203
       rect:
         serializedVersion: 2
         x: 606
@@ -4374,14 +4374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2952bd94167d24116a867772fc3b39df
-      internalID: 1345580250
+      spriteID: 5a0be114be207459fadde4a763ca1c10
+      internalID: 220850943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_204
+      name: dark-smoke_204
       rect:
         serializedVersion: 2
         x: 808
@@ -4395,14 +4395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b019e80e7a184a34b57e06a81c0440d
-      internalID: 311818122
+      spriteID: 7372ed342fb5d4956ae8e0c66005aef0
+      internalID: -26345759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_205
+      name: dark-smoke_205
       rect:
         serializedVersion: 2
         x: 1010
@@ -4416,14 +4416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fbe38d9bb1104068aee05e17ae5ea73
-      internalID: -382071502
+      spriteID: 6dfd267a31e7b476ab60d1a3b99bfa88
+      internalID: -2061965780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_206
+      name: dark-smoke_206
       rect:
         serializedVersion: 2
         x: 1212
@@ -4437,14 +4437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 257e1252ce73747de9aee89f5e430f27
-      internalID: -566122059
+      spriteID: 07acb3af8cb16402a8b90b5cf9c93def
+      internalID: -432029707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_207
+      name: dark-smoke_207
       rect:
         serializedVersion: 2
         x: 1414
@@ -4458,14 +4458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 408995759fbf143be8d2055d624cac9b
-      internalID: -1446391139
+      spriteID: 539c8b3586c1341c084c6f3493a5b0cb
+      internalID: -281850504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_208
+      name: dark-smoke_208
       rect:
         serializedVersion: 2
         x: 1616
@@ -4479,14 +4479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ec149cdbe8e49ef8b2ec7ce123bcef
-      internalID: 471491487
+      spriteID: 594fdef290a384338b992100a9e34ffc
+      internalID: 608123674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_209
+      name: dark-smoke_209
       rect:
         serializedVersion: 2
         x: 1818
@@ -4500,14 +4500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 745c2e9c2f6a84c51b6258d67c92a077
-      internalID: 1608552531
+      spriteID: 245ac841c84aa47f7a22c8a8e7bcfb12
+      internalID: 226140379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_210
+      name: dark-smoke_210
       rect:
         serializedVersion: 2
         x: 0
@@ -4521,14 +4521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d458e9efe25640a4ab7ebee1898baa9
-      internalID: 1501585806
+      spriteID: 3008178c6bde740a4b2b2962ff6b9443
+      internalID: 353113258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_211
+      name: dark-smoke_211
       rect:
         serializedVersion: 2
         x: 202
@@ -4542,14 +4542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d0f4bfb4fb8849a4b8743a3084729c2
-      internalID: 227055031
+      spriteID: dae4a0e37e08d44cf9b5f9598a7215d0
+      internalID: 1546525341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_212
+      name: dark-smoke_212
       rect:
         serializedVersion: 2
         x: 404
@@ -4563,14 +4563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6cd012b855ed4b54b29882450eb2333
-      internalID: -885809441
+      spriteID: 6e8bc82477e00417eac7d134a175c2f4
+      internalID: 417425333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_213
+      name: dark-smoke_213
       rect:
         serializedVersion: 2
         x: 606
@@ -4584,14 +4584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91cbfa31f0230494982fc4dd9ef37652
-      internalID: -186796506
+      spriteID: a1ab336062b8f4645b5f8bf992aa7e45
+      internalID: -183159628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_214
+      name: dark-smoke_214
       rect:
         serializedVersion: 2
         x: 808
@@ -4605,14 +4605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 853d25b3dc5da47e19cb6917547dd996
-      internalID: 1604380901
+      spriteID: 7e0ee4a387b42462f9f7e6be6900c623
+      internalID: -1874731634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_215
+      name: dark-smoke_215
       rect:
         serializedVersion: 2
         x: 1010
@@ -4626,14 +4626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a8b5e34cb4d64c6b8adc7f6a629709f
-      internalID: 1928828045
+      spriteID: 50610a87d368540ffb515b6ef6311283
+      internalID: 1763981624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_216
+      name: dark-smoke_216
       rect:
         serializedVersion: 2
         x: 1212
@@ -4647,14 +4647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 703f4648ca3f345238f72a64d0b7098d
-      internalID: 1392492133
+      spriteID: fe3a9febbc8714235939c2b128d82544
+      internalID: 1806836283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_217
+      name: dark-smoke_217
       rect:
         serializedVersion: 2
         x: 1414
@@ -4668,14 +4668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2cf01f98bd7546cf90dc9f75b5ddf83
-      internalID: -947124939
+      spriteID: b41c0694a149449b18e8d6a77360ec7a
+      internalID: -8746969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_218
+      name: dark-smoke_218
       rect:
         serializedVersion: 2
         x: 1616
@@ -4689,14 +4689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7339e54cf0e1c40a6919c5d3f16cd5d4
-      internalID: 136101477
+      spriteID: f454289a393d144f38a0692a0ae2c6a0
+      internalID: 2071071767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_219
+      name: dark-smoke_219
       rect:
         serializedVersion: 2
         x: 1818
@@ -4710,14 +4710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c6f669d7a602426689142b5261f3a5f
-      internalID: -2054430981
+      spriteID: 7f14c93498bcd417d85e25a145fdadb1
+      internalID: 1294774271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_220
+      name: dark-smoke_220
       rect:
         serializedVersion: 2
         x: 0
@@ -4731,14 +4731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ba3392aa4c65463b8191a431783fb11
-      internalID: 1721536953
+      spriteID: 4b382a8d8cdb3432290a87c30e73a350
+      internalID: -29853322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_221
+      name: dark-smoke_221
       rect:
         serializedVersion: 2
         x: 202
@@ -4752,14 +4752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac05a1d4a84bb4303a85688db880297a
-      internalID: 618613252
+      spriteID: 4ff9abe691e894fe6a5df6d3486e275c
+      internalID: -380978313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_222
+      name: dark-smoke_222
       rect:
         serializedVersion: 2
         x: 404
@@ -4773,14 +4773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bddbf050b75b74c30bb3a951b09c1c2c
-      internalID: 1764637151
+      spriteID: ac0f92b0e656343508e57b457792bd68
+      internalID: -678633221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_223
+      name: dark-smoke_223
       rect:
         serializedVersion: 2
         x: 606
@@ -4794,14 +4794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4102a8f81b167456cafb4b15f996b3d9
-      internalID: -118919066
+      spriteID: d1620fa86c324499b82d5206c1beb725
+      internalID: 417247684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_224
+      name: dark-smoke_224
       rect:
         serializedVersion: 2
         x: 808
@@ -4815,14 +4815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9944ace364db4689be4fcbc3b9adf2b
-      internalID: -556642489
+      spriteID: 61c4ce00dad7f4092b02080760d70e13
+      internalID: 1595267175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_225
+      name: dark-smoke_225
       rect:
         serializedVersion: 2
         x: 1010
@@ -4836,14 +4836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76aaf373271484d0c827f032cbc8cc0d
-      internalID: -1675962919
+      spriteID: 954aa728e75394803a09ce2a0ce638f1
+      internalID: -1316476244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_226
+      name: dark-smoke_226
       rect:
         serializedVersion: 2
         x: 1212
@@ -4857,14 +4857,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 347608d1ffbc24d6a88c22e317fa963f
-      internalID: 1653322107
+      spriteID: 2beacf1e14fe740e1a3f784aa8009895
+      internalID: 403406748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_227
+      name: dark-smoke_227
       rect:
         serializedVersion: 2
         x: 1414
@@ -4878,14 +4878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2dcbc13edb2440ecaaa4866e2963941
-      internalID: 1721430256
+      spriteID: 5374c8ba9615e4867bd73718d70020b9
+      internalID: -2010737026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_228
+      name: dark-smoke_228
       rect:
         serializedVersion: 2
         x: 1616
@@ -4899,14 +4899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cee23a8ad250a4a3d8480b79b3885342
-      internalID: 330839403
+      spriteID: bb7a03efade784957a47d92510bcec2d
+      internalID: -1323662065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_229
+      name: dark-smoke_229
       rect:
         serializedVersion: 2
         x: 1818
@@ -4920,14 +4920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec5edcc4d07714a2c82d8b9277d3b400
-      internalID: -1452182688
+      spriteID: 1eb0784bcfcd94ea2a12e8e877bbed27
+      internalID: 1849738244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_230
+      name: dark-smoke_230
       rect:
         serializedVersion: 2
         x: 0
@@ -4941,14 +4941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31f1a9fe23d8b4a49b230347a655cc86
-      internalID: 1135676978
+      spriteID: 8312aa75f5d374bb880fb6bb68617552
+      internalID: 1859368113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_231
+      name: dark-smoke_231
       rect:
         serializedVersion: 2
         x: 202
@@ -4962,14 +4962,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 327ff4ec4d9cf4feebb51f06c97e564b
-      internalID: 799876777
+      spriteID: ec0248c4f76e94fec986d29cc4cacfdd
+      internalID: 842684569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_232
+      name: dark-smoke_232
       rect:
         serializedVersion: 2
         x: 404
@@ -4983,14 +4983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a710685916db47659c6f7d097197987
-      internalID: 2143878478
+      spriteID: 1a22c890912904ed29bb3444ed7e8689
+      internalID: -2057409824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_233
+      name: dark-smoke_233
       rect:
         serializedVersion: 2
         x: 606
@@ -5004,14 +5004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4e2528295a2b4731a185607e01d23bf
-      internalID: 341682451
+      spriteID: 07c9f7fffde0c48f69808100d3bd4413
+      internalID: 1154560140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_234
+      name: dark-smoke_234
       rect:
         serializedVersion: 2
         x: 808
@@ -5025,14 +5025,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7840413fd381c450caab57096583e6bb
-      internalID: 347187916
+      spriteID: 3acdc44efcdde472e83711b6cff8241e
+      internalID: 200873298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_235
+      name: dark-smoke_235
       rect:
         serializedVersion: 2
         x: 1010
@@ -5046,14 +5046,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b5e2826fbe1d4db8a30af88bb209d18
-      internalID: 1294476122
+      spriteID: dc9fbd7eac30c4e5493e19e3c81382ad
+      internalID: -497699141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_236
+      name: dark-smoke_236
       rect:
         serializedVersion: 2
         x: 1212
@@ -5067,14 +5067,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 688e93d2d29d747e28309dcfcf0f9b1b
-      internalID: -1629720643
+      spriteID: e52b056851f6d4cbe8b8b060fd30c008
+      internalID: 576568634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_237
+      name: dark-smoke_237
       rect:
         serializedVersion: 2
         x: 1414
@@ -5088,14 +5088,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fae796c0d0ad44f4aa63e30edc277611
-      internalID: -1425953087
+      spriteID: 213fd66062db04b1ea295b34af400d87
+      internalID: -2014296912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_238
+      name: dark-smoke_238
       rect:
         serializedVersion: 2
         x: 1616
@@ -5109,14 +5109,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4df961171b2748a68c2a23b83c98cff
-      internalID: -1991407789
+      spriteID: 82a48b14c41b1498a9ba4e338210ab67
+      internalID: 185785150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_239
+      name: dark-smoke_239
       rect:
         serializedVersion: 2
         x: 1818
@@ -5130,14 +5130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 571522878a59e4c29ab5f5e07f9fb1b0
-      internalID: 1553386955
+      spriteID: 0be1f175be98244b3a19b7641742bdf6
+      internalID: -1182323395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_240
+      name: dark-smoke_240
       rect:
         serializedVersion: 2
         x: 0
@@ -5151,14 +5151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02d6b3e48c8684ddeb44381ca34f2dc2
-      internalID: -1210469308
+      spriteID: 59c1ce9f3cd734356b3937e8731cbda4
+      internalID: 2069582427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_241
+      name: dark-smoke_241
       rect:
         serializedVersion: 2
         x: 202
@@ -5172,14 +5172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8324d6a32b06e4106b7398c683f49533
-      internalID: -680288004
+      spriteID: 1ec7579d6b74e40319ecd6bece4e7c6c
+      internalID: 15935194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_242
+      name: dark-smoke_242
       rect:
         serializedVersion: 2
         x: 404
@@ -5193,14 +5193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03796e2c5a47243128203d42b253d4fd
-      internalID: 145468700
+      spriteID: 0bbe220eeb76f4c4fb139a8b49af8488
+      internalID: -1208712031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_243
+      name: dark-smoke_243
       rect:
         serializedVersion: 2
         x: 606
@@ -5214,14 +5214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e063a67aa74cd4ded85a04aa2bdcc5df
-      internalID: 443503535
+      spriteID: 22a2fb0f4a24c48a79d93f4c17f8a8a7
+      internalID: 466219564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_244
+      name: dark-smoke_244
       rect:
         serializedVersion: 2
         x: 808
@@ -5235,14 +5235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9383c49c7d254d4b963bd7bc9ce7e2e
-      internalID: -413862332
+      spriteID: 89279cee2ec1445e5af41c3ba3deb36e
+      internalID: -1950083727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_245
+      name: dark-smoke_245
       rect:
         serializedVersion: 2
         x: 1010
@@ -5256,14 +5256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ce8cbe8e1bac4299ad11b87a448cf84
-      internalID: -404082302
+      spriteID: db95ff95a4a834d3fae70af9c883093a
+      internalID: -532327500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_246
+      name: dark-smoke_246
       rect:
         serializedVersion: 2
         x: 1212
@@ -5277,14 +5277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6ca0e5a1b02a41efa2522493ce5901c
-      internalID: 619405947
+      spriteID: 12bddd0cc72fd4941aa9f744287dc2ce
+      internalID: 612200334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_247
+      name: dark-smoke_247
       rect:
         serializedVersion: 2
         x: 1414
@@ -5298,14 +5298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39f422f2a2dab49f48fb743f5d598487
-      internalID: -967269044
+      spriteID: 08ce4aa658ec14912b1f17c34be95f8a
+      internalID: -338541853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_248
+      name: dark-smoke_248
       rect:
         serializedVersion: 2
         x: 1616
@@ -5319,14 +5319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8bc2a1faf59b48f19da85913dd3a832
-      internalID: -907348557
+      spriteID: 971f79ff643414b37b8d32613bc283fd
+      internalID: 128370499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dark-smoke (1)_249
+      name: dark-smoke_249
       rect:
         serializedVersion: 2
         x: 1818
@@ -5340,8 +5340,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6983ca429e45b464dbdd6fd7d59746eb
-      internalID: 578894307
+      spriteID: dd13572c9b50942819974dd1b933683a
+      internalID: -1187551162
       vertices: []
       indices: 
       edges: []
@@ -5357,256 +5357,256 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      dark-smoke (1)_0: -609129873
-      dark-smoke (1)_1: 931199973
-      dark-smoke (1)_10: -1230730919
-      dark-smoke (1)_100: 813596942
-      dark-smoke (1)_101: -1244862027
-      dark-smoke (1)_102: 965230317
-      dark-smoke (1)_103: -917169469
-      dark-smoke (1)_104: 1598135751
-      dark-smoke (1)_105: -1100264940
-      dark-smoke (1)_106: -143769591
-      dark-smoke (1)_107: 620783957
-      dark-smoke (1)_108: -266207349
-      dark-smoke (1)_109: -1624527238
-      dark-smoke (1)_11: 171773347
-      dark-smoke (1)_110: 1609162025
-      dark-smoke (1)_111: 1885711782
-      dark-smoke (1)_112: -510497461
-      dark-smoke (1)_113: -1640674931
-      dark-smoke (1)_114: -528327621
-      dark-smoke (1)_115: 581866841
-      dark-smoke (1)_116: 298759330
-      dark-smoke (1)_117: 1717105229
-      dark-smoke (1)_118: -1256273051
-      dark-smoke (1)_119: -575679229
-      dark-smoke (1)_12: 1554521708
-      dark-smoke (1)_120: -782898524
-      dark-smoke (1)_121: 585409935
-      dark-smoke (1)_122: -1669170184
-      dark-smoke (1)_123: 2073534999
-      dark-smoke (1)_124: -1349647689
-      dark-smoke (1)_125: 1671581759
-      dark-smoke (1)_126: -1422644455
-      dark-smoke (1)_127: -1058953106
-      dark-smoke (1)_128: -1425598391
-      dark-smoke (1)_129: 671780360
-      dark-smoke (1)_13: -551956140
-      dark-smoke (1)_130: -1568165438
-      dark-smoke (1)_131: 1523429656
-      dark-smoke (1)_132: 1045403536
-      dark-smoke (1)_133: 622623344
-      dark-smoke (1)_134: -161629064
-      dark-smoke (1)_135: 1906579234
-      dark-smoke (1)_136: 1231856782
-      dark-smoke (1)_137: 23630515
-      dark-smoke (1)_138: -1136160060
-      dark-smoke (1)_139: -1581490199
-      dark-smoke (1)_14: -1868716996
-      dark-smoke (1)_140: -1195528341
-      dark-smoke (1)_141: -2035973825
-      dark-smoke (1)_142: 436562727
-      dark-smoke (1)_143: 1429821398
-      dark-smoke (1)_144: -1047706405
-      dark-smoke (1)_145: 1068672031
-      dark-smoke (1)_146: 1974702354
-      dark-smoke (1)_147: -522732291
-      dark-smoke (1)_148: 1817028428
-      dark-smoke (1)_149: -2135680695
-      dark-smoke (1)_15: 213235220
-      dark-smoke (1)_150: 1188624461
-      dark-smoke (1)_151: -1809525916
-      dark-smoke (1)_152: 1720216069
-      dark-smoke (1)_153: 1697882485
-      dark-smoke (1)_154: 1790838829
-      dark-smoke (1)_155: 1964245000
-      dark-smoke (1)_156: -434775842
-      dark-smoke (1)_157: -431575727
-      dark-smoke (1)_158: 691898393
-      dark-smoke (1)_159: -610075162
-      dark-smoke (1)_16: -449102746
-      dark-smoke (1)_160: 482492928
-      dark-smoke (1)_161: 578464952
-      dark-smoke (1)_162: -1710069291
-      dark-smoke (1)_163: 1443226525
-      dark-smoke (1)_164: 2011854133
-      dark-smoke (1)_165: -1238040029
-      dark-smoke (1)_166: 1246315340
-      dark-smoke (1)_167: -1203138198
-      dark-smoke (1)_168: -67663741
-      dark-smoke (1)_169: -1186507598
-      dark-smoke (1)_17: -765814589
-      dark-smoke (1)_170: 1419080871
-      dark-smoke (1)_171: 13243491
-      dark-smoke (1)_172: -1728450746
-      dark-smoke (1)_173: -1527689124
-      dark-smoke (1)_174: 436180876
-      dark-smoke (1)_175: -6533875
-      dark-smoke (1)_176: 1383966075
-      dark-smoke (1)_177: -2078460269
-      dark-smoke (1)_178: 1116062519
-      dark-smoke (1)_179: 1114393832
-      dark-smoke (1)_18: 1182817442
-      dark-smoke (1)_180: -1160976144
-      dark-smoke (1)_181: -1723299890
-      dark-smoke (1)_182: 1895271992
-      dark-smoke (1)_183: 463218055
-      dark-smoke (1)_184: 708975786
-      dark-smoke (1)_185: 1737286333
-      dark-smoke (1)_186: -1464058427
-      dark-smoke (1)_187: 957789834
-      dark-smoke (1)_188: -1944362856
-      dark-smoke (1)_189: -599473402
-      dark-smoke (1)_19: -247085085
-      dark-smoke (1)_190: -1449613598
-      dark-smoke (1)_191: 783884589
-      dark-smoke (1)_192: -1404605876
-      dark-smoke (1)_193: -151813781
-      dark-smoke (1)_194: -94276896
-      dark-smoke (1)_195: 935876402
-      dark-smoke (1)_196: 799632800
-      dark-smoke (1)_197: 620984421
-      dark-smoke (1)_198: -1725113466
-      dark-smoke (1)_199: 1875599668
-      dark-smoke (1)_2: -1122890578
-      dark-smoke (1)_20: 219701240
-      dark-smoke (1)_200: 111031382
-      dark-smoke (1)_201: 426099840
-      dark-smoke (1)_202: -551750715
-      dark-smoke (1)_203: 1345580250
-      dark-smoke (1)_204: 311818122
-      dark-smoke (1)_205: -382071502
-      dark-smoke (1)_206: -566122059
-      dark-smoke (1)_207: -1446391139
-      dark-smoke (1)_208: 471491487
-      dark-smoke (1)_209: 1608552531
-      dark-smoke (1)_21: 892606403
-      dark-smoke (1)_210: 1501585806
-      dark-smoke (1)_211: 227055031
-      dark-smoke (1)_212: -885809441
-      dark-smoke (1)_213: -186796506
-      dark-smoke (1)_214: 1604380901
-      dark-smoke (1)_215: 1928828045
-      dark-smoke (1)_216: 1392492133
-      dark-smoke (1)_217: -947124939
-      dark-smoke (1)_218: 136101477
-      dark-smoke (1)_219: -2054430981
-      dark-smoke (1)_22: 1974196361
-      dark-smoke (1)_220: 1721536953
-      dark-smoke (1)_221: 618613252
-      dark-smoke (1)_222: 1764637151
-      dark-smoke (1)_223: -118919066
-      dark-smoke (1)_224: -556642489
-      dark-smoke (1)_225: -1675962919
-      dark-smoke (1)_226: 1653322107
-      dark-smoke (1)_227: 1721430256
-      dark-smoke (1)_228: 330839403
-      dark-smoke (1)_229: -1452182688
-      dark-smoke (1)_23: -1130568316
-      dark-smoke (1)_230: 1135676978
-      dark-smoke (1)_231: 799876777
-      dark-smoke (1)_232: 2143878478
-      dark-smoke (1)_233: 341682451
-      dark-smoke (1)_234: 347187916
-      dark-smoke (1)_235: 1294476122
-      dark-smoke (1)_236: -1629720643
-      dark-smoke (1)_237: -1425953087
-      dark-smoke (1)_238: -1991407789
-      dark-smoke (1)_239: 1553386955
-      dark-smoke (1)_24: 1561027765
-      dark-smoke (1)_240: -1210469308
-      dark-smoke (1)_241: -680288004
-      dark-smoke (1)_242: 145468700
-      dark-smoke (1)_243: 443503535
-      dark-smoke (1)_244: -413862332
-      dark-smoke (1)_245: -404082302
-      dark-smoke (1)_246: 619405947
-      dark-smoke (1)_247: -967269044
-      dark-smoke (1)_248: -907348557
-      dark-smoke (1)_249: 578894307
-      dark-smoke (1)_25: -2069678942
-      dark-smoke (1)_26: 2002726137
-      dark-smoke (1)_27: -1564543491
-      dark-smoke (1)_28: 1790336305
-      dark-smoke (1)_29: -1489226003
-      dark-smoke (1)_3: -453290038
-      dark-smoke (1)_30: 693358354
-      dark-smoke (1)_31: -1790563113
-      dark-smoke (1)_32: 1763895367
-      dark-smoke (1)_33: 508323123
-      dark-smoke (1)_34: 1541541896
-      dark-smoke (1)_35: 1500844038
-      dark-smoke (1)_36: -1438660
-      dark-smoke (1)_37: -941219028
-      dark-smoke (1)_38: 232462388
-      dark-smoke (1)_39: 1985977160
-      dark-smoke (1)_4: -1163102684
-      dark-smoke (1)_40: 1845739304
-      dark-smoke (1)_41: 653971374
-      dark-smoke (1)_42: -138572780
-      dark-smoke (1)_43: -1554595329
-      dark-smoke (1)_44: -1084084859
-      dark-smoke (1)_45: 1777855004
-      dark-smoke (1)_46: -22214031
-      dark-smoke (1)_47: -821180825
-      dark-smoke (1)_48: -1515597839
-      dark-smoke (1)_49: 1576285561
-      dark-smoke (1)_5: -1599051041
-      dark-smoke (1)_50: -2143956000
-      dark-smoke (1)_51: -438803375
-      dark-smoke (1)_52: -1578337022
-      dark-smoke (1)_53: 118307645
-      dark-smoke (1)_54: 1880931709
-      dark-smoke (1)_55: -1358327341
-      dark-smoke (1)_56: 1070472884
-      dark-smoke (1)_57: -1041823574
-      dark-smoke (1)_58: -123345125
-      dark-smoke (1)_59: -2075387589
-      dark-smoke (1)_6: 1760321882
-      dark-smoke (1)_60: -294288444
-      dark-smoke (1)_61: 1577283278
-      dark-smoke (1)_62: 87637842
-      dark-smoke (1)_63: -357994602
-      dark-smoke (1)_64: 417878138
-      dark-smoke (1)_65: -1778263162
-      dark-smoke (1)_66: 225306201
-      dark-smoke (1)_67: 254016444
-      dark-smoke (1)_68: -555991934
-      dark-smoke (1)_69: 1261079133
-      dark-smoke (1)_7: 1673959062
-      dark-smoke (1)_70: 1405696842
-      dark-smoke (1)_71: 107564949
-      dark-smoke (1)_72: 623552468
-      dark-smoke (1)_73: 1295995088
-      dark-smoke (1)_74: -1108553355
-      dark-smoke (1)_75: -1270880651
-      dark-smoke (1)_76: -910252716
-      dark-smoke (1)_77: 803794990
-      dark-smoke (1)_78: 574563672
-      dark-smoke (1)_79: 1691102136
-      dark-smoke (1)_8: 1758873344
-      dark-smoke (1)_80: -2004472788
-      dark-smoke (1)_81: -1651851308
-      dark-smoke (1)_82: 1391006774
-      dark-smoke (1)_83: 1408162031
-      dark-smoke (1)_84: -428382293
-      dark-smoke (1)_85: 1217441155
-      dark-smoke (1)_86: -1857534652
-      dark-smoke (1)_87: 1771877930
-      dark-smoke (1)_88: 61472438
-      dark-smoke (1)_89: -1022973018
-      dark-smoke (1)_9: 707193358
-      dark-smoke (1)_90: 1833794898
-      dark-smoke (1)_91: -1640621149
-      dark-smoke (1)_92: -1994862207
-      dark-smoke (1)_93: 772800196
-      dark-smoke (1)_94: 521046822
-      dark-smoke (1)_95: -1816179675
-      dark-smoke (1)_96: -469628035
-      dark-smoke (1)_97: -1397555066
-      dark-smoke (1)_98: -1580850416
-      dark-smoke (1)_99: 987366120
+      dark-smoke_0: 1295655722
+      dark-smoke_1: -1101134623
+      dark-smoke_10: 724372714
+      dark-smoke_100: -352407631
+      dark-smoke_101: 188473092
+      dark-smoke_102: 215538824
+      dark-smoke_103: 63994558
+      dark-smoke_104: -1587289873
+      dark-smoke_105: 1354049390
+      dark-smoke_106: -1773747533
+      dark-smoke_107: -1830355712
+      dark-smoke_108: -517973477
+      dark-smoke_109: -1838467185
+      dark-smoke_11: 1104495372
+      dark-smoke_110: -2135170698
+      dark-smoke_111: 2093126381
+      dark-smoke_112: 1602720320
+      dark-smoke_113: -969585477
+      dark-smoke_114: 1001310760
+      dark-smoke_115: 1935545234
+      dark-smoke_116: -1123694709
+      dark-smoke_117: -2094484982
+      dark-smoke_118: -1524075010
+      dark-smoke_119: -1938710077
+      dark-smoke_12: -1190029475
+      dark-smoke_120: 206045243
+      dark-smoke_121: 1101355062
+      dark-smoke_122: -1417276358
+      dark-smoke_123: 808587460
+      dark-smoke_124: 22811886
+      dark-smoke_125: 187553466
+      dark-smoke_126: -58196708
+      dark-smoke_127: -1032176732
+      dark-smoke_128: 535976365
+      dark-smoke_129: -1675691648
+      dark-smoke_13: 1234069548
+      dark-smoke_130: -729499301
+      dark-smoke_131: -471322393
+      dark-smoke_132: -695953821
+      dark-smoke_133: -1296953806
+      dark-smoke_134: -1676678323
+      dark-smoke_135: 1261342835
+      dark-smoke_136: 67145144
+      dark-smoke_137: 1397561644
+      dark-smoke_138: 1692238107
+      dark-smoke_139: -426352640
+      dark-smoke_14: -689227485
+      dark-smoke_140: 111439904
+      dark-smoke_141: -133182915
+      dark-smoke_142: -1530567922
+      dark-smoke_143: 824036321
+      dark-smoke_144: 914780596
+      dark-smoke_145: 1789157270
+      dark-smoke_146: -1851176537
+      dark-smoke_147: 780791754
+      dark-smoke_148: 1038054181
+      dark-smoke_149: -1932765502
+      dark-smoke_15: 527056559
+      dark-smoke_150: -273934165
+      dark-smoke_151: 1948827953
+      dark-smoke_152: 841445315
+      dark-smoke_153: -510782212
+      dark-smoke_154: -645305886
+      dark-smoke_155: 1876772014
+      dark-smoke_156: 1229679106
+      dark-smoke_157: -713995659
+      dark-smoke_158: -1676641302
+      dark-smoke_159: -769954327
+      dark-smoke_16: 1599903992
+      dark-smoke_160: -1056904253
+      dark-smoke_161: 872867062
+      dark-smoke_162: 814936149
+      dark-smoke_163: -1679318719
+      dark-smoke_164: -542467724
+      dark-smoke_165: -111668165
+      dark-smoke_166: -1821131355
+      dark-smoke_167: 824715530
+      dark-smoke_168: 310875184
+      dark-smoke_169: -999760343
+      dark-smoke_17: 1343060029
+      dark-smoke_170: -1161027588
+      dark-smoke_171: -1796935509
+      dark-smoke_172: 1711798422
+      dark-smoke_173: 617504702
+      dark-smoke_174: 771383972
+      dark-smoke_175: 88931817
+      dark-smoke_176: 397903543
+      dark-smoke_177: 1410714023
+      dark-smoke_178: -1712919195
+      dark-smoke_179: -1897972331
+      dark-smoke_18: -1875639542
+      dark-smoke_180: 1085527989
+      dark-smoke_181: -1277990530
+      dark-smoke_182: 1142639439
+      dark-smoke_183: 722280687
+      dark-smoke_184: -677603381
+      dark-smoke_185: -2122338459
+      dark-smoke_186: 454719481
+      dark-smoke_187: 895356417
+      dark-smoke_188: -1226405977
+      dark-smoke_189: -103245182
+      dark-smoke_19: 629590481
+      dark-smoke_190: 1712392115
+      dark-smoke_191: 28264391
+      dark-smoke_192: 2107294630
+      dark-smoke_193: 254633276
+      dark-smoke_194: 666761801
+      dark-smoke_195: 1354795604
+      dark-smoke_196: 1319690244
+      dark-smoke_197: -407649869
+      dark-smoke_198: -1755905903
+      dark-smoke_199: 1730880419
+      dark-smoke_2: 1037975561
+      dark-smoke_20: 431232834
+      dark-smoke_200: 443207802
+      dark-smoke_201: 38903221
+      dark-smoke_202: 627433730
+      dark-smoke_203: 220850943
+      dark-smoke_204: -26345759
+      dark-smoke_205: -2061965780
+      dark-smoke_206: -432029707
+      dark-smoke_207: -281850504
+      dark-smoke_208: 608123674
+      dark-smoke_209: 226140379
+      dark-smoke_21: 1265688789
+      dark-smoke_210: 353113258
+      dark-smoke_211: 1546525341
+      dark-smoke_212: 417425333
+      dark-smoke_213: -183159628
+      dark-smoke_214: -1874731634
+      dark-smoke_215: 1763981624
+      dark-smoke_216: 1806836283
+      dark-smoke_217: -8746969
+      dark-smoke_218: 2071071767
+      dark-smoke_219: 1294774271
+      dark-smoke_22: -1511555043
+      dark-smoke_220: -29853322
+      dark-smoke_221: -380978313
+      dark-smoke_222: -678633221
+      dark-smoke_223: 417247684
+      dark-smoke_224: 1595267175
+      dark-smoke_225: -1316476244
+      dark-smoke_226: 403406748
+      dark-smoke_227: -2010737026
+      dark-smoke_228: -1323662065
+      dark-smoke_229: 1849738244
+      dark-smoke_23: 1993597634
+      dark-smoke_230: 1859368113
+      dark-smoke_231: 842684569
+      dark-smoke_232: -2057409824
+      dark-smoke_233: 1154560140
+      dark-smoke_234: 200873298
+      dark-smoke_235: -497699141
+      dark-smoke_236: 576568634
+      dark-smoke_237: -2014296912
+      dark-smoke_238: 185785150
+      dark-smoke_239: -1182323395
+      dark-smoke_24: 985743478
+      dark-smoke_240: 2069582427
+      dark-smoke_241: 15935194
+      dark-smoke_242: -1208712031
+      dark-smoke_243: 466219564
+      dark-smoke_244: -1950083727
+      dark-smoke_245: -532327500
+      dark-smoke_246: 612200334
+      dark-smoke_247: -338541853
+      dark-smoke_248: 128370499
+      dark-smoke_249: -1187551162
+      dark-smoke_25: 1955740843
+      dark-smoke_26: 505647608
+      dark-smoke_27: -979738926
+      dark-smoke_28: 1646909460
+      dark-smoke_29: -239727269
+      dark-smoke_3: -1299062573
+      dark-smoke_30: 1070050803
+      dark-smoke_31: 161817268
+      dark-smoke_32: -199386262
+      dark-smoke_33: 611758093
+      dark-smoke_34: -858495572
+      dark-smoke_35: -1729701242
+      dark-smoke_36: -1757852162
+      dark-smoke_37: -2104954257
+      dark-smoke_38: -782941973
+      dark-smoke_39: 1841603598
+      dark-smoke_4: 1621220749
+      dark-smoke_40: -1769731148
+      dark-smoke_41: -1399798130
+      dark-smoke_42: 1691332770
+      dark-smoke_43: 42209134
+      dark-smoke_44: 1160068351
+      dark-smoke_45: -1778547102
+      dark-smoke_46: -2081321636
+      dark-smoke_47: 866950379
+      dark-smoke_48: -1788985574
+      dark-smoke_49: -1756287862
+      dark-smoke_5: -1585134616
+      dark-smoke_50: 1436366915
+      dark-smoke_51: 287197140
+      dark-smoke_52: -1329851484
+      dark-smoke_53: -952375755
+      dark-smoke_54: -860289534
+      dark-smoke_55: 1166468159
+      dark-smoke_56: -560813309
+      dark-smoke_57: 137716362
+      dark-smoke_58: -412194496
+      dark-smoke_59: 2016124618
+      dark-smoke_6: 1960653754
+      dark-smoke_60: 1394827935
+      dark-smoke_61: -1171370672
+      dark-smoke_62: -667345396
+      dark-smoke_63: -618171388
+      dark-smoke_64: -308308889
+      dark-smoke_65: -866716406
+      dark-smoke_66: -1163206084
+      dark-smoke_67: 198647166
+      dark-smoke_68: 26167712
+      dark-smoke_69: 1919968739
+      dark-smoke_7: -1980429577
+      dark-smoke_70: -759400368
+      dark-smoke_71: 249877296
+      dark-smoke_72: 1561964516
+      dark-smoke_73: -1678621780
+      dark-smoke_74: 1548174573
+      dark-smoke_75: 290725146
+      dark-smoke_76: -582306382
+      dark-smoke_77: 1489006688
+      dark-smoke_78: -1613716071
+      dark-smoke_79: -2112194633
+      dark-smoke_8: 864150754
+      dark-smoke_80: 772699526
+      dark-smoke_81: 373172742
+      dark-smoke_82: -1152614794
+      dark-smoke_83: 1417369150
+      dark-smoke_84: -265107841
+      dark-smoke_85: 1493836943
+      dark-smoke_86: 307786355
+      dark-smoke_87: -276325758
+      dark-smoke_88: -1177238792
+      dark-smoke_89: 1871639272
+      dark-smoke_9: -556182654
+      dark-smoke_90: 66532273
+      dark-smoke_91: 227609470
+      dark-smoke_92: 846072834
+      dark-smoke_93: -422762247
+      dark-smoke_94: -1015206049
+      dark-smoke_95: -120373701
+      dark-smoke_96: -64670775
+      dark-smoke_97: 367089496
+      dark-smoke_98: 1019743700
+      dark-smoke_99: 2031490169
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

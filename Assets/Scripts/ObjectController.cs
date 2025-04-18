@@ -287,11 +287,34 @@ public IEnumerator FeatherWave(float delay){
         
     }
 
+    //SmokeEffect happens here 
+
+//     IEnumerator TransformWave(){
+//     while(isRunning){
+//         yield return new WaitForSeconds(Random.Range(minTransformTime, maxTransformTime));
+
+//         List<GameObject> currentObjects = new List<GameObject>(spawnedObjects);
+//         spawnedObjects.Clear();
+
+//         foreach (GameObject oldObject in currentObjects){
+//             if (oldObject != null){
+//                 Vector2 position = oldObject.transform.position;
+
+//                 // Spawn smoke effect at the same position
+//                 GameObject smoke = Instantiate(darkSmokePrefab, position, Quaternion.identity);
+
+//                 // Optional: Destroy smoke after 1 second
+//                 Destroy(smoke, 1f); // adjust duration if needed
+
+//                 Destroy(oldObject); // remove fake object
+
+//                 // Replace with omen
+//                 GameObject newObject = Instantiate(omenPrefab, position, Quaternion.identity);
+//                 spawnedObjects.Add(newObject);
+//             }
+//         }
+//     }
+// }
+
+
 }
-
-
-///real scissor (comes scissor)
-
-//fake scissor *omen (comes scissor/stays omen)
-
-// omen (comes omen/stays omen )
