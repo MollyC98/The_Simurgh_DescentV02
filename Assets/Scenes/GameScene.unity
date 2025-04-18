@@ -526,10 +526,11 @@ MonoBehaviour:
   levels:
   - {fileID: 556391827}
   - {fileID: 343638596}
-  choke: 0
   scrollSpeeds:
   - 1
   - 2
+  horizontalIndex: 0
+  choke: 0
 --- !u!114 &117199190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1623,7 +1624,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.7340844, y: -3.1887505, z: 12.135584}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_LocalScale: {x: 0.43, y: 0.43, z: 0.43}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 218190846}
@@ -4973,12 +4974,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841951d80205f2e4f81bce3095b334c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fakeObjectPrefab: {fileID: 7652525946184340247, guid: 56f82c35a6b0a1549888a43e509f1526, type: 3}
+  fakeObjectPrefab: {fileID: 8649382582711016924, guid: e5218b9ac4ceb044cb066d0fcb6a6811, type: 3}
   omenPrefab: {fileID: 6518056316221304619, guid: 3f6f27a7ebb064542b31621309e3d143, type: 3}
   realObjectPrefab: {fileID: 8649382582711016924, guid: e5218b9ac4ceb044cb066d0fcb6a6811, type: 3}
   realObject2Prefab: {fileID: 8539753226311954584, guid: 9674f970b0165ee45a461b602308abf9, type: 3}
   realObject3Prefab: {fileID: 7530818544610574196, guid: 1703de55186114c4dbaa5d294738bbcf, type: 3}
   featherPrefab: {fileID: 6686027954006107542, guid: 07ad742b387841647be6fafedb54d883, type: 3}
+  darkSmokePrefab: {fileID: 0}
   eclipsePhase: {fileID: 1886262189}
   isRunning: 0
 --- !u!4 &2089921982

@@ -4,63 +4,108 @@ using UnityEngine;
 
 public class backgroundloop : MonoBehaviour
 {
-    public GameObject[] levels; // Array of background objects to loop
+    public GameObject[] levels; // Background layers (e.g., clouds, mountains, etc.)
+    public float[] scrollSpeeds; // Scroll speed per layer
+    public int horizontalIndex = 0; // Index of the cloud layer that should scroll horizontally
+    public float choke;
+
     private Camera mainCamera;
     private Vector2 screenBounds;
-
-    public float choke; // overlap adjustment
-    public float[] scrollSpeeds; // Array of scroll speeds for different layers
 
     void Start()
     {
         mainCamera = Camera.main;
         screenBounds = mainCamera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, mainCamera.transform.position.z));
-        
-        foreach (GameObject obj in levels)
+
+        for (int i = 0; i < levels.Length; i++)
         {
-            loadChildObjects(obj);
+            bool isHorizontal = (i == horizontalIndex);
+            loadChildObjects(levels[i], isHorizontal);
         }
     }
 
-    void loadChildObjects(GameObject obj)
+    void loadChildObjects(GameObject obj, bool isHorizontal)
     {
-        float objectHeight = obj.GetComponent<SpriteRenderer>().bounds.size.y - choke;
-        int childsNeeded = (int)Mathf.Ceil(screenBounds.y * 2 / objectHeight);
-        GameObject clone = Instantiate(obj) as GameObject;
+        float objectSize = isHorizontal
+            ? obj.GetComponent<SpriteRenderer>().bounds.size.x - choke
+            : obj.GetComponent<SpriteRenderer>().bounds.size.y - choke;
 
-        for (int i = 0; i <= childsNeeded; i++)
+        int needed = Mathf.CeilToInt(((isHorizontal ? screenBounds.x : screenBounds.y) * 2) / objectSize);
+        GameObject clone = Instantiate(obj);
+
+        for (int i = 0; i <= needed; i++)
         {
-            GameObject c = Instantiate(clone) as GameObject;
+            GameObject c = Instantiate(clone);
             c.transform.SetParent(obj.transform);
-            c.transform.position = new Vector3(obj.transform.position.x, objectHeight * i, obj.transform.position.z);
-            c.name = obj.name + i;
+            c.transform.localScale = Vector3.one;
+
+            if (isHorizontal)
+                c.transform.position = new Vector3(objectSize * i, obj.transform.position.y, obj.transform.position.z);
+            else
+                c.transform.position = new Vector3(obj.transform.position.x, objectSize * i, obj.transform.position.z);
+
+            c.name = obj.name + "_" + i;
         }
 
         Destroy(clone);
-        Destroy(obj.GetComponent<SpriteRenderer>()); // remove original renderer to avoid overlap
+        Destroy(obj.GetComponent<SpriteRenderer>()); // only if original is placeholder
     }
 
-    void repositionChildObjects(GameObject obj)
+    void repositionChildObjects(GameObject obj, bool isHorizontal)
     {
         Transform[] children = obj.GetComponentsInChildren<Transform>();
-        if (children.Length > 1)
+        if (children.Length <= 1) return;
+
+        List<Transform> validChildren = new List<Transform>();
+        foreach (Transform t in children)
+            if (t != obj.transform) validChildren.Add(t);
+
+        validChildren.Sort((a, b) =>
+            isHorizontal ? a.position.x.CompareTo(b.position.x) : a.position.y.CompareTo(b.position.y));
+
+        GameObject firstChild = validChildren[0].gameObject;
+        GameObject lastChild = validChildren[validChildren.Count - 1].gameObject;
+
+        float halfSize = isHorizontal
+            ? lastChild.GetComponent<SpriteRenderer>().bounds.size.x / 2
+            : lastChild.GetComponent<SpriteRenderer>().bounds.size.y / 2;
+
+        if (isHorizontal)
         {
-            GameObject firstChild = children[1].gameObject;
-            GameObject lastChild = children[children.Length - 1].gameObject;
-
-            float halfObjectHeight = lastChild.GetComponent<SpriteRenderer>().bounds.extents.y - choke;
-
-            if (transform.position.y + screenBounds.y > lastChild.transform.position.y + halfObjectHeight)
+            if (transform.position.x + screenBounds.x > lastChild.transform.position.x + halfSize)
             {
-                // Reposition first child to bottom
                 firstChild.transform.SetAsLastSibling();
-                firstChild.transform.position = new Vector3(lastChild.transform.position.x, lastChild.transform.position.y + halfObjectHeight * 2, lastChild.transform.position.z);
+                firstChild.transform.position = new Vector3(
+                    lastChild.transform.position.x + halfSize * 2,
+                    lastChild.transform.position.y,
+                    lastChild.transform.position.z);
             }
-            else if (transform.position.y - screenBounds.y < firstChild.transform.position.y - halfObjectHeight)
+            else if (transform.position.x - screenBounds.x < firstChild.transform.position.x - halfSize)
             {
-                // Reposition last child to top
                 lastChild.transform.SetAsFirstSibling();
-                lastChild.transform.position = new Vector3(firstChild.transform.position.x, firstChild.transform.position.y - halfObjectHeight * 2, firstChild.transform.position.z);
+                lastChild.transform.position = new Vector3(
+                    firstChild.transform.position.x - halfSize * 2,
+                    firstChild.transform.position.y,
+                    firstChild.transform.position.z);
+            }
+        }
+        else
+        {
+            if (transform.position.y + screenBounds.y > lastChild.transform.position.y + halfSize)
+            {
+                firstChild.transform.SetAsLastSibling();
+                firstChild.transform.position = new Vector3(
+                    lastChild.transform.position.x,
+                    lastChild.transform.position.y + halfSize * 2,
+                    lastChild.transform.position.z);
+            }
+            else if (transform.position.y - screenBounds.y < firstChild.transform.position.y - halfSize)
+            {
+                lastChild.transform.SetAsFirstSibling();
+                lastChild.transform.position = new Vector3(
+                    firstChild.transform.position.x,
+                    firstChild.transform.position.y - halfSize * 2,
+                    firstChild.transform.position.z);
             }
         }
     }
@@ -70,13 +115,19 @@ public class backgroundloop : MonoBehaviour
         for (int i = 0; i < levels.Length; i++)
         {
             GameObject obj = levels[i];
-            float speed = scrollSpeeds[i]; // Get the scroll speed for this layer
+            float speed = scrollSpeeds[i];
+            bool isHorizontal = (i == horizontalIndex);
 
-            // Scroll background with respective scroll speed
-            obj.transform.position += Vector3.up * speed * Time.deltaTime;
+            if (isHorizontal)
+            {
+                obj.transform.position += Vector3.right * speed * Time.deltaTime;
+            }
+            else
+            {
+                obj.transform.position += Vector3.up * speed * Time.deltaTime;
+            }
 
-            // Reposition the background objects after scrolling
-            repositionChildObjects(obj);
+            repositionChildObjects(obj, isHorizontal);
         }
     }
 }

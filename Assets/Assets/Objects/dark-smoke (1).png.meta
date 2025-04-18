@@ -1,0 +1,5614 @@
+fileFormatVersion: 2
+guid: 64e19a7ab126142e59594f804152dc45
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dark-smoke (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7848.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0593dbf60b77443ba5420029a61183b
+      internalID: -609129873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_1
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 7848.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c93f1df3e35471aa2f61c61e43449e
+      internalID: 931199973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_2
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 7848.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0f50e25127f4efeacf45547e7f9955
+      internalID: -1122890578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_3
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 7848.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb7b4802de9a476a976d3eeb15cfa54
+      internalID: -453290038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_4
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 7848.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73df3d8bf55e47fcbb0da580ebeafad
+      internalID: -1163102684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 7848.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb2acf701bcb4326a174be5434b17dd
+      internalID: -1599051041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 7848.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6049eeb14b2f44769a289ada1911d10
+      internalID: 1760321882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_7
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 7848.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f20bb3dde94c4f948d61ec056977c2f
+      internalID: 1673959062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 7848.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b6d9f6fe3df4dde803b41b30e7e14a
+      internalID: 1758873344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 7848.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582ea65487bac491eab28a211c4f449d
+      internalID: 707193358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7521.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1849961762d264b5880c8ae3226d365e
+      internalID: -1230730919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 7521.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c035cf36a9bff4f28801a8dcda75f0a9
+      internalID: 171773347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 7521.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dc70b5895d1415fb88fa831aee08ee
+      internalID: 1554521708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_13
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 7521.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec378cde29224096905491b61ddf6df
+      internalID: -551956140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_14
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 7521.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd75247a880ec4e11a1f6429dcab47c5
+      internalID: -1868716996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 7521.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b224c1613b8492abed73b1971f78c9
+      internalID: 213235220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 7521.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c92ef8482db40e88d310f8d0b31d16
+      internalID: -449102746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 7521.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87bb5bb66d04d4209bdd894d0ceb7250
+      internalID: -765814589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 7521.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c240863bbbf45e2a5fd15044e650ea
+      internalID: 1182817442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 7521.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d1c11b4b3c44b7c9e57f649d402aad
+      internalID: -247085085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7194.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7962d7804a2465fa7f7cd8fc1f5809
+      internalID: 219701240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_21
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 7194.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8ca876d644a4e998f1efe0e52c4445
+      internalID: 892606403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_22
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 7194.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09f0c0f0e3fc4095aeade71ad7abe12
+      internalID: 1974196361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_23
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 7194.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a16ea5827f5149c4aa0545cf093b321
+      internalID: -1130568316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_24
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 7194.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00abb881d5a9440b895d02c2c53c4cb
+      internalID: 1561027765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_25
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 7194.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ff9d8a02fc24fcba89aa8692e835f9
+      internalID: -2069678942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 7194.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa852146396043d5b263b613b8ea710
+      internalID: 2002726137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 7194.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af06c36359022475fb32769790adad7a
+      internalID: -1564543491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 7194.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3902a1e30e845406eb926cf60a2e6958
+      internalID: 1790336305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_29
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 7194.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8997e81324ba44e229efb512d4bca78f
+      internalID: -1489226003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6867.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb97fe89def0a4ff4aee2e75d75fb486
+      internalID: 693358354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_31
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 6867.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e17a1d1532a491b841a9cb540a210b
+      internalID: -1790563113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_32
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 6867.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50fc00d6346f457f9e2b27ae2522d19
+      internalID: 1763895367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_33
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 6867.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df62c34a80ef475281d73679893ed23
+      internalID: 508323123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_34
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 6867.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37322b2be8ee4f1ca79ea609021c2d7
+      internalID: 1541541896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_35
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 6867.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ecfa3b4eadc417f95911746919cc8c
+      internalID: 1500844038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_36
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 6867.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f979d9beba747f7885346132e1391a
+      internalID: -1438660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_37
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 6867.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ea31bb769c44f678accf4a71e2b78f
+      internalID: -941219028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_38
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 6867.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845d28f18107f4e3f970049871f9344b
+      internalID: 232462388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_39
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 6867.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f59912d2054d4ee5bf98aa8cdd55d5e
+      internalID: 1985977160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6540.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c12a8b658fc64152a974cb70d2181bd
+      internalID: 1845739304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_41
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 6540.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3953a0f26fa1448ee86509ba90e3ca8f
+      internalID: 653971374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_42
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 6540.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381be30fe97a54b0792df9e4edba30d1
+      internalID: -138572780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_43
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 6540.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb602c55e5de43ebae0c7cb90b3d892
+      internalID: -1554595329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_44
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 6540.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6de48d07fe248aebd46256836a000f
+      internalID: -1084084859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_45
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 6540.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3abb1bb6a4540db98d90016dafb4f0
+      internalID: 1777855004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_46
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 6540.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997c8cbb845394f9b8dc221ab4156c86
+      internalID: -22214031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_47
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 6540.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228a17869c2ed42108569af5c00848cb
+      internalID: -821180825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_48
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 6540.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe5a6d7d33214c3797afc949d5b5b76
+      internalID: -1515597839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_49
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 6540.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c26ece6ab0e44ddbaa0e66852ee679
+      internalID: 1576285561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6213.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f1b8c2c93ea4d918ec8ba4312bc9f8
+      internalID: -2143956000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_51
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 6213.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30faec261dde64ba982c357cade8b8f9
+      internalID: -438803375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_52
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 6213.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d609a76d414f4412499ba27fb08dd909
+      internalID: -1578337022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_53
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 6213.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1492573569fd465e90b983f87b32bfa
+      internalID: 118307645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_54
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 6213.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9937a5d30b346798269f03eba5829b
+      internalID: 1880931709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_55
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 6213.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4624a80efa04240589c643a8864d3656
+      internalID: -1358327341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_56
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 6213.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a4faa4318dd45ec9ca2a9fb56e6faf
+      internalID: 1070472884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_57
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 6213.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062310b14135d4bd7acf6425dc946afa
+      internalID: -1041823574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_58
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 6213.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b699240223d40139a2a2e9c4f928f6
+      internalID: -123345125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_59
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 6213.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90f9295cff304a6f8c2a9892aa93fae
+      internalID: -2075387589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5886.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78269c608d5e4374a85ab5cf685e354
+      internalID: -294288444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_61
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 5886.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad06f121ee090401b8f7f3a05dfcdb70
+      internalID: 1577283278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_62
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 5886.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23634299b0e534ec7b2b4511020f78d7
+      internalID: 87637842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_63
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 5886.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af256fb8f7349477993cff7462290166
+      internalID: -357994602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_64
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 5886.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b83ef796ec664ce4a059912371c7ee7
+      internalID: 417878138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_65
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 5886.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36d6c5339c264267af0db794c0bc66b
+      internalID: -1778263162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_66
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 5886.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15682f80b53cc4e9dad8bd04e9c735b2
+      internalID: 225306201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_67
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 5886.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e67a8be19d294a0f9abe050c8010b6f
+      internalID: 254016444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_68
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 5886.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c17da5bd89fd4f4093a15063b942e87
+      internalID: -555991934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_69
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 5886.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e919edde80b804305b517ae5afdcbbed
+      internalID: 1261079133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5559.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e54598ba2d8b450bb733db6905e42be
+      internalID: 1405696842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_71
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 5559.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413d89de68155401da0872feed663a7e
+      internalID: 107564949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_72
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 5559.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d60006f4100946dc9c89c40b458d355
+      internalID: 623552468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_73
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 5559.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cc0cb70500d4ccfbc3ee728df51d4d
+      internalID: 1295995088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_74
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 5559.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e20393c25dc4a0ab6edf89103a05ba
+      internalID: -1108553355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_75
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 5559.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c263dbdee4e04d7682b72f0d953e232
+      internalID: -1270880651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_76
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 5559.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02117e8b5b6e841709e835ba9da07a15
+      internalID: -910252716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_77
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 5559.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfed9533b7e004044827336fe1cd94f0
+      internalID: 803794990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_78
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 5559.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fe96620297542dbb21071bffdb666c
+      internalID: 574563672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_79
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 5559.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d849631c3ad0f4013b2dc78f5446ad52
+      internalID: 1691102136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5232.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de894e98c903c41a1a41b38bc5133228
+      internalID: -2004472788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_81
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 5232.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8694fc914f944eb9fef26b9487b017
+      internalID: -1651851308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_82
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 5232.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa76c5022ecaf4c1f9d8d727c55be7fb
+      internalID: 1391006774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_83
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 5232.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4d5602307354d7cb229e83e4dc6e9c
+      internalID: 1408162031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_84
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 5232.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1683c6ee6d0e942f4a340b044b6f54c5
+      internalID: -428382293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_85
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 5232.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44ea2e6b27934bfda2bf963de1ec909
+      internalID: 1217441155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_86
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 5232.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8ecd70031934043b77e887fbafa8a9
+      internalID: -1857534652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_87
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 5232.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6c0f06312074ab08d9f715b2c34fa9
+      internalID: 1771877930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_88
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 5232.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e798061c5fb394a188a2907854a19579
+      internalID: 61472438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_89
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 5232.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a4758918ce3429fb36da1b654652a4
+      internalID: -1022973018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4905.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3143027635a73466babe05e51a001e59
+      internalID: 1833794898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_91
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 4905.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4923ca00100e64744b55ed9625473758
+      internalID: -1640621149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_92
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 4905.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a8aac65fb314e32a7c0472163414d8
+      internalID: -1994862207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_93
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 4905.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2663fd3afd34cd1a327861285975e2
+      internalID: 772800196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_94
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 4905.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a12d83b11e0b4124b45fdfc29572c34
+      internalID: 521046822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_95
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 4905.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0708c2bd31654abbb8b943bc9c3d41a
+      internalID: -1816179675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_96
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 4905.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5475b5df0481a4e779dad141fed95c8c
+      internalID: -469628035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_97
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 4905.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e053e1484a4e14dd68f51693af92e874
+      internalID: -1397555066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_98
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 4905.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13368ebdc6dc24f41a164656c590c9cb
+      internalID: -1580850416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_99
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 4905.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0267bf3872dd45f0b9232a66e251a7d
+      internalID: 987366120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4578.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc423a65d11b46b4bd952b96c5c9729
+      internalID: 813596942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_101
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 4578.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a395c020f147d44e4a149a6ec7c3630b
+      internalID: -1244862027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_102
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 4578.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31700fcb896774ee6b461444c724fc55
+      internalID: 965230317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_103
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 4578.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d461239372847be9c9364169fec316
+      internalID: -917169469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_104
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 4578.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8a1e3156c2441d692c615911721b1f
+      internalID: 1598135751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_105
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 4578.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9979c7e0b097b43a0a5edd9ba4fc8d44
+      internalID: -1100264940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_106
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 4578.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f144d5e091a244413a97877742f79c8f
+      internalID: -143769591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_107
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 4578.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868e9e03529bd4c578aa3e7836ab431f
+      internalID: 620783957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_108
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 4578.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd255c9a6fb74763a6d6c35b30cfdc6
+      internalID: -266207349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_109
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 4578.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8ce7018854c40ac85db928e5e7b947
+      internalID: -1624527238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4251.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879461699778d4c5280f05b0a851e137
+      internalID: 1609162025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_111
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 4251.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2147a8124f024f7eb25ba4ade34b45c
+      internalID: 1885711782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_112
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 4251.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e78b6d993cc47c78867eea3ccf300e
+      internalID: -510497461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_113
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 4251.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad735ed9f28a4525aa9bd09171ca96f
+      internalID: -1640674931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_114
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 4251.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36851f8b8af384f00aee1fbbcdb48c87
+      internalID: -528327621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_115
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 4251.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2835248f2864d38a00f30a8f7603bb
+      internalID: 581866841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_116
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 4251.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9803a0f60a94586a8601cc543e09b3
+      internalID: 298759330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_117
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 4251.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032ad1b265e344ffe859f659dab03174
+      internalID: 1717105229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_118
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 4251.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1646307a796eb4490a5ddb50f86ddead
+      internalID: -1256273051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_119
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 4251.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b140742557a9f4932a9c7cc530a3eea9
+      internalID: -575679229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3924.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d821b72bf3f649efa0f4ec737ab7b03
+      internalID: -782898524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_121
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3924.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cce3a2f0bbd640449f21190a55f596c
+      internalID: 585409935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_122
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 3924.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4f05e880d6f4fcebb986c5fabbaee8
+      internalID: -1669170184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_123
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 3924.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1272ecd349674733ba98762a526fc1f
+      internalID: 2073534999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_124
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 3924.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3427f4777e7c24e40ac02879790c8522
+      internalID: -1349647689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_125
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3924.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fabfeef9736423798f942569827176
+      internalID: 1671581759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_126
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 3924.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcc3a0620cbe4c2b8c7e59db034054c
+      internalID: -1422644455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_127
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 3924.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e47814c8024400198455becdbe4484
+      internalID: -1058953106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_128
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 3924.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffefbd111b105463ba1350404702335f
+      internalID: -1425598391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_129
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 3924.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a232bc5dc72154ea6acdd4948e9482ca
+      internalID: 671780360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3597.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2f98ffe89f74d60a6ccf566cd11848
+      internalID: -1568165438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_131
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3597.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c946e88f765e45518d623bc8febe47b
+      internalID: 1523429656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_132
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 3597.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee82f6dca737d4af2919948268e5fd63
+      internalID: 1045403536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_133
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 3597.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b986127814b4183a7b2a15b951d981
+      internalID: 622623344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_134
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 3597.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cf4521b67014dd5a7a6968ef4ef0c6
+      internalID: -161629064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_135
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3597.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ecb16e76f38432580076a08c91714b
+      internalID: 1906579234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_136
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 3597.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32ed09ed752748feb53a49d9a38a76d
+      internalID: 1231856782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_137
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 3597.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8012789dbd9d4d978e89f4319a2b062
+      internalID: 23630515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_138
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 3597.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f250cd70f984a0197378098554dcfc
+      internalID: -1136160060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_139
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 3597.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae321b4912304dee9f0f33eb9c99601
+      internalID: -1581490199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3270.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2246eafd6341f4ce59866bf8e12faace
+      internalID: -1195528341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_141
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 3270.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdb58e2ebcc34381a50410666115e08
+      internalID: -2035973825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_142
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 3270.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d184fbf6e04a492395126be5d5d323b
+      internalID: 436562727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_143
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 3270.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b2ef25726e845f697e299f0e36429c
+      internalID: 1429821398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_144
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 3270.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b8741ae4df84f4ca41710aff7b4685
+      internalID: -1047706405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_145
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 3270.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a63bc3f7ecd4619bb1d1f4d9a5d3f1
+      internalID: 1068672031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_146
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 3270.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2990ccadcdc8b41c9b599d2a94c16b8a
+      internalID: 1974702354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_147
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 3270.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffc5796ae54b458db62b8fbde52505b
+      internalID: -522732291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_148
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 3270.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7521b410514484bb59d012fdb15f7c4c
+      internalID: 1817028428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_149
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 3270.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb87fe98fe29c484d95e98b443d7abd9
+      internalID: -2135680695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2943.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9b5c567231149e6a7ca8c526c59063
+      internalID: 1188624461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_151
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2943.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220f8e0bb26c545e7907ab436a707a2e
+      internalID: -1809525916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_152
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2943.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d493a2078564e8fa245b18ea9fea1a
+      internalID: 1720216069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_153
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 2943.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30af9e3488e44f799bd7e1459055812
+      internalID: 1697882485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_154
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 2943.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8020a9facaa4547a6939a32a7d76f8ac
+      internalID: 1790838829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_155
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2943.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121eadb9a8edd45e984c765b2ccef9fc
+      internalID: 1964245000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_156
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 2943.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb39a2d424574e86bf2fef35e177c3d
+      internalID: -434775842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_157
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 2943.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d2598595cfe42da9e0b7a31d4dcd1e
+      internalID: -431575727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_158
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2943.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668a112f7b92349c8a35108f09e733c3
+      internalID: 691898393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_159
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 2943.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc197f58431346cb990477e18e9b5e4
+      internalID: -610075162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2616.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206d4431693034b8383f053f3945a789
+      internalID: 482492928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_161
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2616.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7cd605924dd4933ab5935e24bb8ea0
+      internalID: 578464952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_162
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2616.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfc45119d35a4f459671c74c606e969
+      internalID: -1710069291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_163
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 2616.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532a039015719404d8366c8d49a1e576
+      internalID: 1443226525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_164
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 2616.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda32edec3d994460b84c070eb135883
+      internalID: 2011854133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_165
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2616.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21119fe48d71649b29be550db16811a3
+      internalID: -1238040029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_166
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 2616.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90bda4474ffc49de85510131e8466ce
+      internalID: 1246315340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_167
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 2616.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095210d6ce7754ceba96723e1168f396
+      internalID: -1203138198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_168
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2616.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60825f85e5b845a09cd8c9d96ac091c
+      internalID: -67663741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_169
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 2616.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a3437d9af3c450094520bcf274c524
+      internalID: -1186507598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2289.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bda03e1f80f4292baedc1c1aae63cc
+      internalID: 1419080871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_171
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2289.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff309526879354cabb5ddcd574c15766
+      internalID: 13243491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_172
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2289.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8822dec5cd6984b2183d821b7299c101
+      internalID: -1728450746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_173
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 2289.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f325c2430a9e54c3689337401eb90827
+      internalID: -1527689124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_174
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 2289.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1bb0259d2df484c87ea832eaae8394
+      internalID: 436180876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_175
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 2289.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414330ece4b74474e81c4d0a1d9cd682
+      internalID: -6533875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_176
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 2289.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f329ca4de51a47edabec8b75223bc00
+      internalID: 1383966075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_177
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 2289.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4b9997a906549c3b248d5bb7693ec3
+      internalID: -2078460269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_178
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 2289.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf5c14b770414c208eaeb67fa1de993
+      internalID: 1116062519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_179
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 2289.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a600f631f66948eca84952dd14fc81d
+      internalID: 1114393832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1962.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56154a6cbb1494d74bd3d134e55db35b
+      internalID: -1160976144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_181
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1962.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc8b73e241b342b988c9b1805ed1293
+      internalID: -1723299890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_182
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1962.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aee3b7d79a6e401398f499a04d73640
+      internalID: 1895271992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_183
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1962.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee434d3ef3a4a47a68e6f3590fcca1f5
+      internalID: 463218055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_184
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1962.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553d6beb7073f4abd8a00cefd1a71091
+      internalID: 708975786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_185
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1962.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831797a3dc13d4e06b5ed1976cd8d6a1
+      internalID: 1737286333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_186
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1962.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccacfa108c0e343af9161139a1614459
+      internalID: -1464058427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_187
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1962.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141d07840bf324444adf74303552fbab
+      internalID: 957789834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_188
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1962.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a471c3b4c3141798997317a9b5bae0
+      internalID: -1944362856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_189
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1962.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b5f7bbd0cac477a9b5fe2af5c70ce5
+      internalID: -599473402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_190
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1635.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e968d0e40f84d9f9b8638945349e67
+      internalID: -1449613598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_191
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1635.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfbd61e7f9f34de782ae793e8c527bd
+      internalID: 783884589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_192
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1635.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e744c567350574d8eaae36d2fdb5a66e
+      internalID: -1404605876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_193
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1635.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de92f8ea915ac43b396f2406c01ededf
+      internalID: -151813781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_194
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1635.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d551402d72d9493d9299eb88ffddfff
+      internalID: -94276896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_195
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1635.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51591fb9c3054da98eac9d3a37971a9
+      internalID: 935876402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_196
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1635.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57d92a47c1364ae7a6dadafe53b4453
+      internalID: 799632800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_197
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1635.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7576bf216e94ddaa12aec2c02dc60a
+      internalID: 620984421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_198
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1635.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4e21da7bfc645d4be6f36e5275fe8d
+      internalID: -1725113466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_199
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1635.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c7f9606f080441d8fed5d68f32a35e
+      internalID: 1875599668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1308.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb99f6d265f144133ac089d6b2b11b16
+      internalID: 111031382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_201
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1308.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4a12982df3f47e484b4c3afc4055e9
+      internalID: 426099840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_202
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1308.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b850fc7deb98b47cc8e9b4638fe9da1f
+      internalID: -551750715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_203
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1308.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2952bd94167d24116a867772fc3b39df
+      internalID: 1345580250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_204
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1308.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b019e80e7a184a34b57e06a81c0440d
+      internalID: 311818122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_205
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1308.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbe38d9bb1104068aee05e17ae5ea73
+      internalID: -382071502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_206
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1308.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257e1252ce73747de9aee89f5e430f27
+      internalID: -566122059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_207
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1308.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408995759fbf143be8d2055d624cac9b
+      internalID: -1446391139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_208
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1308.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ec149cdbe8e49ef8b2ec7ce123bcef
+      internalID: 471491487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_209
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1308.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745c2e9c2f6a84c51b6258d67c92a077
+      internalID: 1608552531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 981.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d458e9efe25640a4ab7ebee1898baa9
+      internalID: 1501585806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_211
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 981.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0f4bfb4fb8849a4b8743a3084729c2
+      internalID: 227055031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_212
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 981.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cd012b855ed4b54b29882450eb2333
+      internalID: -885809441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_213
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 981.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cbfa31f0230494982fc4dd9ef37652
+      internalID: -186796506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_214
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 981.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853d25b3dc5da47e19cb6917547dd996
+      internalID: 1604380901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_215
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 981.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a8b5e34cb4d64c6b8adc7f6a629709f
+      internalID: 1928828045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_216
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 981.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703f4648ca3f345238f72a64d0b7098d
+      internalID: 1392492133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_217
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 981.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cf01f98bd7546cf90dc9f75b5ddf83
+      internalID: -947124939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_218
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 981.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7339e54cf0e1c40a6919c5d3f16cd5d4
+      internalID: 136101477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_219
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 981.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6f669d7a602426689142b5261f3a5f
+      internalID: -2054430981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 654.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba3392aa4c65463b8191a431783fb11
+      internalID: 1721536953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_221
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 654.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac05a1d4a84bb4303a85688db880297a
+      internalID: 618613252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_222
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 654.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddbf050b75b74c30bb3a951b09c1c2c
+      internalID: 1764637151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_223
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 654.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4102a8f81b167456cafb4b15f996b3d9
+      internalID: -118919066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_224
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 654.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9944ace364db4689be4fcbc3b9adf2b
+      internalID: -556642489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_225
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 654.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aaf373271484d0c827f032cbc8cc0d
+      internalID: -1675962919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_226
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 654.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347608d1ffbc24d6a88c22e317fa963f
+      internalID: 1653322107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_227
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 654.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dcbc13edb2440ecaaa4866e2963941
+      internalID: 1721430256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_228
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 654.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee23a8ad250a4a3d8480b79b3885342
+      internalID: 330839403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_229
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 654.95996
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5edcc4d07714a2c82d8b9277d3b400
+      internalID: -1452182688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_230
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 327.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f1a9fe23d8b4a49b230347a655cc86
+      internalID: 1135676978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_231
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 327.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327ff4ec4d9cf4feebb51f06c97e564b
+      internalID: 799876777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_232
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 327.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a710685916db47659c6f7d097197987
+      internalID: 2143878478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_233
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 327.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e2528295a2b4731a185607e01d23bf
+      internalID: 341682451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_234
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 327.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7840413fd381c450caab57096583e6bb
+      internalID: 347187916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_235
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 327.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5e2826fbe1d4db8a30af88bb209d18
+      internalID: 1294476122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_236
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 327.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688e93d2d29d747e28309dcfcf0f9b1b
+      internalID: -1629720643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_237
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 327.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae796c0d0ad44f4aa63e30edc277611
+      internalID: -1425953087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_238
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 327.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4df961171b2748a68c2a23b83c98cff
+      internalID: -1991407789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_239
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 327.96
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571522878a59e4c29ab5f5e07f9fb1b0
+      internalID: 1553386955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.95999146
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d6b3e48c8684ddeb44381ca34f2dc2
+      internalID: -1210469308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_241
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0.95999146
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8324d6a32b06e4106b7398c683f49533
+      internalID: -680288004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_242
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0.95999146
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03796e2c5a47243128203d42b253d4fd
+      internalID: 145468700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_243
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 0.95999146
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e063a67aa74cd4ded85a04aa2bdcc5df
+      internalID: 443503535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_244
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 0.95999146
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9383c49c7d254d4b963bd7bc9ce7e2e
+      internalID: -413862332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_245
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 0.95999146
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce8cbe8e1bac4299ad11b87a448cf84
+      internalID: -404082302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_246
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 0.95999146
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ca0e5a1b02a41efa2522493ce5901c
+      internalID: 619405947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_247
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 0.95999146
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f422f2a2dab49f48fb743f5d598487
+      internalID: -967269044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_248
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 0.95999146
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bc2a1faf59b48f19da85913dd3a832
+      internalID: -907348557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-smoke (1)_249
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 0.95999146
+        width: 202
+        height: 327.04
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6983ca429e45b464dbdd6fd7d59746eb
+      internalID: 578894307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dark-smoke (1)_0: -609129873
+      dark-smoke (1)_1: 931199973
+      dark-smoke (1)_10: -1230730919
+      dark-smoke (1)_100: 813596942
+      dark-smoke (1)_101: -1244862027
+      dark-smoke (1)_102: 965230317
+      dark-smoke (1)_103: -917169469
+      dark-smoke (1)_104: 1598135751
+      dark-smoke (1)_105: -1100264940
+      dark-smoke (1)_106: -143769591
+      dark-smoke (1)_107: 620783957
+      dark-smoke (1)_108: -266207349
+      dark-smoke (1)_109: -1624527238
+      dark-smoke (1)_11: 171773347
+      dark-smoke (1)_110: 1609162025
+      dark-smoke (1)_111: 1885711782
+      dark-smoke (1)_112: -510497461
+      dark-smoke (1)_113: -1640674931
+      dark-smoke (1)_114: -528327621
+      dark-smoke (1)_115: 581866841
+      dark-smoke (1)_116: 298759330
+      dark-smoke (1)_117: 1717105229
+      dark-smoke (1)_118: -1256273051
+      dark-smoke (1)_119: -575679229
+      dark-smoke (1)_12: 1554521708
+      dark-smoke (1)_120: -782898524
+      dark-smoke (1)_121: 585409935
+      dark-smoke (1)_122: -1669170184
+      dark-smoke (1)_123: 2073534999
+      dark-smoke (1)_124: -1349647689
+      dark-smoke (1)_125: 1671581759
+      dark-smoke (1)_126: -1422644455
+      dark-smoke (1)_127: -1058953106
+      dark-smoke (1)_128: -1425598391
+      dark-smoke (1)_129: 671780360
+      dark-smoke (1)_13: -551956140
+      dark-smoke (1)_130: -1568165438
+      dark-smoke (1)_131: 1523429656
+      dark-smoke (1)_132: 1045403536
+      dark-smoke (1)_133: 622623344
+      dark-smoke (1)_134: -161629064
+      dark-smoke (1)_135: 1906579234
+      dark-smoke (1)_136: 1231856782
+      dark-smoke (1)_137: 23630515
+      dark-smoke (1)_138: -1136160060
+      dark-smoke (1)_139: -1581490199
+      dark-smoke (1)_14: -1868716996
+      dark-smoke (1)_140: -1195528341
+      dark-smoke (1)_141: -2035973825
+      dark-smoke (1)_142: 436562727
+      dark-smoke (1)_143: 1429821398
+      dark-smoke (1)_144: -1047706405
+      dark-smoke (1)_145: 1068672031
+      dark-smoke (1)_146: 1974702354
+      dark-smoke (1)_147: -522732291
+      dark-smoke (1)_148: 1817028428
+      dark-smoke (1)_149: -2135680695
+      dark-smoke (1)_15: 213235220
+      dark-smoke (1)_150: 1188624461
+      dark-smoke (1)_151: -1809525916
+      dark-smoke (1)_152: 1720216069
+      dark-smoke (1)_153: 1697882485
+      dark-smoke (1)_154: 1790838829
+      dark-smoke (1)_155: 1964245000
+      dark-smoke (1)_156: -434775842
+      dark-smoke (1)_157: -431575727
+      dark-smoke (1)_158: 691898393
+      dark-smoke (1)_159: -610075162
+      dark-smoke (1)_16: -449102746
+      dark-smoke (1)_160: 482492928
+      dark-smoke (1)_161: 578464952
+      dark-smoke (1)_162: -1710069291
+      dark-smoke (1)_163: 1443226525
+      dark-smoke (1)_164: 2011854133
+      dark-smoke (1)_165: -1238040029
+      dark-smoke (1)_166: 1246315340
+      dark-smoke (1)_167: -1203138198
+      dark-smoke (1)_168: -67663741
+      dark-smoke (1)_169: -1186507598
+      dark-smoke (1)_17: -765814589
+      dark-smoke (1)_170: 1419080871
+      dark-smoke (1)_171: 13243491
+      dark-smoke (1)_172: -1728450746
+      dark-smoke (1)_173: -1527689124
+      dark-smoke (1)_174: 436180876
+      dark-smoke (1)_175: -6533875
+      dark-smoke (1)_176: 1383966075
+      dark-smoke (1)_177: -2078460269
+      dark-smoke (1)_178: 1116062519
+      dark-smoke (1)_179: 1114393832
+      dark-smoke (1)_18: 1182817442
+      dark-smoke (1)_180: -1160976144
+      dark-smoke (1)_181: -1723299890
+      dark-smoke (1)_182: 1895271992
+      dark-smoke (1)_183: 463218055
+      dark-smoke (1)_184: 708975786
+      dark-smoke (1)_185: 1737286333
+      dark-smoke (1)_186: -1464058427
+      dark-smoke (1)_187: 957789834
+      dark-smoke (1)_188: -1944362856
+      dark-smoke (1)_189: -599473402
+      dark-smoke (1)_19: -247085085
+      dark-smoke (1)_190: -1449613598
+      dark-smoke (1)_191: 783884589
+      dark-smoke (1)_192: -1404605876
+      dark-smoke (1)_193: -151813781
+      dark-smoke (1)_194: -94276896
+      dark-smoke (1)_195: 935876402
+      dark-smoke (1)_196: 799632800
+      dark-smoke (1)_197: 620984421
+      dark-smoke (1)_198: -1725113466
+      dark-smoke (1)_199: 1875599668
+      dark-smoke (1)_2: -1122890578
+      dark-smoke (1)_20: 219701240
+      dark-smoke (1)_200: 111031382
+      dark-smoke (1)_201: 426099840
+      dark-smoke (1)_202: -551750715
+      dark-smoke (1)_203: 1345580250
+      dark-smoke (1)_204: 311818122
+      dark-smoke (1)_205: -382071502
+      dark-smoke (1)_206: -566122059
+      dark-smoke (1)_207: -1446391139
+      dark-smoke (1)_208: 471491487
+      dark-smoke (1)_209: 1608552531
+      dark-smoke (1)_21: 892606403
+      dark-smoke (1)_210: 1501585806
+      dark-smoke (1)_211: 227055031
+      dark-smoke (1)_212: -885809441
+      dark-smoke (1)_213: -186796506
+      dark-smoke (1)_214: 1604380901
+      dark-smoke (1)_215: 1928828045
+      dark-smoke (1)_216: 1392492133
+      dark-smoke (1)_217: -947124939
+      dark-smoke (1)_218: 136101477
+      dark-smoke (1)_219: -2054430981
+      dark-smoke (1)_22: 1974196361
+      dark-smoke (1)_220: 1721536953
+      dark-smoke (1)_221: 618613252
+      dark-smoke (1)_222: 1764637151
+      dark-smoke (1)_223: -118919066
+      dark-smoke (1)_224: -556642489
+      dark-smoke (1)_225: -1675962919
+      dark-smoke (1)_226: 1653322107
+      dark-smoke (1)_227: 1721430256
+      dark-smoke (1)_228: 330839403
+      dark-smoke (1)_229: -1452182688
+      dark-smoke (1)_23: -1130568316
+      dark-smoke (1)_230: 1135676978
+      dark-smoke (1)_231: 799876777
+      dark-smoke (1)_232: 2143878478
+      dark-smoke (1)_233: 341682451
+      dark-smoke (1)_234: 347187916
+      dark-smoke (1)_235: 1294476122
+      dark-smoke (1)_236: -1629720643
+      dark-smoke (1)_237: -1425953087
+      dark-smoke (1)_238: -1991407789
+      dark-smoke (1)_239: 1553386955
+      dark-smoke (1)_24: 1561027765
+      dark-smoke (1)_240: -1210469308
+      dark-smoke (1)_241: -680288004
+      dark-smoke (1)_242: 145468700
+      dark-smoke (1)_243: 443503535
+      dark-smoke (1)_244: -413862332
+      dark-smoke (1)_245: -404082302
+      dark-smoke (1)_246: 619405947
+      dark-smoke (1)_247: -967269044
+      dark-smoke (1)_248: -907348557
+      dark-smoke (1)_249: 578894307
+      dark-smoke (1)_25: -2069678942
+      dark-smoke (1)_26: 2002726137
+      dark-smoke (1)_27: -1564543491
+      dark-smoke (1)_28: 1790336305
+      dark-smoke (1)_29: -1489226003
+      dark-smoke (1)_3: -453290038
+      dark-smoke (1)_30: 693358354
+      dark-smoke (1)_31: -1790563113
+      dark-smoke (1)_32: 1763895367
+      dark-smoke (1)_33: 508323123
+      dark-smoke (1)_34: 1541541896
+      dark-smoke (1)_35: 1500844038
+      dark-smoke (1)_36: -1438660
+      dark-smoke (1)_37: -941219028
+      dark-smoke (1)_38: 232462388
+      dark-smoke (1)_39: 1985977160
+      dark-smoke (1)_4: -1163102684
+      dark-smoke (1)_40: 1845739304
+      dark-smoke (1)_41: 653971374
+      dark-smoke (1)_42: -138572780
+      dark-smoke (1)_43: -1554595329
+      dark-smoke (1)_44: -1084084859
+      dark-smoke (1)_45: 1777855004
+      dark-smoke (1)_46: -22214031
+      dark-smoke (1)_47: -821180825
+      dark-smoke (1)_48: -1515597839
+      dark-smoke (1)_49: 1576285561
+      dark-smoke (1)_5: -1599051041
+      dark-smoke (1)_50: -2143956000
+      dark-smoke (1)_51: -438803375
+      dark-smoke (1)_52: -1578337022
+      dark-smoke (1)_53: 118307645
+      dark-smoke (1)_54: 1880931709
+      dark-smoke (1)_55: -1358327341
+      dark-smoke (1)_56: 1070472884
+      dark-smoke (1)_57: -1041823574
+      dark-smoke (1)_58: -123345125
+      dark-smoke (1)_59: -2075387589
+      dark-smoke (1)_6: 1760321882
+      dark-smoke (1)_60: -294288444
+      dark-smoke (1)_61: 1577283278
+      dark-smoke (1)_62: 87637842
+      dark-smoke (1)_63: -357994602
+      dark-smoke (1)_64: 417878138
+      dark-smoke (1)_65: -1778263162
+      dark-smoke (1)_66: 225306201
+      dark-smoke (1)_67: 254016444
+      dark-smoke (1)_68: -555991934
+      dark-smoke (1)_69: 1261079133
+      dark-smoke (1)_7: 1673959062
+      dark-smoke (1)_70: 1405696842
+      dark-smoke (1)_71: 107564949
+      dark-smoke (1)_72: 623552468
+      dark-smoke (1)_73: 1295995088
+      dark-smoke (1)_74: -1108553355
+      dark-smoke (1)_75: -1270880651
+      dark-smoke (1)_76: -910252716
+      dark-smoke (1)_77: 803794990
+      dark-smoke (1)_78: 574563672
+      dark-smoke (1)_79: 1691102136
+      dark-smoke (1)_8: 1758873344
+      dark-smoke (1)_80: -2004472788
+      dark-smoke (1)_81: -1651851308
+      dark-smoke (1)_82: 1391006774
+      dark-smoke (1)_83: 1408162031
+      dark-smoke (1)_84: -428382293
+      dark-smoke (1)_85: 1217441155
+      dark-smoke (1)_86: -1857534652
+      dark-smoke (1)_87: 1771877930
+      dark-smoke (1)_88: 61472438
+      dark-smoke (1)_89: -1022973018
+      dark-smoke (1)_9: 707193358
+      dark-smoke (1)_90: 1833794898
+      dark-smoke (1)_91: -1640621149
+      dark-smoke (1)_92: -1994862207
+      dark-smoke (1)_93: 772800196
+      dark-smoke (1)_94: 521046822
+      dark-smoke (1)_95: -1816179675
+      dark-smoke (1)_96: -469628035
+      dark-smoke (1)_97: -1397555066
+      dark-smoke (1)_98: -1580850416
+      dark-smoke (1)_99: 987366120
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

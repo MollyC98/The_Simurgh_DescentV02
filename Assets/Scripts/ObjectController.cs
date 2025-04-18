@@ -11,6 +11,7 @@ public class ObjectController : MonoBehaviour
     public GameObject realObject2Prefab;
     public GameObject realObject3Prefab;
     public GameObject featherPrefab; // feather
+    public GameObject darkSmokePrefab; // vfx
     
      float normalMinRespawnTime = 1f;
      float normalMaxRespawnTime = 5f;
