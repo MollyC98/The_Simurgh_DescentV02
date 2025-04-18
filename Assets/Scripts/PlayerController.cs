@@ -222,11 +222,11 @@ IEnumerator PrepareForTimeline2(float delay)
     if (collider.CompareTag("lotus"))
     {
    
-      gameController.RemainingTime(-20f); 
+      gameController.RemainingTime(-10f); 
     }
     else if (collider.CompareTag("omen"))
     {
-      gameController.RemainingTime(-20f); 
+      gameController.RemainingTime(-10f); 
     } 
    else if (collider.CompareTag("object1"))
 {

@@ -6,6 +6,7 @@ public class ObjectController : MonoBehaviour
 {
  
     public GameObject fakeObjectPrefab; // fake objects
+
     public GameObject omenPrefab; // only omen or turn omen
     public GameObject realObjectPrefab; // true objects // one game object
     public GameObject realObject2Prefab;
@@ -39,6 +40,11 @@ public class ObjectController : MonoBehaviour
     private Coroutine transformCoroutine;
     private Coroutine realObjectCoroutine;
 
+
+
+        public Sprite fakeSpriteLevel1;
+        public Sprite fakeSpriteLevel2;
+        public Sprite fakeSpriteLevel3;
 
 
     private List<GameObject> spawnedObjects = new List<GameObject>(); // list of spawned objects (fake objects)
@@ -127,7 +133,27 @@ public void StopCoroutine() {
     public void spawnFakeObject(){
         GameObject obj = Instantiate(fakeObjectPrefab); // clone objects as game object
         obj.transform.position = new Vector2(Random.Range(-screenBounds.x, screenBounds.x), -screenBounds.y);
-       // Debug.Log("obj position" +obj.transform.position);
+    
+
+        // Set sprite based on current level
+        SpriteRenderer sr = obj.GetComponent<SpriteRenderer>();
+        int level = LevelController.Instance.currentLevel;
+        switch (level) {
+            case 1:
+                sr.sprite = fakeSpriteLevel1;
+                break;
+            case 2:
+                sr.sprite = fakeSpriteLevel2;
+                break;
+            case 3:
+                sr.sprite = fakeSpriteLevel3;
+                break;
+        }
+
+
+
+
+
         spawnedObjects.Add(obj); // add the game object to the list
     }
 

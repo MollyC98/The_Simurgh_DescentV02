@@ -258,7 +258,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 862.59, y: 428.6}
+  m_AnchoredPosition: {x: 852.6, y: 433}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &114186755
@@ -4983,6 +4983,9 @@ MonoBehaviour:
   darkSmokePrefab: {fileID: 0}
   eclipsePhase: {fileID: 1886262189}
   isRunning: 0
+  fakeSpriteLevel1: {fileID: 21300000, guid: 323541938e9e74cc9bc2fe7cbda27be4, type: 3}
+  fakeSpriteLevel2: {fileID: 21300000, guid: d1af91987d947f64f84049c3e545544c, type: 3}
+  fakeSpriteLevel3: {fileID: 21300000, guid: a3f07223621a78d49b5b3a98df5c7081, type: 3}
 --- !u!4 &2089921982
 Transform:
   m_ObjectHideFlags: 0
