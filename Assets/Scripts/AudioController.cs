@@ -64,7 +64,7 @@ private void Awake(){
             musicSource.clip = theme;
             musicSource.Play();
             Debug.Log("Playing theme");
-        }
+        } // else if (titlescene) this song
     }
 
 

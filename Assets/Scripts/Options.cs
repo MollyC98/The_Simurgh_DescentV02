@@ -93,7 +93,7 @@ public class Options : MonoBehaviour
 
     public void HomePage(){
 
-    SceneManager.LoadScene("SampleScene");
+    SceneManager.LoadScene("TitleScene");
 
     Time.timeScale=1;
 
