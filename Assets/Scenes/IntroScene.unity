@@ -391,18 +391,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'There, under the care of Simorgh, Zal grew in peace and strength. Having
-    nurtured him like one of her own, she became attached to Zal, loving him more
-    than life itself. She taught him honor, courage, and the ways of heroes, better
-    than any human could. Yet, in the depth of night, Zal would gaze at the stars
-    and ache with questions of blood and birth. But then the Simurgh would turn her
-    eyes upon him, and in their light, he found all the answers he needed: here was
-    his mother, here was his home. Years had passed and Zal had turned into a handsome
-    man, noblest of his kind. King Sam, meanwhile, was haunted by regret. The moment
-    he abandoned his son, sorrow took root in his soul. With each passing day, sadness
-    weighed heavier, until at last, he journeyed to Mount Alborz, seeking redemption.
-
-'
+  m_text: "The wise Simurgh found little Zal, and with gentle claws, bore him to
+    her nest, where the winds sang lullabies of forgotten kings. Under her care,
+    Zal grew in peace and strength. She nurtured him as one of her own, loving him
+    more than life itself. She taught him honor, courage, and the ways of heroes\u2014better
+    than any human could.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 084250af6581acc4f929aa326f3c9a2f, type: 2}
   m_sharedMaterial: {fileID: -8191721200367448572, guid: 084250af6581acc4f929aa326f3c9a2f, type: 2}
@@ -627,11 +620,10 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "A thousand years ago, upon the slopes of Mount Alborz, a newborn found
-    rest in the embrace of a great bird. He was named  Zal by his father, the mighty
-    King Sam, who, upon seeing the child\u2019s snow hair and pale features, held
-    him evil. In shame of people\u2019s scorn, Sam cloaked the baby in shadows, and
-    cast him far from home. The wise Simurgh found little Zal and with gentle claws,
-    bore him to her nest, where the winds sang lullabies of forgotten kings.\r\n\r\n"
+    rest in the embrace of a great bird. He was named Zal by his father, the mighty
+    King Sam, who deemed him cursed upon seeing the child\u2019s snow-white hair
+    and pale features. Ashamed of the people\u2019s scorn, Sam cloaked the baby in
+    shadows and cast him far away from home.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 084250af6581acc4f929aa326f3c9a2f, type: 2}
   m_sharedMaterial: {fileID: -8191721200367448572, guid: 084250af6581acc4f929aa326f3c9a2f, type: 2}
@@ -923,15 +915,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' The Simorgh saw their approach and told Zal. Though her heart was hurt,
-    the Simurgh understood, to become who he was meant to be, Zal needed to walk
-    the paths of men. Zal hesitated, but she soothed him, reassuring him of the future
-    that awaited. Before he left, she made a promise to never abandon him, and so
-    she plucked three of her golden feathers. "Burn one," she said, "when the world
-    grows heavy, and I will come."
-
-
-
+  m_text: 'And yet, in the quiet of night, Zal would gaze at the stars and ache with
+    questions of blood and birth. But when the Simurgh turned her eyes upon him,
+    he found all the answers he needed. Here was his mother. Here was his home.
 
 '
   m_isRightToLeft: 0

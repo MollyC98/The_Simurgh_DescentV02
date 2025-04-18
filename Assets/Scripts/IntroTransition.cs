@@ -9,7 +9,7 @@ public class IntroTransition : MonoBehaviour
 
 void OnEnable()
 {
-    SceneManager.LoadScene("SampleScene");
+    SceneManager.LoadScene("TitleScene");
 }
 
 }
