@@ -121,14 +121,14 @@ public class EclipsePhase : MonoBehaviour
     float totalWindow = endRange - startRange;
     float requiredSpace = minSpacing * (eclipseCount - 1);
 
-    // Make sure there’s enough room for the spacing
+    // enough room for the spacing
     if (totalWindow <= requiredSpace)
     {
         Debug.LogError($"Not enough time ({totalWindow}s) to fit {eclipseCount} eclipses with {minSpacing}s spacing.");
         return;
     }
 
-    // The “free” time we can distribute randomly
+    // free time distributed randomly
     float availableTime = totalWindow - requiredSpace;
     float segmentSize = availableTime / eclipseCount;
 
