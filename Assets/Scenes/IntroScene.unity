@@ -1276,9 +1276,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 55a0fd02d7fecf3439c881f29ca52b1b, type: 3}
     - target: {fileID: 6976165587523708348, guid: 9b0054ca51b9be94fa2b388fda0a40b5, type: 3}
+      propertyPath: theme
+      value: 
+      objectReference: {fileID: 8300000, guid: b10a5a3af2143054e9af47c4f265fc7a, type: 3}
+    - target: {fileID: 6976165587523708348, guid: 9b0054ca51b9be94fa2b388fda0a40b5, type: 3}
       propertyPath: feather
       value: 
       objectReference: {fileID: 8300000, guid: 7e647bfdc0b29e642909014d849fd12a, type: 3}
+    - target: {fileID: 6976165587523708348, guid: 9b0054ca51b9be94fa2b388fda0a40b5, type: 3}
+      propertyPath: gameMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: b10a5a3af2143054e9af47c4f265fc7a, type: 3}
+    - target: {fileID: 6976165587523708348, guid: 9b0054ca51b9be94fa2b388fda0a40b5, type: 3}
+      propertyPath: introMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 969c5fa4087f046c9b2c03b76d4f552d, type: 3}
     - target: {fileID: 9114093089210010231, guid: 9b0054ca51b9be94fa2b388fda0a40b5, type: 3}
       propertyPath: OutputAudioMixerGroup
       value: 

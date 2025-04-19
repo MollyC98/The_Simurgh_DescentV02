@@ -273,8 +273,16 @@ public IEnumerator FeatherWave(float delay){
                 if (oldObject != null)
                 {
                     Vector2 position = oldObject.transform.position;
-                    Destroy(oldObject);
+
+                   // Spawn smoke effect at the same position
+                GameObject smoke = Instantiate(darkSmokePrefab, position, Quaternion.identity);
+
+                 Destroy(oldObject);
                    // spawnedObjects.RemoveAt(index);
+
+                // Optional: Destroy smoke after 1 second
+                Destroy(smoke, 0.5f); // adjust duration if needed
+
 
                     GameObject newObject = Instantiate(omenPrefab, position, Quaternion.identity);
                     spawnedObjects.Add(newObject);

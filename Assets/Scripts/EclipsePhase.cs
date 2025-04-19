@@ -32,11 +32,12 @@ public class EclipsePhase : MonoBehaviour
                     Debug.Log("Start Eclipse 1");
                     break;
                 case 2:
-                    ScheduleEclipses(2, 40f, 80f);
+                    ScheduleEclipses(2, 40f, 70f);
                     Debug.Log("Start Eclipse 2");
                     break;
                 case 3:
-                    ScheduleEclipses(3, 90f, 130f);
+                    //ScheduleEclipses(3, 90f, 130f);
+                    ScheduleEclipses(3, 80f, 110f);
                     Debug.Log("Start Eclipse 3");
                     break;
             }
