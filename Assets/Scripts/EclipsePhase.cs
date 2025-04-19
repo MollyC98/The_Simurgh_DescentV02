@@ -32,12 +32,11 @@ public class EclipsePhase : MonoBehaviour
                     Debug.Log("Start Eclipse 1");
                     break;
                 case 2:
-                    ScheduleEclipses(2, 40f, 70f);
+                    ScheduleEclipses(2, 40f, 80f);
                     Debug.Log("Start Eclipse 2");
                     break;
                 case 3:
-                    //ScheduleEclipses(3, 90f, 130f);
-                    ScheduleEclipses(3, 80f, 110f);
+                    ScheduleEclipses(3, 90f, 130f);
                     Debug.Log("Start Eclipse 3");
                     break;
             }
@@ -93,27 +92,58 @@ public class EclipsePhase : MonoBehaviour
         
     }
 
-    void ScheduleEclipses(int eclipseCount, float startRange, float endRange)
-    {
-        eclipseTimes.Clear();
-        float segmentSize = (endRange - startRange) / eclipseCount;
+    // void ScheduleEclipses(int eclipseCount, float startRange, float endRange)
+    // {
+    //     eclipseTimes.Clear();
+    //     float segmentSize = (endRange - startRange) / eclipseCount;
 
-        for (int i = 0; i < eclipseCount; i++)
-        {
-            float minTime = startRange + i * segmentSize; 
-            float maxTime = minTime + segmentSize;
-            float randomTime = Random.Range(minTime, maxTime);
-            eclipseTimes.Add(randomTime);
-            Debug.Log("random time:"+randomTime);
-        }
-        // eclipseCount = 1, start=10, end=20, segment = 10
-                //i=0, min= 10 max=20
+    //     for (int i = 0; i < eclipseCount; i++)
+    //     {
+    //         float minTime = startRange + i * segmentSize; 
+    //         float maxTime = minTime + segmentSize;
+    //         float randomTime = Random.Range(minTime, maxTime);
+    //         eclipseTimes.Add(randomTime);
+    //         Debug.Log("random time:"+randomTime);
+    //     }
+    //     // eclipseCount = 1, start=10, end=20, segment = 10
+    //             //i=0, min= 10 max=20
             
 
-        // eclipseCount = 2, start=30, end=40, segment = 5
-                //i=0, min=30 max= 35
-                //i=1, min=35 max= 40
+    //     // eclipseCount = 2, start=30, end=40, segment = 5
+    //             //i=0, min=30 max= 35
+    //             //i=1, min=35 max= 40
+    // }
+
+    void ScheduleEclipses(int eclipseCount, float startRange, float endRange, float minSpacing = 15f)
+{
+    eclipseTimes.Clear();
+
+    float totalWindow = endRange - startRange;
+    float requiredSpace = minSpacing * (eclipseCount - 1);
+
+    // Make sure there’s enough room for the spacing
+    if (totalWindow <= requiredSpace)
+    {
+        Debug.LogError($"Not enough time ({totalWindow}s) to fit {eclipseCount} eclipses with {minSpacing}s spacing.");
+        return;
     }
+
+    // The “free” time we can distribute randomly
+    float availableTime = totalWindow - requiredSpace;
+    float segmentSize = availableTime / eclipseCount;
+
+    float cursor = startRange;
+    for (int i = 0; i < eclipseCount; i++)
+    {
+        // Pick a random moment in [cursor, cursor + segmentSize]
+        float pick = Random.Range(cursor, cursor + segmentSize);
+        eclipseTimes.Add(pick);
+        Debug.Log($"Scheduled eclipse {i + 1} at {pick:F1}s");
+
+        
+        cursor = pick + minSpacing;
+    }
+}
 
     IEnumerator EclipseScheduler()
     {
