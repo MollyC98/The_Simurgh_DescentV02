@@ -334,6 +334,10 @@ public class AudioController : MonoBehaviour
         {
             StartCoroutine(SwitchMusic(introMusic, 1f));
         }
+        else if (scene.name == "TitleScene")
+        {
+            StartCoroutine(SwitchMusic(introMusic, 1f));
+        }
         else if (scene.name == "GameScene")
         {
             StartCoroutine(SwitchMusic(gameMusic, 1f));
