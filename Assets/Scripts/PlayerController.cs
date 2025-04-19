@@ -78,6 +78,9 @@ AudioController audioController;
     objectController.TriggerCoroutine();
     canMove = true; // Enable player movement after delay
 
+    rb.bodyType = RigidbodyType2D.Dynamic;
+    rb.freezeRotation = false;
+
   }
 
 
