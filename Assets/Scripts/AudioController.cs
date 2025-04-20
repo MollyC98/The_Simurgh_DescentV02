@@ -310,6 +310,8 @@ public class AudioController : MonoBehaviour
     public AudioClip introMusic;
     public AudioClip gameMusic;
     public AudioClip winMusic;
+    public AudioClip loseMusic;
+
 
 
     private bool isMusicPaused = false;
@@ -343,6 +345,10 @@ public class AudioController : MonoBehaviour
         else if (scene.name == "GameScene")
         {
             StartCoroutine(SwitchMusic(gameMusic, 1f));
+        }
+        else if (scene.name == "LoseScene")
+        {
+            StartCoroutine(SwitchMusic(loseMusic, 1f));
         }
         else if (scene.name == "WinScene")
         {

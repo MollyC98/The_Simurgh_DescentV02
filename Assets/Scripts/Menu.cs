@@ -57,14 +57,31 @@ public class Menu : MonoBehaviour
         }
     }
 
+    public void Credits()
+    {
+        if (instructions == false)
+        {
+            instructions = true;
+            canvas.enabled = true;
+            ShowPage(0);
+           
+
+        } else if (instructions == true) 
+        {
+            instructions = false;
+            canvas.enabled = false;
+            ShowPage(-1);
+        }
+    }
+    
     // navigate the instructions
     public void NextPage()
     {
-        if(currentPageIndex < maxPage-1)
+        if (currentPageIndex < maxPage - 1)
         {
-           currentPageIndex++;
+            currentPageIndex++;
             ShowPage(currentPageIndex);
-          
+
         }
 
     }

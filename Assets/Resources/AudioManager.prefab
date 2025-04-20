@@ -55,6 +55,7 @@ MonoBehaviour:
   introMusic: {fileID: 8300000, guid: 969c5fa4087f046c9b2c03b76d4f552d, type: 3}
   gameMusic: {fileID: 8300000, guid: b10a5a3af2143054e9af47c4f265fc7a, type: 3}
   winMusic: {fileID: 8300000, guid: 4c47ffd37d0ea5e46aad1063e3236833, type: 3}
+  loseMusic: {fileID: 8300000, guid: 850dc2daf989b1344a4a3d468360e00a, type: 3}
 --- !u!1 &6045480485860863148
 GameObject:
   m_ObjectHideFlags: 0
