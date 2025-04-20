@@ -340,6 +340,7 @@ public class AudioController : MonoBehaviour
         }
         else if (scene.name == "TitleScene")
         {
+            Cursor.visible = true;
             // If intro music is already playing, don’t restart it
             if (musicSource.clip != introMusic || !musicSource.isPlaying)
             {
@@ -352,10 +353,12 @@ public class AudioController : MonoBehaviour
         }
         else if (scene.name == "LoseScene")
         {
+            Cursor.visible = true;
             StartCoroutine(SwitchMusic(loseMusic, 1f));
         }
         else if (scene.name == "WinScene")
         {
+            Cursor.visible = true;
             StartCoroutine(SwitchMusic(winMusic, 1f));
         }
 
