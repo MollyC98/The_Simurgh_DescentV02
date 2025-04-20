@@ -260,40 +260,40 @@ public IEnumerator FeatherWave(float delay){
 
 
 
-    IEnumerator TransformWave(){
-        while(isRunning){
-            yield return new WaitForSeconds(Random.Range(minTransformTime, maxTransformTime));
+    // IEnumerator TransformWave(){
+    //     while(isRunning){
+    //         yield return new WaitForSeconds(Random.Range(minTransformTime, maxTransformTime));
             
-            // if (spawnedObjects.Count > 0)
-            // {
-                List<GameObject> currentObjects = new List<GameObject>(spawnedObjects);
-                 spawnedObjects.Clear();
+    //         // if (spawnedObjects.Count > 0)
+    //         // {
+    //             List<GameObject> currentObjects = new List<GameObject>(spawnedObjects);
+    //              spawnedObjects.Clear();
 
-         foreach (GameObject oldObject in currentObjects){
-                if (oldObject != null)
-                {
-                    Vector2 position = oldObject.transform.position;
+    //      foreach (GameObject oldObject in currentObjects){
+    //             if (oldObject != null)
+    //             {
+    //                 Vector2 position = oldObject.transform.position;
 
-                   // Spawn smoke effect at the same position
-                GameObject smoke = Instantiate(darkSmokePrefab, position, Quaternion.identity);
+    //                // Spawn smoke effect at the same position
+    //             GameObject smoke = Instantiate(darkSmokePrefab, position, Quaternion.identity);
 
-                 Destroy(oldObject);
-                   // spawnedObjects.RemoveAt(index);
+    //              Destroy(oldObject);
+    //                // spawnedObjects.RemoveAt(index);
 
-                // Optional: Destroy smoke after 1 second
-                Destroy(smoke, 0.5f); // adjust duration if needed
+    //             // Optional: Destroy smoke after 1 second
+    //             Destroy(smoke, 0.5f); // adjust duration if needed
 
 
-                    GameObject newObject = Instantiate(omenPrefab, position, Quaternion.identity);
-                    spawnedObjects.Add(newObject);
-                    //Debug.Log(newObject.transform.position.y);
-                }
-            }
-         }
+    //                 GameObject newObject = Instantiate(omenPrefab, position, Quaternion.identity);
+    //                 spawnedObjects.Add(newObject);
+    //                 //Debug.Log(newObject.transform.position.y);
+    //             }
+    //         }
+    //      }
 
-       // }
+    //    // }
         
-    }
+    // }
 
     //SmokeEffect happens here 
 
@@ -323,6 +323,48 @@ public IEnumerator FeatherWave(float delay){
 //         }
 //     }
 // }
+
+IEnumerator TransformWave(){
+        while(isRunning){
+            yield return new WaitForSeconds(Random.Range(minTransformTime, maxTransformTime));
+            // if (spawnedObjects.Count > 0)
+            // {
+  
+            List<GameObject> currentObjects = new List<GameObject>(spawnedObjects);
+            spawnedObjects.Clear();
+            int index = 0;
+
+         foreach (GameObject oldObject in currentObjects)
+            {
+             
+               
+                if (oldObject != null)
+                {
+                    Vector2 position = oldObject.transform.position;
+                    // Spawn smoke effect at the same position
+                 GameObject smoke = Instantiate(darkSmokePrefab, position, Quaternion.identity);
+
+                    Destroy(oldObject, 0.0f);
+                    currentObjects.RemoveAt(index);
+
+                    //  // Optional: Destroy smoke after 1 second
+                     Destroy(smoke, 0.5f); // adjust duration if needed
+               
+
+
+                     GameObject newObject = Instantiate(omenPrefab, position, Quaternion.identity);
+                    //spawnedObjects.Add(newObject); -> DO NOT ADD THE OMEN PREFAB
+                    break;
+                    //Debug.Log(newObject.transform.position.y);
+                }
+                index++;
+             
+            }
+         }
+
+       // }
+        
+    }
 
 
 }
