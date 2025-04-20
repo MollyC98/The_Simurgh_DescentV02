@@ -546,7 +546,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325b61d3c6844df4caa331b8fbe91b5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 0}
+  canvas: {fileID: 2024033232}
+  credits: {fileID: 11550206}
   instructions: 0
   pages: []
   maxPage: 0
@@ -1920,13 +1921,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 206108637}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 206108639}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Credits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2240,6 +2241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 11550206}
+  credits: {fileID: 0}
   instructions: 0
   pages:
   - {fileID: 0}
@@ -2705,6 +2707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 2024033232}
+  credits: {fileID: 0}
   instructions: 0
   pages:
   - {fileID: 361714939}

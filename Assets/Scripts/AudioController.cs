@@ -340,7 +340,11 @@ public class AudioController : MonoBehaviour
         }
         else if (scene.name == "TitleScene")
         {
-            StartCoroutine(SwitchMusic(introMusic, 1f));
+            // If intro music is already playing, don’t restart it
+            if (musicSource.clip != introMusic || !musicSource.isPlaying)
+            {
+                StartCoroutine(SwitchMusic(introMusic, 1f));
+            }
         }
         else if (scene.name == "GameScene")
         {

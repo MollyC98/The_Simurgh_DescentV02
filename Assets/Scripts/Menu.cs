@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
     public Canvas canvas;
+    public Canvas credits;
+
     public bool instructions = false;
 
     public GameObject[] pages; // Array to hold your pages (Page1, Page2, etc.)
@@ -62,18 +64,18 @@ public class Menu : MonoBehaviour
         if (instructions == false)
         {
             instructions = true;
-            canvas.enabled = true;
+            credits.enabled = true;
             ShowPage(0);
            
 
         } else if (instructions == true) 
         {
             instructions = false;
-            canvas.enabled = false;
+            credits.enabled = false;
             ShowPage(-1);
         }
     }
-    
+
     // navigate the instructions
     public void NextPage()
     {
