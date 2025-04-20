@@ -215,7 +215,44 @@ IEnumerator PrepareForTimeline2(float delay)
     transform.position = centerPos;
     yield return new WaitForSeconds(delay); // Wait for the specified delay
     timeline2.Play();
-  }
+}
+
+
+IEnumerator PrepareForTimeline2End(float delay)
+{
+    Vector3 centerPos = Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 10f));
+    centerPos.z = transform.position.z;
+    centerPos.y = transform.position.y;
+    
+    float duration = 2f;
+    float elapsed = 0f;
+    Vector3 startPos = transform.position;
+    
+    while (elapsed < duration)
+    {
+        transform.position = Vector3.Lerp(startPos, centerPos, elapsed/duration);
+        elapsed += Time.deltaTime;
+        yield return null;
+    }
+    
+    transform.position = centerPos;
+    yield return new WaitForSeconds(delay); // Wait for the specified delay
+    timeline2.Play();
+
+    Debug.Log("you win");
+    StartCoroutine(WinAfterDelay(3f));
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
   private void OnTriggerEnter2D(Collider2D collider)
@@ -319,14 +356,11 @@ else if (collider.CompareTag("object2"))
     objectController.StartCoroutine(objectController.FeatherWave(2f));
      
       //StartCoroutine(TimelineWithDelay(3f));
-      StartCoroutine(PrepareForTimeline2(1f));
+      StartCoroutine(PrepareForTimeline2End(1f));
 
 
     //  StartCoroutine(EnableCanvasWithDelay(4,8f)); // 
       // if 2 enter level 2 if 3 enter level 3
-        
-        Debug.Log("you win");
-        StartCoroutine(WinAfterDelay(1f));
 
 
 

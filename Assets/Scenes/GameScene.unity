@@ -1413,7 +1413,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 387076994}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -2410,7 +2410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ca55a645cc62645749e61bed68328490, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cac0e4978e4ce9d40bdea3f0d76a0380, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3100,7 +3100,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f0fdd20db1d6d4382b580d18cd298074, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86ad48ff956347646b3405d36eb60184, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4481,7 +4481,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8f702db2b1db34cb8aaf49426821b83f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1eba6fb4d4e051e488747aa5f5a6c09f, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1

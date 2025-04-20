@@ -203,9 +203,10 @@ public void spawnRealObject(){
 
 //0-80
 
+
 //0-50
 public IEnumerator RealObjectWave(){
-        yield return new WaitForSeconds(Random.Range(30, 50));
+        yield return new WaitForSeconds(Random.Range(45f, 50f));
         spawnRealObject();
         //yield return new WaitForSeconds(5f);
         //spawnRealObject();
@@ -221,7 +222,7 @@ public void spawnRealObject2(){
 
 //50-100
 public IEnumerator RealObject2Wave(){
-        yield return new WaitForSeconds(Random.Range(80, 100));
+        yield return new WaitForSeconds(Random.Range(95f, 100f));
         spawnRealObject2();      
     }
     
@@ -236,7 +237,7 @@ public void spawnRealObject3(){
 
 //100-150
 public IEnumerator RealObject3Wave(){
-        yield return new WaitForSeconds(Random.Range(130, 150));
+        yield return new WaitForSeconds(Random.Range(145f, 150f));
         spawnRealObject3();      
     }
 

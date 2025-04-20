@@ -28,15 +28,15 @@ public class EclipsePhase : MonoBehaviour
             switch (level)
             {
                 case 1:
-                    ScheduleEclipses(1, 10f, 30f);
+                    ScheduleEclipses(1, 10f, 30f); 
                     Debug.Log("Start Eclipse 1");
                     break;
                 case 2:
-                    ScheduleEclipses(2, 40f, 80f);
+                    ScheduleEclipses(2, 50f, 80f);
                     Debug.Log("Start Eclipse 2");
                     break;
                 case 3:
-                    ScheduleEclipses(3, 90f, 130f);
+                    ScheduleEclipses(3, 100f, 140f);
                     Debug.Log("Start Eclipse 3");
                     break;
             }
@@ -73,7 +73,7 @@ public class EclipsePhase : MonoBehaviour
             Debug.Log("trigger coroutine");
         }
 
-        StartCoroutine(EndEclipseAfterSeconds(15f)); 
+        StartCoroutine(EndEclipseAfterSeconds(10f)); 
     }
 
     private IEnumerator EndEclipseAfterSeconds(float duration)
