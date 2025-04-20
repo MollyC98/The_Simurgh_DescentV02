@@ -309,6 +309,8 @@ public class AudioController : MonoBehaviour
     [Header("Scene Music Clips")]
     public AudioClip introMusic;
     public AudioClip gameMusic;
+    public AudioClip winMusic;
+
 
     private bool isMusicPaused = false;
 
@@ -342,6 +344,11 @@ public class AudioController : MonoBehaviour
         {
             StartCoroutine(SwitchMusic(gameMusic, 1f));
         }
+        else if (scene.name == "WinScene")
+        {
+            StartCoroutine(SwitchMusic(winMusic, 1f));
+        }
+
         else
         {
             StartCoroutine(FadeOutMusic(1f));

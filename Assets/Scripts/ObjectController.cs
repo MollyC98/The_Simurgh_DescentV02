@@ -17,11 +17,11 @@ public class ObjectController : MonoBehaviour
      float normalMinRespawnTime = 1f;
      float normalMaxRespawnTime = 5f;
 
-    float eclipseMinRespawnTime = 0.1f;
+     float eclipseMinRespawnTime = 0.1f;
      float eclipseMaxRespawnTime = 0.3f;
 
      float minTransformTime = 0.5f;
-     float maxTransformTime = 1.5f; 
+     float maxTransformTime = 1f; 
 
     private Vector2 screenBounds;
 
